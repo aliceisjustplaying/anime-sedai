@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite dev"
+    "dev": "vite dev",
+    "deploy": "bun run build && wrangler pages deploy dist --project-name=anime-sedai-1986 --commit-dirty=true"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.7",

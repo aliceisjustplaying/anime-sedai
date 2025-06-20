@@ -13,6 +13,11 @@ type Data = {
 const data: Data = {
   "1986": [
     {
+      "titleEn": "Castle in the Sky",
+      "titleJa": "天空の城ラピュタ",
+      "score": 8.26
+    },
+    {
       "titleEn": "Maison Ikkoku",
       "titleJa": "めぞん一刻",
       "score": 8.19
@@ -33,44 +38,39 @@ const data: Data = {
       "score": 7.76
     },
     {
+      "titleEn": "Doraemon the Movie: Nobita and the Steel Troops",
+      "titleJa": "映画 ドラえもん のび太と鉄人兵団",
+      "score": 7.65
+    },
+    {
+      "titleEn": "Shounan Bakusouzoku",
+      "titleJa": "湘南爆走族",
+      "score": 7.58
+    },
+    {
+      "titleEn": "The Adventures of Scamper the Penguin",
+      "titleJa": "小さなペンギンロロの冒険",
+      "score": 7.38
+    },
+    {
+      "titleEn": "Barefoot Gen 2",
+      "titleJa": "はだしのゲン　２",
+      "score": 7.35
+    },
+    {
+      "titleEn": "Fist of the North Star: The Movie",
+      "titleJa": "北斗の拳",
+      "score": 7.21
+    },
+    {
+      "titleEn": "Once Upon a Time... Life",
+      "titleJa": "生命の科学ミクロパトロール",
+      "score": 7.18
+    },
+    {
       "titleEn": "Bosco Adventure",
       "titleJa": "ボスコアドベンチャー",
       "score": 7.01
-    },
-    {
-      "titleEn": "Ai Shoujo Pollyanna Story",
-      "titleJa": "愛少女ポリアンナ物語",
-      "score": 6.95
-    },
-    {
-      "titleEn": "Maple Town",
-      "titleJa": "メイプルタウン物語",
-      "score": 6.86
-    },
-    {
-      "titleEn": "Fight! Kickers",
-      "titleJa": "がんばれ！キッカーズ",
-      "score": 6.86
-    },
-    {
-      "titleEn": "Uchuusen Sagittarius",
-      "titleJa": "宇宙船サジタリウス",
-      "score": 6.84
-    },
-    {
-      "titleEn": "The Wonderful Wizard of Oz",
-      "titleJa": "オズの魔法使い",
-      "score": 6.7
-    },
-    {
-      "titleEn": "Mobile Suit Gundam ZZ",
-      "titleJa": "機動戦士ガンダムZZ",
-      "score": 6.67
-    },
-    {
-      "titleEn": "Princess Anmitsu",
-      "titleJa": "あんみつ姫",
-      "score": 6.6
     }
   ],
   "1987": [
@@ -90,6 +90,11 @@ const data: Data = {
       "score": 7.51
     },
     {
+      "titleEn": "Royal Space Force: The Wings of Honneamise",
+      "titleJa": "王立宇宙軍 オネアミスの翼",
+      "score": 7.45
+    },
+    {
       "titleEn": "Lady Lady!!",
       "titleJa": "レディレディ！！",
       "score": 7.45
@@ -105,41 +110,76 @@ const data: Data = {
       "score": 7.39
     },
     {
-      "titleEn": "The Three Musketeers",
-      "titleJa": "アニメ三銃士",
+      "titleEn": "Bubblegum Crisis",
+      "titleJa": "バブルガムクライシス",
+      "score": 7.29
+    },
+    {
+      "titleEn": "Lupin III: The Fuma Conspiracy",
+      "titleJa": "ルパン三世　風魔一族の陰謀",
+      "score": 7.27
+    },
+    {
+      "titleEn": "Robot Carnival",
+      "titleJa": "ロボット・カーニバル",
+      "score": 7.21
+    },
+    {
+      "titleEn": "Devilman: The Birth",
+      "titleJa": "デビルマン 誕生編",
+      "score": 7.17
+    },
+    {
+      "titleEn": "Dirty Pair OVA",
+      "titleJa": "ダーティペア (1987)",
       "score": 7.11
-    },
-    {
-      "titleEn": "Mister Ajikko",
-      "titleJa": "ミスター味っ子",
-      "score": 7.11
-    },
-    {
-      "titleEn": "Sunny Ryoko",
-      "titleJa": "陽あたり良好！",
-      "score": 7.02
-    },
-    {
-      "titleEn": "Ox Tales",
-      "titleJa": "げらげらブース物語",
-      "score": 7.02
-    },
-    {
-      "titleEn": "Palm Town",
-      "titleJa": "新メイプルタウン物語 パームタウン編",
-      "score": 6.87
-    },
-    {
-      "titleEn": "Metal Armor Dragonar",
-      "titleJa": "機甲戦記ドラグナー",
-      "score": 6.72
     }
   ],
   "1988": [
     {
+      "titleEn": "Legend of the Galactic Heroes",
+      "titleJa": "銀河英雄伝説",
+      "score": 9.01
+    },
+    {
+      "titleEn": "Grave of the Fireflies",
+      "titleJa": "火垂るの墓",
+      "score": 8.53
+    },
+    {
+      "titleEn": "My Neighbor Totoro",
+      "titleJa": "となりのトトロ",
+      "score": 8.25
+    },
+    {
+      "titleEn": "Akira",
+      "titleJa": "AKIRA（アキラ）",
+      "score": 8.16
+    },
+    {
       "titleEn": "City Hunter 2",
       "titleJa": "シティーハンター2",
       "score": 8.07
+    },
+    {
+      "titleEn": "Legend of the Galactic Heroes: My Conquest is the Sea of Stars",
+      "titleJa": "銀河英雄伝説: わが征くは星の大海",
+      "score": 7.86
+    },
+    {
+      "titleEn": "Gunbuster",
+      "titleJa": "トップをねらえ！ GunBuster",
+      "score": 7.85
+    },
+    {
+      "titleEn": "Mobile Suit Gundam: Char's Counterattack",
+      "titleJa": "機動戦士ガンダム 逆襲のシャア",
+      "score": 7.68
+    },
+    {
+      "titleEn": "Kimagure Orange Road: I Want to Return to That Day",
+      "titleJa": "きまぐれオレンジ★ロード　あの日にかえりたい",
+      "score": 7.62
     },
     {
       "titleEn": "Hello! Lady Lynn",
@@ -147,61 +187,31 @@ const data: Data = {
       "score": 7.53
     },
     {
+      "titleEn": "Urusei Yatsura Movie 5: The Final Chapter",
+      "titleJa": "うる星やつら 完結篇",
+      "score": 7.46
+    },
+    {
       "titleEn": "Charge!! Men's Private School",
       "titleJa": "魁!!男塾",
       "score": 7.42
-    },
-    {
-      "titleEn": "Little Lord Fauntleroy",
-      "titleJa": "小公子セディ",
-      "score": 7.33
-    },
-    {
-      "titleEn": "Grimm's Fairy Tale Classics",
-      "titleJa": "新グリム名作劇場",
-      "score": 7.3
-    },
-    {
-      "titleEn": "Iron Fist Chinmi",
-      "titleJa": "鉄拳チンミ",
-      "score": 7.25
-    },
-    {
-      "titleEn": "Samurai Troopers",
-      "titleJa": "鎧伝サムライトルーパー",
-      "score": 7.07
-    },
-    {
-      "titleEn": "Little Baldy Hagemaru",
-      "titleJa": "つるピカハゲ丸くん",
-      "score": 7.01
-    },
-    {
-      "titleEn": "Oishinbo",
-      "titleJa": "美味しんぼ",
-      "score": 6.99
-    },
-    {
-      "titleEn": "Mashin Eiyuuden Wataru",
-      "titleJa": "魔神英雄伝ワタル",
-      "score": 6.94
-    },
-    {
-      "titleEn": "Kiteretsu Encyclopedia",
-      "titleJa": "キテレツ大百科",
-      "score": 6.89
-    },
-    {
-      "titleEn": "Osomatsu-kun (1988)",
-      "titleJa": "おそ松くん",
-      "score": 6.79
     }
   ],
   "1989": [
     {
+      "titleEn": "Kiki's Delivery Service",
+      "titleJa": "魔女の宅急便",
+      "score": 8.23
+    },
+    {
       "titleEn": "Dragon Ball Z",
       "titleJa": "ドラゴンボールZ",
       "score": 8.2
+    },
+    {
+      "titleEn": "Mobile Suit Gundam 0080: War in the Pocket",
+      "titleJa": "機動戦士ガンダム 0080 ポケットの中の戦争",
+      "score": 7.99
     },
     {
       "titleEn": "City Hunter 3",
@@ -219,9 +229,19 @@ const data: Data = {
       "score": 7.69
     },
     {
+      "titleEn": "Patlabor: The Movie",
+      "titleJa": "機動警察パトレイバー the Movie",
+      "score": 7.56
+    },
+    {
       "titleEn": "Yawara!",
       "titleJa": "YAWARA!",
       "score": 7.48
+    },
+    {
+      "titleEn": "City Hunter: .357 Magnum",
+      "titleJa": "シティーハンター 愛と宿命のマグナム",
+      "score": 7.38
     },
     {
       "titleEn": "Alfred J. Kwak",
@@ -229,34 +249,14 @@ const data: Data = {
       "score": 7.37
     },
     {
-      "titleEn": "Time Quest",
-      "titleJa": "たいむとらぶる トンデケマン!",
+      "titleEn": "Kimagure Orange Road OVA",
+      "titleJa": "きまぐれオレンジ☆ロード",
       "score": 7.35
     },
     {
-      "titleEn": "Miracle Giants Doumu-kun",
-      "titleJa": "ミラクル・ジャイアンツ童夢くん",
-      "score": 7.23
-    },
-    {
-      "titleEn": "Mado King Granzort",
-      "titleJa": "魔動王グランゾート",
-      "score": 7.2
-    },
-    {
-      "titleEn": "Tenkuu Senki Shurato",
-      "titleJa": "天空戦記シュラト",
-      "score": 7.18
-    },
-    {
-      "titleEn": "The Jungle Book",
-      "titleJa": "ジャングルブック・少年モーグリ",
-      "score": 6.99
-    },
-    {
-      "titleEn": "Legendary Idol Eriko",
-      "titleJa": "アイドル伝説えり子",
-      "score": 6.89
+      "titleEn": "Time Quest",
+      "titleJa": "たいむとらぶる トンデケマン!",
+      "score": 7.35
     }
   ],
   "1990": [
@@ -276,49 +276,49 @@ const data: Data = {
       "score": 7.66
     },
     {
+      "titleEn": "Dragon Ball Z: Bardock, The Father of Goku",
+      "titleJa": "DRAGON BALL Z スペシャル たったひとりの最終決戦~フリーザに挑んだZ戦士孫悟空の父~",
+      "score": 7.58
+    },
+    {
+      "titleEn": "Mobile Police Patlabor: The New Files",
+      "titleJa": "機動警察パトレイバー　NEW OVA",
+      "score": 7.56
+    },
+    {
+      "titleEn": "Be-Bop Highschool",
+      "titleJa": "ビー・バップ・ハイスクール",
+      "score": 7.5
+    },
+    {
       "titleEn": "Nadia: The Secret of Blue Water",
       "titleJa": "ふしぎの海のナディア",
       "score": 7.5
     },
     {
-      "titleEn": "The Great Adventures of Robin Hood",
-      "titleJa": "ロビンフッドの大冒険",
-      "score": 7.11
+      "titleEn": "City Hunter: Bay City Wars",
+      "titleJa": "シティーハンター ベイシティウォーズ",
+      "score": 7.33
     },
     {
-      "titleEn": "Samurai Pizza Cats",
-      "titleJa": "キャッ党忍伝てやんでえ",
-      "score": 7.03
+      "titleEn": "Record of Lodoss War",
+      "titleJa": "ロードス島戦記",
+      "score": 7.32
     },
     {
-      "titleEn": "NG Knight Ramune & 40",
-      "titleJa": "NG騎士ラムネ＆４０",
-      "score": 7.02
+      "titleEn": "City Hunter: Million Dollar Conspiracy",
+      "titleJa": "シティーハンター 百万ドルの陰謀",
+      "score": 7.32
     },
     {
-      "titleEn": "The Three-Eyed One",
-      "titleJa": "三つ目がとおる",
-      "score": 6.96
+      "titleEn": "Cyber City",
+      "titleJa": "CYBER CITY OEDO 808 (サイバーシティ オーエド ハチマルハチ)",
+      "score": 7.2
     },
     {
-      "titleEn": "Pygmalio",
-      "titleJa": "ピグマリオ",
-      "score": 6.93
-    },
-    {
-      "titleEn": "Magical★Taruruuto-kun",
-      "titleJa": "まじかる☆タルるートくん",
-      "score": 6.88
-    },
-    {
-      "titleEn": "Dragon Warrior",
-      "titleJa": "ドラゴンクエスト～勇者アベル伝説～",
-      "score": 6.86
-    },
-    {
-      "titleEn": "Spirit Hero Wataru 2",
-      "titleJa": "魔神英雄伝ワタル2",
-      "score": 6.78
+      "titleEn": "Doraemon the Movie: Nobita and the Animal Planet",
+      "titleJa": "映画 ドラえもん のび太とアニマル惑星[プラネット]",
+      "score": 7.18
     }
   ],
   "1991": [
@@ -331,6 +331,11 @@ const data: Data = {
       "titleEn": "City Hunter '91",
       "titleJa": "シティーハンター'91",
       "score": 7.75
+    },
+    {
+      "titleEn": "Who's Left Behind?",
+      "titleJa": "うしろの正面だあれ",
+      "score": 7.7
     },
     {
       "titleEn": "The Trapp Family Story",
@@ -348,6 +353,16 @@ const data: Data = {
       "score": 7.5
     },
     {
+      "titleEn": "Only Yesterday",
+      "titleJa": "おもひでぽろぽろ",
+      "score": 7.44
+    },
+    {
+      "titleEn": "Doraemon the Movie: Nobita's Dorabian Nights",
+      "titleJa": "映画 ドラえもん のび太のドラビアンナイト",
+      "score": 7.37
+    },
+    {
       "titleEn": "Future GPX Cyber Formula",
       "titleJa": "新世紀GPXサイバーフォーミュラ",
       "score": 7.35
@@ -363,24 +378,9 @@ const data: Data = {
       "score": 7.3
     },
     {
-      "titleEn": "Goldfish Warning!",
-      "titleJa": "きんぎょ注意報！",
-      "score": 7.14
-    },
-    {
-      "titleEn": "The Secret Garden",
-      "titleJa": "アニメ ひみつの花園",
-      "score": 7.09
-    },
-    {
-      "titleEn": "The Two Lottes",
-      "titleJa": "わたしとわたし～ふたりのロッテ",
-      "score": 7.06
-    },
-    {
-      "titleEn": "The Mischevious Twins",
-      "titleJa": "おちゃめな双子　－クレア学院物語－",
-      "score": 7.05
+      "titleEn": "Ranma ½: Big Trouble in Nekonron, China",
+      "titleJa": "らんま 1/2 中国寝崑崙大決戦! 掟やぶりの激闘編!!",
+      "score": 7.23
     }
   ],
   "1992": [
@@ -390,14 +390,34 @@ const data: Data = {
       "score": 8.46
     },
     {
+      "titleEn": "Porco Rosso",
+      "titleJa": "紅の豚",
+      "score": 7.96
+    },
+    {
       "titleEn": "Shin Chan",
       "titleJa": "クレヨンしんちゃん",
       "score": 7.81
     },
     {
+      "titleEn": "Giant Robo the Animation: The Day the Earth Stood Still",
+      "titleJa": "ジャイアントロボ THE ANIMATION 地球が静止する日",
+      "score": 7.8
+    },
+    {
       "titleEn": "Sailor Moon",
       "titleJa": "美少女戦士セーラームーン",
       "score": 7.74
+    },
+    {
+      "titleEn": "Comet in Moominland",
+      "titleJa": "ムーミン谷の彗星",
+      "score": 7.69
+    },
+    {
+      "titleEn": "Tenchi Muyo! Ryo-Ohki",
+      "titleJa": "天地無用！魎皇鬼",
+      "score": 7.6
     },
     {
       "titleEn": "Hime-chan no Ribbon",
@@ -410,39 +430,19 @@ const data: Data = {
       "score": 7.43
     },
     {
+      "titleEn": "Ranma ½: The Movie 2 - The Battle of Togenkyo: Rescue the Brides!",
+      "titleJa": "らんま1/2 決戦桃幻郷! 花嫁を奪りもどせ!!",
+      "score": 7.42
+    },
+    {
       "titleEn": "Mama is Just a Fourth Grade Pupil",
       "titleJa": "ママは小学４年生",
       "score": 7.33
     },
     {
-      "titleEn": "Mikan Enikki",
-      "titleJa": "みかん絵日記",
-      "score": 7.18
-    },
-    {
-      "titleEn": "Legendary Brave da Garn",
-      "titleJa": "伝説の勇者ダ・ガーン",
-      "score": 7.12
-    },
-    {
-      "titleEn": "A Dog of Flanders: My Patrasche",
-      "titleJa": "フランダースの犬　～ぼくのパトラッシュ～",
-      "score": 7.05
-    },
-    {
-      "titleEn": "Kaze no Naka no Shoujo: Kinpatsu no Jeanie",
-      "titleJa": "風の中の少女 金髪のジェニー",
-      "score": 7.04
-    },
-    {
-      "titleEn": "Energetic Bomb Ganbaruger",
-      "titleJa": "元気爆発ガンバルガー",
-      "score": 7.01
-    },
-    {
-      "titleEn": "Bush Baby, Little Angel of the Great Plains",
-      "titleJa": "大草原の小さな天使　ブッシュベイビー",
-      "score": 7
+      "titleEn": "Future GPX Cyber Formula 11",
+      "titleJa": "新世紀GPXサイバーフォーミュラ11",
+      "score": 7.31
     }
   ],
   "1993": [
@@ -452,9 +452,34 @@ const data: Data = {
       "score": 8.55
     },
     {
+      "titleEn": "Ramayana: The Legend of Prince Rama",
+      "titleJa": "ラーマーヤナ ラーマ王子伝説",
+      "score": 8.39
+    },
+    {
+      "titleEn": "Legend of the Galactic Heroes: Overture to a New War",
+      "titleJa": "銀河英雄伝説外伝　新たなる戦いの序曲[オーヴァチュア]",
+      "score": 8.08
+    },
+    {
+      "titleEn": "Kyou kara Ore wa!!",
+      "titleJa": "今日から俺は！！",
+      "score": 8.05
+    },
+    {
+      "titleEn": "Patlabor 2: The Movie",
+      "titleJa": "機動警察パトレイバー2 the Movie",
+      "score": 8.01
+    },
+    {
       "titleEn": "The Irresponsible Captain Tylor",
       "titleJa": "無責任艦長タイラー",
       "score": 7.84
+    },
+    {
+      "titleEn": "Dragon Ball Z: The History of Trunks",
+      "titleJa": "ドラゴンボールＺ・絶望への反抗！！残された超戦士・悟飯とトランク",
+      "score": 7.81
     },
     {
       "titleEn": "Sailor Moon R",
@@ -462,49 +487,24 @@ const data: Data = {
       "score": 7.73
     },
     {
-      "titleEn": "Little Women II: Jo's Boys",
-      "titleJa": "若草物語ナンとジョー先生",
-      "score": 7.55
+      "titleEn": "Black Jack",
+      "titleJa": "ブラック・ジャック",
+      "score": 7.73
     },
     {
-      "titleEn": "Blue Legend Shoot!",
-      "titleJa": "蒼き伝説　シュート！",
-      "score": 7.38
+      "titleEn": "Ranma ½ OVA",
+      "titleJa": "らんま1/2 OVA",
+      "score": 7.73
     },
     {
-      "titleEn": "Ghost Sweeper Mikami",
-      "titleJa": "GS（ゴーストスイーパー）美神",
-      "score": 7.23
+      "titleEn": "Sailor Moon R: The Movie - The Promise of the Rose",
+      "titleJa": "美少女戦士セーラームーンＲ THE MOVIE",
+      "score": 7.72
     },
     {
-      "titleEn": "Miracle☆Girls",
-      "titleJa": "ミラクル☆ガールズ",
-      "score": 7.17
-    },
-    {
-      "titleEn": "Shippuu! Iron Leaguer",
-      "titleJa": "疾風！ アイアンリーガー",
-      "score": 7.14
-    },
-    {
-      "titleEn": "Legendary Brave Swordsman Yaiba",
-      "titleJa": "剣勇伝説ＹＡＩＢＡ",
-      "score": 7.12
-    },
-    {
-      "titleEn": "Nekketsu Saikyou Go-Saurer",
-      "titleJa": "熱血最強ゴウザウラー",
-      "score": 7.09
-    },
-    {
-      "titleEn": "Nintama Rantarou",
-      "titleJa": "忍たま乱太郎",
-      "score": 7.08
-    },
-    {
-      "titleEn": "Yuusha Tokkyuu Might Gaine",
-      "titleJa": "勇者特急マイトガイン",
-      "score": 7.05
+      "titleEn": "Ninja Scroll",
+      "titleJa": "獣兵衛忍風帖",
+      "score": 7.61
     }
   ],
   "1994": [
@@ -519,6 +519,21 @@ const data: Data = {
       "score": 7.89
     },
     {
+      "titleEn": "Macross Plus",
+      "titleJa": "マクロスプラス",
+      "score": 7.7
+    },
+    {
+      "titleEn": "Sailor Moon S Movie: Hearts in Ice",
+      "titleJa": "美少女戦士セーラームーンS かぐや姫の恋人",
+      "score": 7.69
+    },
+    {
+      "titleEn": "Tenchi Muyo! Ryo-Ohki",
+      "titleJa": "天地無用！魎皇鬼",
+      "score": 7.61
+    },
+    {
       "titleEn": "Magical Circle Guru Guru",
       "titleJa": "魔法陣グルグル",
       "score": 7.59
@@ -529,44 +544,29 @@ const data: Data = {
       "score": 7.58
     },
     {
+      "titleEn": "Ranma 1/2 Special: Reawakening Memories",
+      "titleJa": "らんま1/2 SPECIAL よみがえる記憶",
+      "score": 7.57
+    },
+    {
+      "titleEn": "Doraemon the Movie: Nobita's Three Visionary Swordsmen",
+      "titleJa": "映画 ドラえもん のび太と夢幻三剣士",
+      "score": 7.5
+    },
+    {
+      "titleEn": "Slam Dunk: National Domination! Sakuragi Hanamichi",
+      "titleJa": "スラムダンク 全国制覇だ！桜木花道",
+      "score": 7.5
+    },
+    {
+      "titleEn": "You're Under Arrest",
+      "titleJa": "逮捕しちゃうぞ",
+      "score": 7.46
+    },
+    {
       "titleEn": "Magic Knight Rayearth",
       "titleJa": "魔法騎士（マジックナイト）レイアース",
       "score": 7.45
-    },
-    {
-      "titleEn": "Brave Police J-Decker",
-      "titleJa": "勇者警察ジェイデッカー",
-      "score": 7.42
-    },
-    {
-      "titleEn": "Red Riding Hood Chacha",
-      "titleJa": "赤ずきんチャチャ",
-      "score": 7.41
-    },
-    {
-      "titleEn": "Marmalade Boy",
-      "titleJa": "ママレード・ボーイ",
-      "score": 7.41
-    },
-    {
-      "titleEn": "Tottemo! Luckyman",
-      "titleJa": "とっても！ラッキーマン",
-      "score": 7.4
-    },
-    {
-      "titleEn": "Tico and Friends",
-      "titleJa": "七つの海のティコ",
-      "score": 7.37
-    },
-    {
-      "titleEn": "Captain Tsubasa J",
-      "titleJa": "キャプテン翼Ｊ",
-      "score": 7.28
-    },
-    {
-      "titleEn": "Macross 7",
-      "titleJa": "マクロス７",
-      "score": 7.13
     }
   ],
   "1995": [
@@ -581,9 +581,34 @@ const data: Data = {
       "score": 8.31
     },
     {
+      "titleEn": "Ghost in the Shell",
+      "titleJa": "GHOST IN THE SHELL（攻殻機動隊）",
+      "score": 8.27
+    },
+    {
+      "titleEn": "Whisper of the Heart",
+      "titleJa": "耳をすませば",
+      "score": 8.22
+    },
+    {
+      "titleEn": "Golden Boy",
+      "titleJa": "ゴールデンボーイ",
+      "score": 8.04
+    },
+    {
       "titleEn": "Slayers",
       "titleJa": "スレイヤーズ",
       "score": 7.72
+    },
+    {
+      "titleEn": "Memories",
+      "titleJa": "MEMORIES（メモリーズ）",
+      "score": 7.72
+    },
+    {
+      "titleEn": "Macross Plus Movie Edition",
+      "titleJa": "マクロスプラス　ＭＯＶＩＥ　ＥＤＩＴＩＯＮ",
+      "score": 7.7
     },
     {
       "titleEn": "Mobile Suit Gundam Wing",
@@ -601,34 +626,9 @@ const data: Data = {
       "score": 7.63
     },
     {
-      "titleEn": "Mysterious Play",
-      "titleJa": "ふしぎ遊戯",
-      "score": 7.6
-    },
-    {
-      "titleEn": "Mysterious Thief Saint Tail",
-      "titleJa": "怪盗セイント・テール",
-      "score": 7.54
-    },
-    {
-      "titleEn": "Magic Knight Rayearth II",
-      "titleJa": "魔法騎士（マジックナイト）レイアース II",
-      "score": 7.49
-    },
-    {
-      "titleEn": "The Ping-Pong Club",
-      "titleJa": "行け! 稲中卓球部",
-      "score": 7.49
-    },
-    {
-      "titleEn": "Tenchi Muyo! Tenchi Universe",
-      "titleJa": "天地無用！",
-      "score": 7.42
-    },
-    {
-      "titleEn": "Little Miss Maruko",
-      "titleJa": "ちびまる子ちゃん",
-      "score": 7.36
+      "titleEn": "Ranma ½ Super",
+      "titleJa": "らんま１／２　ＳＵＰＥＲ",
+      "score": 7.63
     }
   ],
   "1996": [
@@ -651,6 +651,11 @@ const data: Data = {
       "titleEn": "Slayers Next",
       "titleJa": "スレイヤーズNEXT",
       "score": 8.01
+    },
+    {
+      "titleEn": "Mobile Suit Gundam: The 08th MS Team",
+      "titleJa": "機動戦士ガンダム 第08MS小隊",
+      "score": 8
     },
     {
       "titleEn": "Sailor Moon Sailor Stars",
@@ -686,18 +691,23 @@ const data: Data = {
       "titleEn": "You're Under Arrest (1996)",
       "titleJa": "逮捕しちゃうぞ (1996)",
       "score": 7.54
-    },
-    {
-      "titleEn": "Hell Teacher Nube",
-      "titleJa": "地獄先生ぬ～べ～",
-      "score": 7.53
     }
   ],
   "1997": [
     {
+      "titleEn": "Princess Mononoke",
+      "titleJa": "もののけ姫",
+      "score": 8.67
+    },
+    {
       "titleEn": "Berserk",
       "titleJa": "剣風伝奇ベルセルク",
       "score": 8.6
+    },
+    {
+      "titleEn": "Neon Genesis Evangelion: The End of Evangelion",
+      "titleJa": "新世紀エヴァンゲリオン劇場版 Air / まごころを, 君に",
+      "score": 8.56
     },
     {
       "titleEn": "Revolutionary Girl Utena",
@@ -710,9 +720,19 @@ const data: Data = {
       "score": 7.94
     },
     {
+      "titleEn": "Case Closed Movie 01: The Time Bombed Skyscraper",
+      "titleJa": "名探偵コナン 時計じかけの摩天楼",
+      "score": 7.86
+    },
+    {
       "titleEn": "King of Braves GaoGaiGar",
       "titleJa": "勇者王ガオガイガー",
       "score": 7.83
+    },
+    {
+      "titleEn": "The Dog of Flanders",
+      "titleJa": "フランダースの犬 (1997)",
+      "score": 7.81
     },
     {
       "titleEn": "Slayers Try",
@@ -720,39 +740,19 @@ const data: Data = {
       "score": 7.8
     },
     {
+      "titleEn": "Mobile Suit Gundam Wing: Endless Waltz",
+      "titleJa": "新機動戦記ガンダムW エンドレス・ワルツ",
+      "score": 7.73
+    },
+    {
       "titleEn": "Cooking Master Boy",
       "titleJa": "中華一番",
       "score": 7.6
     },
     {
-      "titleEn": "Pokémon",
-      "titleJa": "ポケットモンスター",
-      "score": 7.41
-    },
-    {
-      "titleEn": "Flame of Recca",
-      "titleJa": "烈火の炎",
-      "score": 7.34
-    },
-    {
-      "titleEn": "Crayon Kingdom of Dreams",
-      "titleJa": "夢のクレヨン王国",
-      "score": 7.24
-    },
-    {
-      "titleEn": "Vampire Princess Miyu",
-      "titleJa": "吸血姫美夕",
-      "score": 7.12
-    },
-    {
-      "titleEn": "Bakusou Kyoudai Let's & Go WGP",
-      "titleJa": "爆走兄弟レッツ＆ゴー!!　ＷＧＰ",
-      "score": 7.04
-    },
-    {
-      "titleEn": "Super Demon Hero Wataru",
-      "titleJa": "超魔神英雄伝ワタル",
-      "score": 7.01
+      "titleEn": "Samurai X: The Motion Picture",
+      "titleJa": "るろうに剣心 -明治剣客浪漫譚- 維新志士への鎮魂歌",
+      "score": 7.55
     }
   ],
   "1998": [
@@ -760,6 +760,11 @@ const data: Data = {
       "titleEn": "Cowboy Bebop",
       "titleJa": "カウボーイビバップ",
       "score": 8.75
+    },
+    {
+      "titleEn": "Perfect Blue",
+      "titleJa": "パーフェクトブルー",
+      "score": 8.55
     },
     {
       "titleEn": "Initial D First Stage",
@@ -777,9 +782,19 @@ const data: Data = {
       "score": 8.18
     },
     {
+      "titleEn": "Legend of the Galactic Heroes Gaiden",
+      "titleJa": "銀河英雄伝説外伝／千億の星、千億の光",
+      "score": 8.13
+    },
+    {
       "titleEn": "Serial Experiments Lain",
       "titleJa": "シリアルエクスペリメンツレイン",
       "score": 8.09
+    },
+    {
+      "titleEn": "Case Closed Movie 02: The Fourteenth Target",
+      "titleJa": "名探偵コナン １４番目の標的",
+      "score": 7.88
     },
     {
       "titleEn": "Outlaw Star",
@@ -787,34 +802,19 @@ const data: Data = {
       "score": 7.83
     },
     {
-      "titleEn": "Sexy Commando Gaiden: Sugoi yo!! Masaru-san",
-      "titleJa": "セクシーコマンドー外伝 すごいよ!! マサルさん",
-      "score": 7.61
+      "titleEn": "Mobile Suit Gundam Wing: Endless Waltz",
+      "titleJa": "新機動戦記ガンダムW Endless Waltz 特別篇",
+      "score": 7.77
     },
     {
-      "titleEn": "Master Keaton",
-      "titleJa": "マスターキートン",
-      "score": 7.61
+      "titleEn": "Getter Robo: Armageddon",
+      "titleJa": "真(チェンジ!!)ゲッターロボ 世界最後の日",
+      "score": 7.73
     },
     {
-      "titleEn": "His and Her Circumstances",
-      "titleJa": "彼氏彼女の事情",
-      "score": 7.6
-    },
-    {
-      "titleEn": "Saber Marionette J to X",
-      "titleJa": "セイバーマリオネットJ to X",
-      "score": 7.27
-    },
-    {
-      "titleEn": "Legend of Basara",
-      "titleJa": "LEGEND OF BASARA",
-      "score": 7.26
-    },
-    {
-      "titleEn": "Yu☆Gi☆Oh!",
-      "titleJa": "遊☆戯☆王",
-      "score": 7.24
+      "titleEn": "Pokémon: The First Movie - Mewtwo Strikes Back",
+      "titleJa": "ポケットモンスター ミュウツーの逆襲",
+      "score": 7.67
     }
   ],
   "1999": [
@@ -822,6 +822,11 @@ const data: Data = {
       "titleEn": "One Piece",
       "titleJa": "ONE PIECE",
       "score": 8.73
+    },
+    {
+      "titleEn": "Samurai X: Trust and Betrayal",
+      "titleJa": "るろうに剣心―明治剣客浪漫譚―追憶編",
+      "score": 8.69
     },
     {
       "titleEn": "Great Teacher Onizuka",
@@ -839,6 +844,16 @@ const data: Data = {
       "score": 8.18
     },
     {
+      "titleEn": "Legend of the Galactic Heroes Gaiden (1999)",
+      "titleJa": "銀河英雄伝説外伝 螺旋迷宮",
+      "score": 8.06
+    },
+    {
+      "titleEn": "Case Closed Movie 03: The Last Wizard of the Century",
+      "titleJa": "名探偵コナン 世紀末の魔術師",
+      "score": 8.03
+    },
+    {
       "titleEn": "∀ Gundam",
       "titleJa": "∀ガンダム",
       "score": 7.79
@@ -849,34 +864,19 @@ const data: Data = {
       "score": 7.78
     },
     {
-      "titleEn": "Crest of the Stars",
-      "titleJa": "星界の紋章",
-      "score": 7.62
+      "titleEn": "Master Keaton OVA",
+      "titleJa": "マスターキートン",
+      "score": 7.73
     },
     {
-      "titleEn": "Now and Then, Here and There",
-      "titleJa": "今、そこにいる僕",
-      "score": 7.58
+      "titleEn": "Revolutionary Girl Utena: The Adolescence of Utena",
+      "titleJa": "少女革命ウテナ　アドゥレセンス黙示録",
+      "score": 7.68
     },
     {
-      "titleEn": "The Big O",
-      "titleJa": "THEビッグオー",
-      "score": 7.53
-    },
-    {
-      "titleEn": "Excel Saga",
-      "titleJa": "へっぽこ実験アニメーション エクセル♥サーガ",
-      "score": 7.48
-    },
-    {
-      "titleEn": "Kamikaze Kaitou Jeanne",
-      "titleJa": "神風怪盗ジャンヌ",
-      "score": 7.47
-    },
-    {
-      "titleEn": "Gokudo",
-      "titleJa": "ゴクドーくん漫遊記",
-      "score": 7.4
+      "titleEn": "Cardcaptor Sakura The Movie",
+      "titleJa": "劇場版 カードキャプターさくら",
+      "score": 7.63
     }
   ],
   "2000": [
@@ -886,9 +886,44 @@ const data: Data = {
       "score": 8.78
     },
     {
+      "titleEn": "Cardcaptor Sakura Movie 2: The Sealed Card",
+      "titleJa": "劇場版 カードキャプターさくら 封印されたカード",
+      "score": 8.21
+    },
+    {
+      "titleEn": "GaoGaiGar Final",
+      "titleJa": "勇者王ガオガイガーFINAL",
+      "score": 8.09
+    },
+    {
+      "titleEn": "FLCL",
+      "titleJa": "フリクリ",
+      "score": 8.04
+    },
+    {
+      "titleEn": "Case Closed Movie 04: Captured In Her Eyes",
+      "titleJa": "瞳の中の暗殺者",
+      "score": 8.02
+    },
+    {
+      "titleEn": "Vampire Hunter D: Bloodlust",
+      "titleJa": "バンパイアハンターD",
+      "score": 7.96
+    },
+    {
       "titleEn": "InuYasha",
       "titleJa": "犬夜叉",
       "score": 7.87
+    },
+    {
+      "titleEn": "Digimon: The Movie",
+      "titleJa": "デジモンアドベンチャー ぼくらのウォーゲーム！",
+      "score": 7.8
+    },
+    {
+      "titleEn": "Jin-Roh: The Wolf Brigade",
+      "titleJa": "人狼 JIN-ROH",
+      "score": 7.78
     },
     {
       "titleEn": "Ghost Stories",
@@ -904,48 +939,38 @@ const data: Data = {
       "titleEn": "Daa! Daa! Daa!",
       "titleJa": "だぁ! だぁ! だぁ!",
       "score": 7.64
-    },
-    {
-      "titleEn": "Saiyuki",
-      "titleJa": "幻想魔伝 最遊記",
-      "score": 7.54
-    },
-    {
-      "titleEn": "Shoubushi Densetsu Tetsuya",
-      "titleJa": "勝負師伝説哲也",
-      "score": 7.51
-    },
-    {
-      "titleEn": "Yu-Gi-Oh!",
-      "titleJa": "遊☆戯☆王　デュエルモンスターズ",
-      "score": 7.5
-    },
-    {
-      "titleEn": "Ojamajo Doremi Sharp",
-      "titleJa": "おジャ魔女どれみ＃",
-      "score": 7.46
-    },
-    {
-      "titleEn": ".Koni-chan",
-      "titleJa": "ドッとKONIちゃん",
-      "score": 7.29
-    },
-    {
-      "titleEn": "Popee the Clown",
-      "titleJa": "POPEE the ぱフォーマー",
-      "score": 7.27
-    },
-    {
-      "titleEn": "Digimon Adventure 02",
-      "titleJa": "デジモンアドベンチャー０２",
-      "score": 7.24
     }
   ],
   "2001": [
     {
+      "titleEn": "Spirited Away",
+      "titleJa": "千と千尋の神隠し",
+      "score": 8.77
+    },
+    {
+      "titleEn": "Cowboy Bebop: The Movie",
+      "titleJa": "カウボーイビバップ 天国の扉",
+      "score": 8.38
+    },
+    {
+      "titleEn": "Case Closed Movie 05: Countdown to Heaven",
+      "titleJa": "名探偵コナン 天国へのカウントダウン",
+      "score": 8.11
+    },
+    {
       "titleEn": "Hikaru no Go",
       "titleJa": "ヒカルの碁",
       "score": 8.07
+    },
+    {
+      "titleEn": "Samurai X: Reflection",
+      "titleJa": "るろうに剣心 -明治剣客浪漫譚- 星霜編",
+      "score": 7.96
+    },
+    {
+      "titleEn": "Initial D Third Stage",
+      "titleJa": "頭文字〈イニシャル〉D THIRD STAGE",
+      "score": 7.91
     },
     {
       "titleEn": "The Prince of Tennis",
@@ -976,31 +1001,6 @@ const data: Data = {
       "titleEn": "Digimon Tamers",
       "titleJa": "デジモンテイマーズ",
       "score": 7.65
-    },
-    {
-      "titleEn": "Hellsing",
-      "titleJa": "Hellsing [ヘルシング]",
-      "score": 7.49
-    },
-    {
-      "titleEn": "Baki the Grappler: Saidai Tournament-hen",
-      "titleJa": "グラップラー刃牙(バキ) 最大トーナメント編",
-      "score": 7.48
-    },
-    {
-      "titleEn": "Motto! Ojamajo Doremi",
-      "titleJa": "も〜っと！おジャ魔女どれみ",
-      "score": 7.47
-    },
-    {
-      "titleEn": "Captain Tsubasa",
-      "titleJa": "キャプテン翼 (2001)",
-      "score": 7.46
-    },
-    {
-      "titleEn": "Baki the Grappler",
-      "titleJa": "グラップラー刃牙",
-      "score": 7.45
     }
   ],
   "2002": [
@@ -1008,6 +1008,21 @@ const data: Data = {
       "titleEn": "Ghost in the Shell: Stand Alone Complex",
       "titleJa": "攻殻機動隊 STAND ALONE COMPLEX",
       "score": 8.42
+    },
+    {
+      "titleEn": "Hunter x Hunter: Original Video Animation",
+      "titleJa": "HUNTER×HUNTER Original Video Animation",
+      "score": 8.31
+    },
+    {
+      "titleEn": "Case Closed Movie 06: The Phantom of Baker Street",
+      "titleJa": "名探偵コナン ベイカー街の亡霊",
+      "score": 8.29
+    },
+    {
+      "titleEn": "Millennium Actress",
+      "titleJa": "千年女優",
+      "score": 8.24
     },
     {
       "titleEn": "Princess Tutu",
@@ -1018,6 +1033,11 @@ const data: Data = {
       "titleEn": "Azumanga Daioh: The Animation",
       "titleJa": "あずまんが大王 THE ANIMATION",
       "score": 8.06
+    },
+    {
+      "titleEn": "Saint Seiya: The Hades Chapter - Sanctuary",
+      "titleJa": "聖闘士星矢 冥王ハーデス十二宮編",
+      "score": 8.05
     },
     {
       "titleEn": "The Twelve Kingdoms",
@@ -1043,26 +1063,6 @@ const data: Data = {
       "titleEn": "Searching for the Full Moon",
       "titleJa": "満月をさがして",
       "score": 7.93
-    },
-    {
-      "titleEn": "Ojamajo Doremi Dokkaan!",
-      "titleJa": "おジャ魔女どれみドッカ〜ン！",
-      "score": 7.74
-    },
-    {
-      "titleEn": "Mobile Suit Gundam SEED",
-      "titleJa": "機動戦士ガンダムSEED",
-      "score": 7.74
-    },
-    {
-      "titleEn": "Full Metal Panic!",
-      "titleJa": "フルメタル・パニック！",
-      "score": 7.59
-    },
-    {
-      "titleEn": "Getbackers",
-      "titleJa": "ゲットバッカーズ　奪還屋",
-      "score": 7.57
     }
   ],
   "2003": [
@@ -1072,14 +1072,44 @@ const data: Data = {
       "score": 8.28
     },
     {
+      "titleEn": "Tokyo Godfathers",
+      "titleJa": "東京ゴッドファーザーズ",
+      "score": 8.28
+    },
+    {
+      "titleEn": "Fighting Spirit: Champion Road",
+      "titleJa": "はじめの一歩 -Champion Road-",
+      "score": 8.25
+    },
+    {
       "titleEn": "Planetes",
       "titleJa": "プラネテス",
       "score": 8.25
     },
     {
+      "titleEn": "Fighting Spirit: Mashiba vs. Kimura",
+      "titleJa": "はじめの一歩 間柴vs木村 死刑執行",
+      "score": 8.24
+    },
+    {
+      "titleEn": "Hunter x Hunter: Greed Island",
+      "titleJa": "HUNTER×HUNTER Greed Island",
+      "score": 8.18
+    },
+    {
+      "titleEn": "Interstella5555: The 5tory of The 5ecret 5tar 5ystem",
+      "titleJa": "インターステラ5555",
+      "score": 8.13
+    },
+    {
       "titleEn": "Fullmetal Alchemist",
       "titleJa": "鋼の錬金術師",
       "score": 8.11
+    },
+    {
+      "titleEn": "Fighting Spirit Special",
+      "titleJa": "はじめの一歩 THE FIGHTING! ボクサーの拳",
+      "score": 8.08
     },
     {
       "titleEn": "Full Metal Panic? Fumoffu",
@@ -1095,36 +1125,6 @@ const data: Data = {
       "titleEn": "Cromartie High School",
       "titleJa": "魁!! クロマティ高校",
       "score": 7.88
-    },
-    {
-      "titleEn": "Gungrave",
-      "titleJa": "ガングレイヴ",
-      "score": 7.81
-    },
-    {
-      "titleEn": "Wolf's Rain",
-      "titleJa": "ウルフズレイン",
-      "score": 7.79
-    },
-    {
-      "titleEn": "Last Exile",
-      "titleJa": "LAST EXILE（ラストエグザイル）",
-      "score": 7.78
-    },
-    {
-      "titleEn": "Texhnolyze",
-      "titleJa": "TEXHNOLYZE",
-      "score": 7.75
-    },
-    {
-      "titleEn": "Detective School Q",
-      "titleJa": "探偵学園Q",
-      "score": 7.73
-    },
-    {
-      "titleEn": "Mujin Wakusei Survive",
-      "titleJa": "無人惑星サヴァイヴ",
-      "score": 7.72
     }
   ],
   "2004": [
@@ -1132,6 +1132,11 @@ const data: Data = {
       "titleEn": "Monster",
       "titleJa": "モンスター",
       "score": 8.89
+    },
+    {
+      "titleEn": "Howl's Moving Castle",
+      "titleJa": "ハウルの動く城",
+      "score": 8.67
     },
     {
       "titleEn": "Samurai Champloo",
@@ -1149,6 +1154,11 @@ const data: Data = {
       "score": 8.29
     },
     {
+      "titleEn": "Hunter x Hunter: Greed Island Final",
+      "titleJa": "HUNTER×HUNTER G・I Final",
+      "score": 8.25
+    },
+    {
       "titleEn": "Major S1",
       "titleJa": "メジャー （第1シリーズ）",
       "score": 8.2
@@ -1164,29 +1174,19 @@ const data: Data = {
       "score": 8.11
     },
     {
+      "titleEn": "Detective Conan Movie 08: Magician of the Silver Sky",
+      "titleJa": "名探偵コナン 銀翼の奇術師[マジシャン]",
+      "score": 8.05
+    },
+    {
+      "titleEn": "Wolf's Rain OVA",
+      "titleJa": "ウルフズ・レイン",
+      "score": 7.98
+    },
+    {
       "titleEn": "Bleach",
       "titleJa": "BLEACH - ブリーチ -",
       "score": 7.97
-    },
-    {
-      "titleEn": "Yakitate!! Japan",
-      "titleJa": "焼きたて!! ジャぱん",
-      "score": 7.91
-    },
-    {
-      "titleEn": "School Rumble",
-      "titleJa": "スクールランブル",
-      "score": 7.88
-    },
-    {
-      "titleEn": "Sgt. Frog",
-      "titleJa": "ケロロ軍曹",
-      "score": 7.7
-    },
-    {
-      "titleEn": "Paranoia Agent",
-      "titleJa": "妄想代理人",
-      "score": 7.66
     }
   ],
   "2005": [
@@ -1194,6 +1194,16 @@ const data: Data = {
       "titleEn": "Mushi-Shi",
       "titleJa": "蟲師",
       "score": 8.65
+    },
+    {
+      "titleEn": "Gintama: Jump Festa 2005 Special",
+      "titleJa": "銀魂〜何事も最初が肝心なので多少背伸びするくらいが丁度良い〜",
+      "score": 8.08
+    },
+    {
+      "titleEn": "Ghost in the Shell: Stand Alone Complex - The Laughing Man",
+      "titleJa": "攻殻機動隊 Stand Alone Complex - The Laughing Man",
+      "score": 8.06
     },
     {
       "titleEn": "Eureka Seven",
@@ -1216,6 +1226,11 @@ const data: Data = {
       "score": 7.95
     },
     {
+      "titleEn": "xxxHOLiC The Movie: A Midsummer Night's Dream",
+      "titleJa": "劇場版　×××HOLiC　真夏ノ夜ノ夢",
+      "score": 7.93
+    },
+    {
       "titleEn": "Akagi",
       "titleJa": "闘牌伝説アカギ　闇に舞い降りた天才",
       "score": 7.92
@@ -1234,21 +1249,6 @@ const data: Data = {
       "titleEn": "Paradise Kiss",
       "titleJa": "Paradise kiss",
       "score": 7.87
-    },
-    {
-      "titleEn": "Capeta",
-      "titleJa": "カペタ",
-      "score": 7.82
-    },
-    {
-      "titleEn": "Doraemon (2005)",
-      "titleJa": "ドラえもん (2005)",
-      "score": 7.73
-    },
-    {
-      "titleEn": "The Law of Ueki",
-      "titleJa": "うえきの法則",
-      "score": 7.71
     }
   ],
   "2006": [
@@ -1271,6 +1271,11 @@ const data: Data = {
       "titleEn": "Nana",
       "titleJa": "NANA [ナナ]",
       "score": 8.56
+    },
+    {
+      "titleEn": "Hellsing Ultimate",
+      "titleJa": "HELLSING OVA",
+      "score": 8.34
     },
     {
       "titleEn": "Welcome to the N.H.K.",
@@ -1306,11 +1311,6 @@ const data: Data = {
       "titleEn": "Reborn!",
       "titleJa": "家庭教師ヒットマンREBORN!",
       "score": 8.12
-    },
-    {
-      "titleEn": "KenIchi: The Mightiest Disciple",
-      "titleJa": "史上最強の弟子 ケンイチ",
-      "score": 8.04
     }
   ],
   "2007": [
@@ -1340,8 +1340,18 @@ const data: Data = {
       "score": 8.26
     },
     {
+      "titleEn": "Tsubasa RESERVoir CHRoNiCLE: Tokyo Revelations",
+      "titleJa": "ツバサ TOKYO REVELATIONS",
+      "score": 8.26
+    },
+    {
       "titleEn": "Nodame Cantabile",
       "titleJa": "のだめカンタービレ",
+      "score": 8.25
+    },
+    {
+      "titleEn": "Sword of the Stranger",
+      "titleJa": "ストレンヂア -無皇刃譚-",
       "score": 8.25
     },
     {
@@ -1363,16 +1373,6 @@ const data: Data = {
       "titleEn": "Mobile Suit Gundam 00",
       "titleJa": "機動戦士ガンダム00",
       "score": 8.1
-    },
-    {
-      "titleEn": "Darker than Black",
-      "titleJa": "Darker than BLACK -黒の契約者-",
-      "score": 8.04
-    },
-    {
-      "titleEn": "Lovely Complex",
-      "titleJa": "ラブ★コン",
-      "score": 8.03
     }
   ],
   "2008": [
@@ -1387,9 +1387,19 @@ const data: Data = {
       "score": 8.91
     },
     {
+      "titleEn": "The Garden of Sinners Chapter 5: Paradox Spiral",
+      "titleJa": "劇場版 空の境界 the Garden of sinners 第五章『矛盾螺旋』",
+      "score": 8.51
+    },
+    {
       "titleEn": "Aria the Origination",
       "titleJa": "ARIA The ORIGINATION",
       "score": 8.47
+    },
+    {
+      "titleEn": "Gintama: Jump Festa 2008 Special",
+      "titleJa": "ジャンプアニメツアー 2008 白夜叉降誕",
+      "score": 8.36
     },
     {
       "titleEn": "One Outs",
@@ -1417,24 +1427,14 @@ const data: Data = {
       "score": 8.18
     },
     {
+      "titleEn": "Gurren Lagann The Movie: Childhood's End",
+      "titleJa": "劇場版 天元突破グレンラガン 紅蓮篇",
+      "score": 8.17
+    },
+    {
       "titleEn": "Kaiba",
       "titleJa": "カイバ",
       "score": 8.14
-    },
-    {
-      "titleEn": "Nodame Cantabile: Paris-hen",
-      "titleJa": "のだめカンタービレ 巴里編",
-      "score": 8.13
-    },
-    {
-      "titleEn": "Skip Beat!",
-      "titleJa": "スキップ・ビート！",
-      "score": 8.07
-    },
-    {
-      "titleEn": "Mobile Suit Gundam 00: Second Season",
-      "titleJa": "機動戦士ガンダム00 セカンドシーズン",
-      "score": 8.07
     }
   ],
   "2009": [
@@ -1447,6 +1447,11 @@ const data: Data = {
       "titleEn": "Fighting Spirit: New Challenger",
       "titleJa": "はじめの一歩 新シリーズ",
       "score": 8.67
+    },
+    {
+      "titleEn": "Gurren Lagann The Movie: The Lights in the Sky are Stars",
+      "titleJa": "劇場版 天元突破グレンラガン 螺巌篇",
+      "score": 8.59
     },
     {
       "titleEn": "Natsume's Book of Friends Season 2",
@@ -1464,9 +1469,19 @@ const data: Data = {
       "score": 8.37
     },
     {
+      "titleEn": "The Garden of Sinners Chapter 7: A Study in Murder - Part 2",
+      "titleJa": "劇場版 空の境界 the Garden of sinners 第七章『殺人考察（後）』",
+      "score": 8.37
+    },
+    {
       "titleEn": "Bakemonogatari",
       "titleJa": "化物語",
       "score": 8.32
+    },
+    {
+      "titleEn": "Evangelion: 2.0 You Can (Not) Advance",
+      "titleJa": "ヱヴァンゲリヲン新劇場版:破",
+      "score": 8.3
     },
     {
       "titleEn": "Spice and Wolf II",
@@ -1479,41 +1494,31 @@ const data: Data = {
       "score": 8.29
     },
     {
-      "titleEn": "InuYasha: The Final Act",
-      "titleJa": "犬夜叉 完結編",
-      "score": 8.2
-    },
-    {
-      "titleEn": "Kimi ni Todoke: From Me to You",
-      "titleJa": "君に届け",
-      "score": 8.01
-    },
-    {
-      "titleEn": "Tokyo Magnitude 8.0",
-      "titleJa": "東京マグニチュード8.0",
-      "score": 8
-    },
-    {
-      "titleEn": "Kobato.",
-      "titleJa": "こばと。",
-      "score": 7.94
+      "titleEn": "Redline",
+      "titleJa": "REDLINE",
+      "score": 8.29
     }
   ],
   "2010": [
+    {
+      "titleEn": "The Disappearance of Haruhi Suzumiya",
+      "titleJa": "涼宮ハルヒの消失",
+      "score": 8.59
+    },
     {
       "titleEn": "The Tatami Galaxy",
       "titleJa": "四畳半神話大系",
       "score": 8.55
     },
     {
+      "titleEn": "Gintama: The Movie",
+      "titleJa": "劇場版 銀魂 新訳紅桜篇",
+      "score": 8.52
+    },
+    {
       "titleEn": "Rainbow",
       "titleJa": "RAINBOW 二舎六房の七人",
       "score": 8.46
-    },
-    {
-      "titleEn": "Major S6",
-      "titleJa": "メジャー 第6シリーズ",
-      "score": 8.31
     },
     {
       "titleEn": "Katanagatari",
@@ -1528,6 +1533,11 @@ const data: Data = {
     {
       "titleEn": "K-ON! Season 2",
       "titleJa": "けいおん!!",
+      "score": 8.18
+    },
+    {
+      "titleEn": "xxxHOLiC Rou",
+      "titleJa": "xxxHOLiC 籠",
       "score": 8.18
     },
     {
@@ -1546,19 +1556,9 @@ const data: Data = {
       "score": 8.09
     },
     {
-      "titleEn": "Angel Beats!",
-      "titleJa": "Angel Beats!（エンジェルビーツ!）",
-      "score": 8.05
-    },
-    {
-      "titleEn": "Maid Sama!",
-      "titleJa": "会長はメイド様!",
-      "score": 7.99
-    },
-    {
-      "titleEn": "Big Windup! 2",
-      "titleJa": "おおきく振りかぶって　〜夏の大会編〜",
-      "score": 7.95
+      "titleEn": "Mobile Suit Gundam Unicorn",
+      "titleJa": "機動戦士ガンダムUC（ユニコーン）",
+      "score": 8.09
     }
   ],
   "2011": [
@@ -1593,6 +1593,11 @@ const data: Data = {
       "score": 8.38
     },
     {
+      "titleEn": "K-ON! The Movie",
+      "titleJa": "映画 けいおん！",
+      "score": 8.35
+    },
+    {
       "titleEn": "Bakuman. Season 2",
       "titleJa": "バクマン。2ndシーズン",
       "score": 8.33
@@ -1608,19 +1613,14 @@ const data: Data = {
       "score": 8.29
     },
     {
-      "titleEn": "Fate/Zero",
-      "titleJa": "フェイト/ゼロ",
+      "titleEn": "Into the Forest of Fireflies' Light",
+      "titleJa": "蛍火の杜へ",
       "score": 8.27
     },
     {
-      "titleEn": "Kaiji: Against All Rules",
-      "titleJa": "逆境無頼カイジ 破戒録篇",
-      "score": 8.24
-    },
-    {
-      "titleEn": "SKET Dance",
-      "titleJa": "スケットダンス",
-      "score": 8.2
+      "titleEn": "Fate/Zero",
+      "titleJa": "フェイト/ゼロ",
+      "score": 8.27
     }
   ],
   "2012": [
@@ -1633,6 +1633,11 @@ const data: Data = {
       "titleEn": "Natsume's Book of Friends Season 4",
       "titleJa": "夏目友人帳 肆",
       "score": 8.63
+    },
+    {
+      "titleEn": "Wolf Children",
+      "titleJa": "おおかみこどもの雨と雪",
+      "score": 8.56
     },
     {
       "titleEn": "Fate/Zero Season 2",
@@ -1650,9 +1655,24 @@ const data: Data = {
       "score": 8.48
     },
     {
+      "titleEn": "Puella Magi Madoka Magica the Movie Part 2: Eternal",
+      "titleJa": "劇場版 魔法少女まどか☆マギカ 永遠の物語",
+      "score": 8.37
+    },
+    {
       "titleEn": "Psycho-Pass",
       "titleJa": "サイコパス",
       "score": 8.33
+    },
+    {
+      "titleEn": "Star Blazers: Space Battleship Yamato 2199",
+      "titleJa": "宇宙戦艦ヤマト2199",
+      "score": 8.31
+    },
+    {
+      "titleEn": "Steins;Gate: Egoistic Poriomania",
+      "titleJa": "シュタインズ ゲート 横行跋扈のポリオマニア",
+      "score": 8.29
     },
     {
       "titleEn": "Kids on the Slope",
@@ -1663,29 +1683,14 @@ const data: Data = {
       "titleEn": "From the New World",
       "titleJa": "新世界より",
       "score": 8.25
-    },
-    {
-      "titleEn": "Daily Lives of High School Boys",
-      "titleJa": "男子高校生の日常",
-      "score": 8.23
-    },
-    {
-      "titleEn": "Nisemonogatari",
-      "titleJa": "偽物語",
-      "score": 8.13
-    },
-    {
-      "titleEn": "Kamisama Kiss",
-      "titleJa": "神様はじめました",
-      "score": 8.12
-    },
-    {
-      "titleEn": "Initial D Fifth Stage",
-      "titleJa": "頭文字 D Fifth Stage",
-      "score": 8.11
     }
   ],
   "2013": [
+    {
+      "titleEn": "Gintama: The Movie: The Final Chapter: Be Forever Yorozuya",
+      "titleJa": "劇場版 銀魂 完結篇 万事屋よ永遠なれ",
+      "score": 8.9
+    },
     {
       "titleEn": "Monogatari Series: Second Season",
       "titleJa": "〈物語〉シリーズ セカンドシーズン",
@@ -1702,14 +1707,29 @@ const data: Data = {
       "score": 8.56
     },
     {
+      "titleEn": "Puella Magi Madoka Magica the Movie: Rebellion",
+      "titleJa": "劇場版 魔法少女まどか☆マギカ 叛逆の物語",
+      "score": 8.49
+    },
+    {
+      "titleEn": "Steins;Gate: The Movie - Load Region of Déjà Vu",
+      "titleJa": "劇場版 シュタインズゲート 負荷領域のデジャヴ",
+      "score": 8.45
+    },
+    {
       "titleEn": "Chihayafuru 2",
       "titleJa": "ちはやふる 2",
       "score": 8.37
     },
     {
-      "titleEn": "Kingdom: Season 2",
-      "titleJa": "キングダム 第2シリーズ",
-      "score": 8.3
+      "titleEn": "Berserk: The Golden Age Arc III - The Advent",
+      "titleJa": "ベルセルク 黄金時代篇Ⅲ 降臨",
+      "score": 8.21
+    },
+    {
+      "titleEn": "The Tale of the Princess Kaguya",
+      "titleJa": "かぐや姫の物語",
+      "score": 8.21
     },
     {
       "titleEn": "Kuroko's Basketball 2",
@@ -1722,29 +1742,9 @@ const data: Data = {
       "score": 8.2
     },
     {
-      "titleEn": "Little Busters! ~Refrain~",
-      "titleJa": "リトルバスターズ！～Refrain～",
-      "score": 8.17
-    },
-    {
-      "titleEn": "Ace of Diamond",
-      "titleJa": "ダイヤのA[エース]",
-      "score": 8.11
-    },
-    {
-      "titleEn": "Silver Spoon",
-      "titleJa": "銀の匙",
-      "score": 8.09
-    },
-    {
-      "titleEn": "Kill la Kill",
-      "titleJa": "キルラキル",
-      "score": 8.03
-    },
-    {
-      "titleEn": "My Teen Romantic Comedy SNAFU",
-      "titleJa": "やはり俺の青春ラブコメはまちがっている。",
-      "score": 8
+      "titleEn": "The Wind Rises",
+      "titleJa": "風立ちぬ",
+      "score": 8.13
     }
   ],
   "2014": [
@@ -1769,9 +1769,19 @@ const data: Data = {
       "score": 8.62
     },
     {
+      "titleEn": "Mushi-shi: The Shadow that Devours the Sun",
+      "titleJa": "蟲師 特別篇「日蝕む翳」",
+      "score": 8.52
+    },
+    {
       "titleEn": "Haikyu!!",
       "titleJa": "ハイキュー!!",
       "score": 8.44
+    },
+    {
+      "titleEn": "Attack on Titan: No Regrets",
+      "titleJa": "進撃の巨人 悔いなき選択",
+      "score": 8.41
     },
     {
       "titleEn": "Barakamon",
@@ -1797,16 +1807,6 @@ const data: Data = {
       "titleEn": "Space Dandy 2nd Season",
       "titleJa": "スペース☆ダンディ 第2シリーズ",
       "score": 8.26
-    },
-    {
-      "titleEn": "Fate/stay night [Unlimited Blade Works]",
-      "titleJa": "Fate/stay night [Unlimited Blade Works]",
-      "score": 8.18
-    },
-    {
-      "titleEn": "JoJo's Bizarre Adventure: Stardust Crusaders",
-      "titleJa": "ジョジョの奇妙な冒険 スターダストクルセイダース",
-      "score": 8.11
     }
   ],
   "2015": [
@@ -1851,31 +1851,46 @@ const data: Data = {
       "score": 8.29
     },
     {
+      "titleEn": "Steins;Gate: Open the Missing Link - Divide By Zero",
+      "titleJa": "シュタインズ・ゲート境界面上のミッシングリンク-Divide By Zero-",
+      "score": 8.26
+    },
+    {
       "titleEn": "Kamisama Kiss Season 2",
       "titleJa": "神様はじめました◎",
+      "score": 8.23
+    },
+    {
+      "titleEn": "The Boy and the Beast",
+      "titleJa": "バケモノの子",
       "score": 8.23
     },
     {
       "titleEn": "My Teen Romantic Comedy SNAFU TOO!",
       "titleJa": "やはり俺の青春ラブコメはまちがっている。続",
       "score": 8.2
-    },
-    {
-      "titleEn": "Non Non Biyori Repeat",
-      "titleJa": "のんのんびより りぴーと",
-      "score": 8.18
-    },
-    {
-      "titleEn": "Noragami Aragoto",
-      "titleJa": "ノラガミ ARAGOTO",
-      "score": 8.14
     }
   ],
   "2016": [
     {
+      "titleEn": "A Silent Voice",
+      "titleJa": "聲の形",
+      "score": 8.93
+    },
+    {
+      "titleEn": "Your Name.",
+      "titleJa": "君の名は。",
+      "score": 8.83
+    },
+    {
       "titleEn": "Haikyu!! 3rd Season",
       "titleJa": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校",
       "score": 8.77
+    },
+    {
+      "titleEn": "Kizumonogatari Part 2: Hot-Blooded",
+      "titleJa": "傷物語〈Ⅱ熱血篇〉",
+      "score": 8.56
     },
     {
       "titleEn": "Natsume's Book of Friends Season 5",
@@ -1913,24 +1928,9 @@ const data: Data = {
       "score": 8.37
     },
     {
-      "titleEn": "Sound! Euphonium 2",
-      "titleJa": "響け！ユーフォニアム2",
-      "score": 8.33
-    },
-    {
-      "titleEn": "Erased",
-      "titleJa": "僕だけがいない街",
-      "score": 8.3
-    },
-    {
-      "titleEn": "Re:ZERO -Starting Life in Another World-",
-      "titleJa": "Re:ゼロから始める異世界生活",
-      "score": 8.24
-    },
-    {
-      "titleEn": "Mobile Suit Gundam: Iron-Blooded Orphans 2nd Season",
-      "titleJa": "機動戦士ガンダム 鉄血のオルフェンズ 第2期",
-      "score": 8.23
+      "titleEn": "Kizumonogatari Part 1: Iron-Blooded",
+      "titleJa": "傷物語〈Ⅰ鉄血篇〉",
+      "score": 8.36
     }
   ],
   "2017": [
@@ -1943,6 +1943,16 @@ const data: Data = {
       "titleEn": "March Comes In Like a Lion 2nd Season",
       "titleJa": "3月のライオン 第2シリーズ",
       "score": 8.9
+    },
+    {
+      "titleEn": "Owarimonogatari Second Season",
+      "titleJa": "終物語",
+      "score": 8.86
+    },
+    {
+      "titleEn": "Kizumonogatari Part 3: Cold-Blooded",
+      "titleJa": "傷物語〈Ⅲ冷血篇〉",
+      "score": 8.78
     },
     {
       "titleEn": "Descending Stories: Showa Genroku Rakugo Shinju",
@@ -1980,19 +1990,9 @@ const data: Data = {
       "score": 8.25
     },
     {
-      "titleEn": "Girls' Last Tour",
-      "titleJa": "少女終末旅行",
-      "score": 8.23
-    },
-    {
-      "titleEn": "Welcome to the Ballroom",
-      "titleJa": "ボールルームへようこそ",
-      "score": 8.18
-    },
-    {
-      "titleEn": "Black Clover",
-      "titleJa": "ブラッククローバー",
-      "score": 8.14
+      "titleEn": "Black Butler: Book of the Atlantic",
+      "titleJa": "劇場版 黒執事 Book of the Atlantic",
+      "score": 8.24
     }
   ],
   "2018": [
@@ -2022,6 +2022,11 @@ const data: Data = {
       "score": 8.58
     },
     {
+      "titleEn": "I Want To Eat Your Pancreas",
+      "titleJa": "君の膵臓をたべたい",
+      "score": 8.55
+    },
+    {
       "titleEn": "Steins;Gate 0",
       "titleJa": "シュタインズ・ゲート ゼロ",
       "score": 8.54
@@ -2030,6 +2035,11 @@ const data: Data = {
       "titleEn": "A Place Further Than The Universe",
       "titleJa": "宇宙よりも遠い場所",
       "score": 8.51
+    },
+    {
+      "titleEn": "The Master of Diabolism",
+      "titleJa": "魔道祖师",
+      "score": 8.46
     },
     {
       "titleEn": "Banana Fish",
@@ -2045,16 +2055,6 @@ const data: Data = {
       "titleEn": "The Disastrous Life of Saiki K. 2",
       "titleJa": "斉木楠雄のΨ難 2",
       "score": 8.41
-    },
-    {
-      "titleEn": "Run with the Wind",
-      "titleJa": "風が強く吹いている",
-      "score": 8.38
-    },
-    {
-      "titleEn": "Laid-Back Camp",
-      "titleJa": "ゆるキャン△",
-      "score": 8.27
     }
   ],
   "2019": [
@@ -2074,14 +2074,19 @@ const data: Data = {
       "score": 8.77
     },
     {
+      "titleEn": "Rascal Does Not Dream of a Dreaming Girl",
+      "titleJa": "青春ブタ野郎はゆめみる少女の夢を見ない",
+      "score": 8.59
+    },
+    {
       "titleEn": "The Promised Neverland",
       "titleJa": "約束のネバーランド",
       "score": 8.48
     },
     {
-      "titleEn": "Chihayafuru 3",
-      "titleJa": "ちはやふる 3",
-      "score": 8.46
+      "titleEn": "Fate/stay night: Heaven's Feel - II. Lost Butterfly",
+      "titleJa": "劇場版「Fate/stay night [Heaven's Feel] II.lost butterfly」",
+      "score": 8.47
     },
     {
       "titleEn": "Demon Slayer: Kimetsu no Yaiba",
@@ -2094,41 +2099,56 @@ const data: Data = {
       "score": 8.43
     },
     {
+      "titleEn": "Violet Evergarden: Eternity and the Auto Memory Doll",
+      "titleJa": "ヴァイオレット・エヴァーガーデン 外伝 -永遠と自動手記人形-",
+      "score": 8.42
+    },
+    {
       "titleEn": "Kono Oto Tomare!: Sounds of Life Season 2",
       "titleJa": "この音とまれ！",
       "score": 8.42
     },
     {
-      "titleEn": "Kaguya-sama: Love is War",
-      "titleJa": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
-      "score": 8.4
+      "titleEn": "KonoSuba: God's Blessing on This Wonderful World! - Legend of Crimson",
+      "titleJa": "映画 この素晴らしい世界に祝福を！紅伝説",
+      "score": 8.41
     },
     {
-      "titleEn": "Given",
-      "titleJa": "ギヴン",
-      "score": 8.3
-    },
-    {
-      "titleEn": "Ace of Diamond Act II",
-      "titleJa": "ダイヤのA[エース] actII",
-      "score": 8.27
-    },
-    {
-      "titleEn": "Dr. Stone",
-      "titleJa": "ドクターストーン",
-      "score": 8.26
+      "titleEn": "Saekano the Movie: Finale",
+      "titleJa": "冴えない彼女の育てかた Fine",
+      "score": 8.41
     }
   ],
   "2020": [
+    {
+      "titleEn": "Violet Evergarden: The Movie",
+      "titleJa": "劇場版 ヴァイオレット・エヴァーガーデン",
+      "score": 8.84
+    },
     {
       "titleEn": "Kingdom: Season 3",
       "titleJa": "キングダム 第3シリーズ",
       "score": 8.83
     },
     {
+      "titleEn": "Fate/stay night: Heaven's Feel - III. Spring Song",
+      "titleJa": "劇場版「Fate/stay night [Heaven's Feel] III.spring song」",
+      "score": 8.64
+    },
+    {
       "titleEn": "Kaguya-sama: Love is War?",
       "titleJa": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
       "score": 8.62
+    },
+    {
+      "titleEn": "Made in Abyss: Dawn of the Deep Soul",
+      "titleJa": "劇場版メイドインアビス 深き魂の黎明",
+      "score": 8.61
+    },
+    {
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+      "titleJa": "劇場版 鬼滅の刃 無限列車編",
+      "score": 8.56
     },
     {
       "titleEn": "Jujutsu Kaisen",
@@ -2151,37 +2171,22 @@ const data: Data = {
       "score": 8.43
     },
     {
-      "titleEn": "Haikyu!! To the Top",
-      "titleJa": "ハイキュー!! TO THE TOP",
-      "score": 8.37
+      "titleEn": "Heaven Official's Blessing",
+      "titleJa": "天官賜福",
+      "score": 8.41
     },
     {
-      "titleEn": "My Teen Romantic Comedy SNAFU Climax!",
-      "titleJa": "やはり俺の青春ラブコメはまちがっている。完",
-      "score": 8.35
-    },
-    {
-      "titleEn": "Re:ZERO -Starting Life in Another World- Season 2",
-      "titleJa": "Re：ゼロから始める異世界生活",
-      "score": 8.33
-    },
-    {
-      "titleEn": "Great Pretender",
-      "titleJa": "GREAT PRETENDER",
-      "score": 8.2
-    },
-    {
-      "titleEn": "Moriarty the Patriot",
-      "titleJa": "憂国のモリアーティ",
-      "score": 8.17
-    },
-    {
-      "titleEn": "A Certain Scientific Railgun T",
-      "titleJa": "とある科学の超電磁砲[レールガン]T",
-      "score": 8.14
+      "titleEn": "Josee, the Tiger and the Fish",
+      "titleJa": "ジョゼと虎と魚たち",
+      "score": 8.38
     }
   ],
   "2021": [
+    {
+      "titleEn": "Gintama: The Very Final",
+      "titleJa": "銀魂 THE FINAL",
+      "score": 9.04
+    },
     {
       "titleEn": "Fruits Basket: The Final Season",
       "titleJa": "フルーツバスケット The Final",
@@ -2191,6 +2196,11 @@ const data: Data = {
       "titleEn": "Attack on Titan: Final Season",
       "titleJa": "進撃の巨人 The Final Season",
       "score": 8.78
+    },
+    {
+      "titleEn": "Link Click",
+      "titleJa": "時光代理人",
+      "score": 8.72
     },
     {
       "titleEn": "86 Eighty-Six Part 2",
@@ -2208,6 +2218,11 @@ const data: Data = {
       "score": 8.63
     },
     {
+      "titleEn": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+      "titleJa": "シン・エヴァンゲリオン劇場版𝄇",
+      "score": 8.58
+    },
+    {
       "titleEn": "Laid-Back Camp Season 2",
       "titleJa": "ゆるキャン△ SEASON2",
       "score": 8.5
@@ -2223,24 +2238,9 @@ const data: Data = {
       "score": 8.42
     },
     {
-      "titleEn": "Vivy -Fluorite Eye's Song-",
-      "titleJa": "Vivy -Fluorite Eye's Song- (ヴィヴィ -フローライトアイズソング-)",
-      "score": 8.38
-    },
-    {
-      "titleEn": "Non Non Biyori Nonstop",
-      "titleJa": "のんのんびより のんすとっぷ",
-      "score": 8.36
-    },
-    {
-      "titleEn": "Mushoku Tensei: Jobless Reincarnation",
-      "titleJa": "無職転生 ～異世界行ったら本気だす～",
-      "score": 8.35
-    },
-    {
-      "titleEn": "That Time I Got Reincarnated as a Slime Season 2",
-      "titleJa": "転生したらスライムだった件",
-      "score": 8.35
+      "titleEn": "Jujutsu Kaisen 0",
+      "titleJa": "劇場版 呪術廻戦 0",
+      "score": 8.4
     }
   ],
   "2022": [
@@ -2265,8 +2265,8 @@ const data: Data = {
       "score": 8.75
     },
     {
-      "titleEn": "Kingdom: Season 4",
-      "titleJa": "キングダム 第4シリーズ",
+      "titleEn": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+      "titleJa": "かぐや様は告らせたい -ファーストキッスは終わらない-",
       "score": 8.73
     },
     {
@@ -2280,9 +2280,19 @@ const data: Data = {
       "score": 8.71
     },
     {
+      "titleEn": "Cyberpunk: Edgerunners",
+      "titleJa": "サイバーパンク エッジランナーズ",
+      "score": 8.61
+    },
+    {
       "titleEn": "Made in Abyss: The Golden City of the Scorching Sun",
       "titleJa": "メイドインアビス 烈日の黄金郷",
       "score": 8.61
+    },
+    {
+      "titleEn": "JoJo's Bizarre Adventure: Stone Ocean Part 3",
+      "titleJa": "ジョジョの奇妙な冒険 ストーンオーシャン",
+      "score": 8.52
     },
     {
       "titleEn": "Summer Time Rendering",
@@ -2293,16 +2303,6 @@ const data: Data = {
       "titleEn": "Spy x Family",
       "titleJa": "SPY×FAMILY",
       "score": 8.46
-    },
-    {
-      "titleEn": "Chainsaw Man",
-      "titleJa": "チェンソーマン",
-      "score": 8.45
-    },
-    {
-      "titleEn": "Teasing Master Takagi-san 3",
-      "titleJa": "からかい上手の高木さん3",
-      "score": 8.38
     }
   ],
   "2023": [
@@ -2315,6 +2315,11 @@ const data: Data = {
       "titleEn": "The Apothecary Diaries",
       "titleJa": "薬屋のひとりごと",
       "score": 8.87
+    },
+    {
+      "titleEn": "Attack on Titan: Final Season - The Final Chapters",
+      "titleJa": "進撃の巨人 The Final Season完結編",
+      "score": 8.86
     },
     {
       "titleEn": "Vinland Saga Season 2",
@@ -2332,6 +2337,11 @@ const data: Data = {
       "score": 8.7
     },
     {
+      "titleEn": "Link Click Season 2",
+      "titleJa": "时光代理人 第二季",
+      "score": 8.65
+    },
+    {
       "titleEn": "Bungo Stray Dogs 5",
       "titleJa": "文豪ストレイドッグス",
       "score": 8.62
@@ -2342,32 +2352,27 @@ const data: Data = {
       "score": 8.57
     },
     {
+      "titleEn": "Pluto",
+      "titleJa": "プルートウ",
+      "score": 8.45
+    },
+    {
       "titleEn": "Bungo Stray Dogs 4",
       "titleJa": "文豪ストレイドッグス",
       "score": 8.43
     },
     {
-      "titleEn": "Dr. Stone: New World Part 2",
-      "titleJa": "Dr.STONE NEW WORLD",
-      "score": 8.32
-    },
-    {
-      "titleEn": "The Eminence in Shadow Season 2",
-      "titleJa": "陰の実力者になりたくて！ 2nd Season",
-      "score": 8.29
-    },
-    {
-      "titleEn": "Is It Wrong to Try to Pick Up Girls in a Dungeon? IV Part 2",
-      "titleJa": "ダンジョンに出会いを求めるのは間違っているだろうかⅣ深章 厄災篇",
-      "score": 8.25
-    },
-    {
-      "titleEn": "The Dangers in My Heart",
-      "titleJa": "僕の心のヤバイやつ",
-      "score": 8.23
+      "titleEn": "Rascal Does Not Dream of a Knapsack Kid",
+      "titleJa": "青春ブタ野郎はランドセルガールの夢を見ない",
+      "score": 8.33
     }
   ],
   "2024": [
+    {
+      "titleEn": "One Piece Fan Letter",
+      "titleJa": "ONE PIECE FAN LETTER",
+      "score": 9.04
+    },
     {
       "titleEn": "The Dangers in My Heart Season 2",
       "titleJa": "僕の心のヤバイやつ 第2期",
@@ -2379,9 +2384,24 @@ const data: Data = {
       "score": 8.71
     },
     {
+      "titleEn": "Monogatari Series: Off & Monster Season",
+      "titleJa": "〈物語〉シリーズ オフ&モンスターシーズン",
+      "score": 8.67
+    },
+    {
       "titleEn": "Bleach: Thousand-Year Blood War - The Conflict",
       "titleJa": "BLEACH 千年血戦篇-相剋譚-",
       "score": 8.67
+    },
+    {
+      "titleEn": "Look Back",
+      "titleJa": "ルックバック",
+      "score": 8.64
+    },
+    {
+      "titleEn": "Haikyu!! Movie: The Dumpster Battle",
+      "titleJa": "劇場版ハイキュー!! ゴミ捨て場の決戦",
+      "score": 8.61
     },
     {
       "titleEn": "Delicious in Dungeon",
@@ -2399,34 +2419,14 @@ const data: Data = {
       "score": 8.5
     },
     {
+      "titleEn": "Kimi ni Todoke: From Me to You Season 3",
+      "titleJa": "君に届け3RD SEASON",
+      "score": 8.47
+    },
+    {
       "titleEn": "Re:ZERO -Starting Life in Another World- Season 3",
       "titleJa": "Re:ゼロから始める異世界生活 3rd season",
       "score": 8.46
-    },
-    {
-      "titleEn": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
-      "titleJa": "無職転生 II ～異世界行ったら本気だす～ (第2クール)",
-      "score": 8.42
-    },
-    {
-      "titleEn": "Girls Band Cry",
-      "titleJa": "ガールズバンドクライ",
-      "score": 8.38
-    },
-    {
-      "titleEn": "KonoSuba: God's Blessing on This Wonderful World! 3",
-      "titleJa": "この素晴らしい世界に祝福を！3",
-      "score": 8.35
-    },
-    {
-      "titleEn": "Kaiju No. 8",
-      "titleJa": "怪獣8号",
-      "score": 8.28
-    },
-    {
-      "titleEn": "Shangri-La Frontier Season 2",
-      "titleJa": "シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～ 2nd season",
-      "score": 8.28
     }
   ]
 }

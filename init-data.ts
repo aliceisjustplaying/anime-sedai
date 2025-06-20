@@ -10,7 +10,7 @@ const years = Array.from({ length: 2024 - 1986 + 1 }, (_, i) => 1986 + i)
 type AnimeItem = {
   titleEn: string
   titleJa: string
-  popularity: number
+  score: number
 }
 
 const result: Record<string, AnimeItem[]> = {}
@@ -48,12 +48,12 @@ for (const year of years) {
       }
     }
     
-    // Sort by popularity and get top 12
+    // Sort by score and get top 12
     const items: AnimeItem[] = []
     
     const sortedAnime = yearAnime
-      .filter(anime => anime.popularity && anime.popularity > 0)
-      .sort((a, b) => (a.popularity || 0) - (b.popularity || 0))
+      .filter(anime => anime.score && anime.score > 0)
+      .sort((a, b) => (b.score || 0) - (a.score || 0))
       .slice(0, 12)
     
     for (const anime of sortedAnime) {
@@ -64,7 +64,7 @@ for (const year of years) {
       items.push({
         titleEn: englishTitle,
         titleJa: japaneseTitle,
-        popularity: anime.popularity || 0
+        score: anime.score || 0
       })
     }
     
@@ -86,7 +86,7 @@ let tsContent = `import type { Language } from "./src/i18n"
 type AnimeItem = {
   titleEn: string
   titleJa: string
-  popularity: number
+  score: number
 }
 
 type Data = {

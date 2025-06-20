@@ -22,7 +22,7 @@ export const translations = {
     promptZako: "Zako❤",
     copy: "Copy",
     openInChatWise: "Open in ChatWise (installation required)",
-    footer: "Most watched anime by year, data from MyAnimeList, made by ",
+    footer: "Highest rated anime by year, data from MyAnimeList, made by ",
     madeBy: ", ",
     viewCode: "View Code",
     otherProducts: "Other products by the author: ",

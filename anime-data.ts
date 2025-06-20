@@ -3,7 +3,7 @@ import type { Language } from "./src/i18n"
 type AnimeItem = {
   titleEn: string
   titleJa: string
-  popularity: number
+  score: number
 }
 
 type Data = {
@@ -13,2420 +13,2420 @@ type Data = {
 const data: Data = {
   "1986": [
     {
-      "titleEn": "Dragon Ball",
-      "titleJa": "ドラゴンボール",
-      "popularity": 150
-    },
-    {
       "titleEn": "Castle in the Sky",
       "titleJa": "天空の城ラピュタ",
-      "popularity": 464
-    },
-    {
-      "titleEn": "Saint Seiya: Knights of the Zodiac",
-      "titleJa": "聖闘士星矢(セイントセイヤ)",
-      "popularity": 1319
+      "score": 8.26
     },
     {
       "titleEn": "Maison Ikkoku",
       "titleJa": "めぞん一刻",
-      "popularity": 2618
-    },
-    {
-      "titleEn": "Dragon Ball: Curse of the Blood Rubies",
-      "titleJa": "ドラゴンボール 神龍の伝説",
-      "popularity": 2765
-    },
-    {
-      "titleEn": "Mobile Suit Gundam ZZ",
-      "titleJa": "機動戦士ガンダムZZ",
-      "popularity": 3463
+      "score": 8.19
     },
     {
       "titleEn": "Silver Fang",
       "titleJa": "銀牙　流れ星銀",
-      "popularity": 4465
+      "score": 8.02
     },
     {
-      "titleEn": "Project A-Ko",
-      "titleJa": "プロジェクトＡ子",
-      "popularity": 4886
+      "titleEn": "Dragon Ball",
+      "titleJa": "ドラゴンボール",
+      "score": 7.98
     },
     {
-      "titleEn": "Fist of the North Star: The Movie",
-      "titleJa": "北斗の拳",
-      "popularity": 4949
+      "titleEn": "Saint Seiya: Knights of the Zodiac",
+      "titleJa": "聖闘士星矢(セイントセイヤ)",
+      "score": 7.76
     },
     {
-      "titleEn": "M.D. Geist",
-      "titleJa": "装鬼兵ＭＤガイスト",
-      "popularity": 5401
+      "titleEn": "Doraemon the Movie: Nobita and the Steel Troops",
+      "titleJa": "映画 ドラえもん のび太と鉄人兵団",
+      "score": 7.65
+    },
+    {
+      "titleEn": "Shounan Bakusouzoku",
+      "titleJa": "湘南爆走族",
+      "score": 7.58
+    },
+    {
+      "titleEn": "The Adventures of Scamper the Penguin",
+      "titleJa": "小さなペンギンロロの冒険",
+      "score": 7.38
     },
     {
       "titleEn": "Barefoot Gen 2",
       "titleJa": "はだしのゲン　２",
-      "popularity": 5836
+      "score": 7.35
     },
     {
-      "titleEn": "Violence Jack: Slumking",
-      "titleJa": "バイオレンス ジャック 〜ハーレム・ボンバー編〜",
-      "popularity": 5860
+      "titleEn": "Fist of the North Star: The Movie",
+      "titleJa": "北斗の拳",
+      "score": 7.21
+    },
+    {
+      "titleEn": "Once Upon a Time... Life",
+      "titleJa": "生命の科学ミクロパトロール",
+      "score": 7.18
+    },
+    {
+      "titleEn": "Bosco Adventure",
+      "titleJa": "ボスコアドベンチャー",
+      "score": 7.01
     }
   ],
   "1987": [
     {
       "titleEn": "City Hunter",
       "titleJa": "シティーハンター",
-      "popularity": 2457
-    },
-    {
-      "titleEn": "Dragon Ball: Sleeping Princess in Devil's Castle",
-      "titleJa": "ドラゴンボール 魔神城のねむり姫",
-      "popularity": 2830
-    },
-    {
-      "titleEn": "Wicked City",
-      "titleJa": "妖獣都市",
-      "popularity": 3013
-    },
-    {
-      "titleEn": "Bubblegum Crisis",
-      "titleJa": "バブルガムクライシス",
-      "popularity": 3050
-    },
-    {
-      "titleEn": "Kimagure Orange Road",
-      "titleJa": "きまぐれオレンジ☆ロード",
-      "popularity": 3323
-    },
-    {
-      "titleEn": "Royal Space Force: The Wings of Honneamise",
-      "titleJa": "王立宇宙軍 オネアミスの翼",
-      "popularity": 3404
-    },
-    {
-      "titleEn": "Neo Tokyo",
-      "titleJa": "Manie-Manie 迷宮物語",
-      "popularity": 3972
-    },
-    {
-      "titleEn": "Devilman: The Birth",
-      "titleJa": "デビルマン 誕生編",
-      "popularity": 4136
+      "score": 7.91
     },
     {
       "titleEn": "Fist of the North Star 2",
       "titleJa": "北斗の拳2",
-      "popularity": 4187
+      "score": 7.57
+    },
+    {
+      "titleEn": "Kimagure Orange Road",
+      "titleJa": "きまぐれオレンジ☆ロード",
+      "score": 7.51
+    },
+    {
+      "titleEn": "Royal Space Force: The Wings of Honneamise",
+      "titleJa": "王立宇宙軍 オネアミスの翼",
+      "score": 7.45
+    },
+    {
+      "titleEn": "Lady Lady!!",
+      "titleJa": "レディレディ！！",
+      "score": 7.45
+    },
+    {
+      "titleEn": "Grimm's Fairy Tale Classics",
+      "titleJa": "グリム名作劇場",
+      "score": 7.41
+    },
+    {
+      "titleEn": "Tales of Little Women",
+      "titleJa": "愛の若草物語",
+      "score": 7.39
+    },
+    {
+      "titleEn": "Bubblegum Crisis",
+      "titleJa": "バブルガムクライシス",
+      "score": 7.29
+    },
+    {
+      "titleEn": "Lupin III: The Fuma Conspiracy",
+      "titleJa": "ルパン三世　風魔一族の陰謀",
+      "score": 7.27
     },
     {
       "titleEn": "Robot Carnival",
       "titleJa": "ロボット・カーニバル",
-      "popularity": 4440
+      "score": 7.21
     },
     {
-      "titleEn": "Saint Seiya: Evil Goddess Eris",
-      "titleJa": "聖闘士星矢 邪神エリス",
-      "popularity": 5163
+      "titleEn": "Devilman: The Birth",
+      "titleJa": "デビルマン 誕生編",
+      "score": 7.17
     },
     {
-      "titleEn": "Black Magic M-66",
-      "titleJa": "ブラックマジックＭ（マリオ）－６６",
-      "popularity": 5237
+      "titleEn": "Dirty Pair OVA",
+      "titleJa": "ダーティペア (1987)",
+      "score": 7.11
     }
   ],
   "1988": [
     {
-      "titleEn": "My Neighbor Totoro",
-      "titleJa": "となりのトトロ",
-      "popularity": 144
-    },
-    {
-      "titleEn": "Akira",
-      "titleJa": "AKIRA（アキラ）",
-      "popularity": 209
+      "titleEn": "Legend of the Galactic Heroes",
+      "titleJa": "銀河英雄伝説",
+      "score": 9.01
     },
     {
       "titleEn": "Grave of the Fireflies",
       "titleJa": "火垂るの墓",
-      "popularity": 300
+      "score": 8.53
     },
     {
-      "titleEn": "Legend of the Galactic Heroes",
-      "titleJa": "銀河英雄伝説",
-      "popularity": 754
+      "titleEn": "My Neighbor Totoro",
+      "titleJa": "となりのトトロ",
+      "score": 8.25
     },
     {
-      "titleEn": "Gunbuster",
-      "titleJa": "トップをねらえ！ GunBuster",
-      "popularity": 1772
-    },
-    {
-      "titleEn": "Dragon Ball: Mystical Adventure",
-      "titleJa": "ドラゴンボール 摩訶不思議大冒険",
-      "popularity": 3019
-    },
-    {
-      "titleEn": "Mobile Suit Gundam: Char's Counterattack",
-      "titleJa": "機動戦士ガンダム 逆襲のシャア",
-      "popularity": 3201
-    },
-    {
-      "titleEn": "Legend of the Galactic Heroes: My Conquest is the Sea of Stars",
-      "titleJa": "銀河英雄伝説: わが征くは星の大海",
-      "popularity": 3697
-    },
-    {
-      "titleEn": "Patlabor: The Mobile Police",
-      "titleJa": "機動警察パトレイバー",
-      "popularity": 3742
-    },
-    {
-      "titleEn": "Appleseed",
-      "titleJa": "アップル・シード",
-      "popularity": 4164
-    },
-    {
-      "titleEn": "Dragon Ball Specials",
-      "titleJa": "ドラゴンボール",
-      "popularity": 4190
+      "titleEn": "Akira",
+      "titleJa": "AKIRA（アキラ）",
+      "score": 8.16
     },
     {
       "titleEn": "City Hunter 2",
       "titleJa": "シティーハンター2",
-      "popularity": 4377
+      "score": 8.07
+    },
+    {
+      "titleEn": "Legend of the Galactic Heroes: My Conquest is the Sea of Stars",
+      "titleJa": "銀河英雄伝説: わが征くは星の大海",
+      "score": 7.86
+    },
+    {
+      "titleEn": "Gunbuster",
+      "titleJa": "トップをねらえ！ GunBuster",
+      "score": 7.85
+    },
+    {
+      "titleEn": "Mobile Suit Gundam: Char's Counterattack",
+      "titleJa": "機動戦士ガンダム 逆襲のシャア",
+      "score": 7.68
+    },
+    {
+      "titleEn": "Kimagure Orange Road: I Want to Return to That Day",
+      "titleJa": "きまぐれオレンジ★ロード　あの日にかえりたい",
+      "score": 7.62
+    },
+    {
+      "titleEn": "Hello! Lady Lynn",
+      "titleJa": "ハロー! レディリン",
+      "score": 7.53
+    },
+    {
+      "titleEn": "Urusei Yatsura Movie 5: The Final Chapter",
+      "titleJa": "うる星やつら 完結篇",
+      "score": 7.46
+    },
+    {
+      "titleEn": "Charge!! Men's Private School",
+      "titleJa": "魁!!男塾",
+      "score": 7.42
     }
   ],
   "1989": [
     {
-      "titleEn": "Dragon Ball Z",
-      "titleJa": "ドラゴンボールZ",
-      "popularity": 114
-    },
-    {
       "titleEn": "Kiki's Delivery Service",
       "titleJa": "魔女の宅急便",
-      "popularity": 372
+      "score": 8.23
     },
     {
-      "titleEn": "Ranma ½",
-      "titleJa": "らんま1/2",
-      "popularity": 961
-    },
-    {
-      "titleEn": "Dragon Ball Z: Dead Zone",
-      "titleJa": "ドラゴンボールZ オラの悟飯をかえせッ!!",
-      "popularity": 1864
+      "titleEn": "Dragon Ball Z",
+      "titleJa": "ドラゴンボールZ",
+      "score": 8.2
     },
     {
       "titleEn": "Mobile Suit Gundam 0080: War in the Pocket",
       "titleJa": "機動戦士ガンダム 0080 ポケットの中の戦争",
-      "popularity": 2909
-    },
-    {
-      "titleEn": "Patlabor: The Movie",
-      "titleJa": "機動警察パトレイバー the Movie",
-      "popularity": 3294
-    },
-    {
-      "titleEn": "Patlabor: The Mobile Police - The TV Series",
-      "titleJa": "機動警察パトレイバー ON TELEVISION",
-      "popularity": 3658
+      "score": 7.99
     },
     {
       "titleEn": "City Hunter 3",
       "titleJa": "シティーハンター3",
-      "popularity": 4035
+      "score": 7.8
     },
     {
-      "titleEn": "Angel Cop",
-      "titleJa": "エンゼルコップ",
-      "popularity": 4728
+      "titleEn": "Ranma ½",
+      "titleJa": "らんま1/2",
+      "score": 7.77
     },
     {
-      "titleEn": "Riding Bean",
-      "titleJa": "ライディング・ビーン",
-      "popularity": 4731
+      "titleEn": "Patlabor: The Mobile Police - The TV Series",
+      "titleJa": "機動警察パトレイバー ON TELEVISION",
+      "score": 7.69
+    },
+    {
+      "titleEn": "Patlabor: The Movie",
+      "titleJa": "機動警察パトレイバー the Movie",
+      "score": 7.56
     },
     {
       "titleEn": "Yawara!",
       "titleJa": "YAWARA!",
-      "popularity": 4854
+      "score": 7.48
     },
     {
-      "titleEn": "Baoh the Visitor",
-      "titleJa": "バオー来訪者",
-      "popularity": 5079
+      "titleEn": "City Hunter: .357 Magnum",
+      "titleJa": "シティーハンター 愛と宿命のマグナム",
+      "score": 7.38
+    },
+    {
+      "titleEn": "Alfred J. Kwak",
+      "titleJa": "小さなアヒルの大きな愛の物語 あひるのクワック",
+      "score": 7.37
+    },
+    {
+      "titleEn": "Kimagure Orange Road OVA",
+      "titleJa": "きまぐれオレンジ☆ロード",
+      "score": 7.35
+    },
+    {
+      "titleEn": "Time Quest",
+      "titleJa": "たいむとらぶる トンデケマン!",
+      "score": 7.35
     }
   ],
   "1990": [
     {
-      "titleEn": "Dragon Ball Z: The Tree of Might",
-      "titleJa": "ドラゴンボールZ 地球まるごと超決戦",
-      "popularity": 1711
-    },
-    {
-      "titleEn": "Dragon Ball Z: The World's Strongest",
-      "titleJa": "ドラゴンボールZ この世で一番強いヤツ",
-      "popularity": 2001
-    },
-    {
-      "titleEn": "Dragon Ball Z: Bardock, The Father of Goku",
-      "titleJa": "DRAGON BALL Z スペシャル たったひとりの最終決戦~フリーザに挑んだZ戦士孫悟空の父~",
-      "popularity": 2099
-    },
-    {
-      "titleEn": "Record of Lodoss War",
-      "titleJa": "ロードス島戦記",
-      "popularity": 2463
-    },
-    {
-      "titleEn": "Nadia: The Secret of Blue Water",
-      "titleJa": "ふしぎの海のナディア",
-      "popularity": 2695
-    },
-    {
-      "titleEn": "Cyber City",
-      "titleJa": "CYBER CITY OEDO 808 (サイバーシティ オーエド ハチマルハチ)",
-      "popularity": 4079
-    },
-    {
       "titleEn": "Moomin",
       "titleJa": "楽しいムーミン一家",
-      "popularity": 4292
-    },
-    {
-      "titleEn": "Devilman: The Demon Bird",
-      "titleJa": "デビルマン 妖鳥シレーヌ編",
-      "popularity": 4729
-    },
-    {
-      "titleEn": "A Wind Named Amnesia",
-      "titleJa": "風の名はアムネジア",
-      "popularity": 5007
-    },
-    {
-      "titleEn": "AD Police Files",
-      "titleJa": "ADポリス",
-      "popularity": 5150
+      "score": 8.27
     },
     {
       "titleEn": "My Daddy Long Legs",
       "titleJa": "私のあしながおじさん",
-      "popularity": 5342
+      "score": 7.7
     },
     {
-      "titleEn": "Samurai Pizza Cats",
-      "titleJa": "キャッ党忍伝てやんでえ",
-      "popularity": 5840
+      "titleEn": "Chibi Maruko-chan",
+      "titleJa": "ちびまる子ちゃん",
+      "score": 7.66
+    },
+    {
+      "titleEn": "Dragon Ball Z: Bardock, The Father of Goku",
+      "titleJa": "DRAGON BALL Z スペシャル たったひとりの最終決戦~フリーザに挑んだZ戦士孫悟空の父~",
+      "score": 7.58
+    },
+    {
+      "titleEn": "Mobile Police Patlabor: The New Files",
+      "titleJa": "機動警察パトレイバー　NEW OVA",
+      "score": 7.56
+    },
+    {
+      "titleEn": "Be-Bop Highschool",
+      "titleJa": "ビー・バップ・ハイスクール",
+      "score": 7.5
+    },
+    {
+      "titleEn": "Nadia: The Secret of Blue Water",
+      "titleJa": "ふしぎの海のナディア",
+      "score": 7.5
+    },
+    {
+      "titleEn": "City Hunter: Bay City Wars",
+      "titleJa": "シティーハンター ベイシティウォーズ",
+      "score": 7.33
+    },
+    {
+      "titleEn": "Record of Lodoss War",
+      "titleJa": "ロードス島戦記",
+      "score": 7.32
+    },
+    {
+      "titleEn": "City Hunter: Million Dollar Conspiracy",
+      "titleJa": "シティーハンター 百万ドルの陰謀",
+      "score": 7.32
+    },
+    {
+      "titleEn": "Cyber City",
+      "titleJa": "CYBER CITY OEDO 808 (サイバーシティ オーエド ハチマルハチ)",
+      "score": 7.2
+    },
+    {
+      "titleEn": "Doraemon the Movie: Nobita and the Animal Planet",
+      "titleJa": "映画 ドラえもん のび太とアニマル惑星[プラネット]",
+      "score": 7.18
     }
   ],
   "1991": [
     {
-      "titleEn": "Dragon Ball Z: Cooler's Revenge",
-      "titleJa": "ドラゴンボールZ とびっきりの最強対最強",
-      "popularity": 1605
-    },
-    {
-      "titleEn": "Only Yesterday",
-      "titleJa": "おもひでぽろぽろ",
-      "popularity": 1611
-    },
-    {
-      "titleEn": "Dragon Ball Z: Lord Slug",
-      "titleJa": "ドラゴンボールZ 超サイヤ人だ孫悟空",
-      "popularity": 1898
-    },
-    {
       "titleEn": "Dear Brother",
       "titleJa": "おにいさまへ…",
-      "popularity": 3298
-    },
-    {
-      "titleEn": "Mobile Suit Gundam 0083: Stardust Memory",
-      "titleJa": "機動戦士ガンダム0083 STARDUST MEMORY",
-      "popularity": 3427
-    },
-    {
-      "titleEn": "Roujin Z",
-      "titleJa": "老人Ｚ",
-      "popularity": 3759
-    },
-    {
-      "titleEn": "Mobile Suit Gundam F91",
-      "titleJa": "機動戦士ガンダムＦ91",
-      "popularity": 4050
-    },
-    {
-      "titleEn": "Otaku no Video",
-      "titleJa": "おたくのビデオ",
-      "popularity": 4150
-    },
-    {
-      "titleEn": "3x3 Eyes",
-      "titleJa": "3×3EYES",
-      "popularity": 4374
+      "score": 7.86
     },
     {
       "titleEn": "City Hunter '91",
       "titleJa": "シティーハンター'91",
-      "popularity": 4568
+      "score": 7.75
+    },
+    {
+      "titleEn": "Who's Left Behind?",
+      "titleJa": "うしろの正面だあれ",
+      "score": 7.7
+    },
+    {
+      "titleEn": "The Trapp Family Story",
+      "titleJa": "トラップ 一家 物語",
+      "score": 7.62
     },
     {
       "titleEn": "Dragon Quest: The Adventure of Dai",
       "titleJa": "ドラゴンクエスト・ダイの大冒険",
-      "popularity": 4735
+      "score": 7.56
+    },
+    {
+      "titleEn": "Tanoshii Muumin Ikka Bouken Nikki",
+      "titleJa": "楽しいムーミン一家 冒険日記",
+      "score": 7.5
+    },
+    {
+      "titleEn": "Only Yesterday",
+      "titleJa": "おもひでぽろぽろ",
+      "score": 7.44
+    },
+    {
+      "titleEn": "Doraemon the Movie: Nobita's Dorabian Nights",
+      "titleJa": "映画 ドラえもん のび太のドラビアンナイト",
+      "score": 7.37
+    },
+    {
+      "titleEn": "Future GPX Cyber Formula",
+      "titleJa": "新世紀GPXサイバーフォーミュラ",
+      "score": 7.35
+    },
+    {
+      "titleEn": "Yokoyama Mitsuteru Sangokushi",
+      "titleJa": "横山光輝 三国志",
+      "score": 7.35
+    },
+    {
+      "titleEn": "Honoo no Toukyuuji: Dodge Danpei",
+      "titleJa": "炎の闘球児・ドッジ弾平",
+      "score": 7.3
     },
     {
       "titleEn": "Ranma ½: Big Trouble in Nekonron, China",
       "titleJa": "らんま 1/2 中国寝崑崙大決戦! 掟やぶりの激闘編!!",
-      "popularity": 4826
+      "score": 7.23
     }
   ],
   "1992": [
     {
       "titleEn": "Yu Yu Hakusho: Ghost Files",
       "titleJa": "幽☆遊☆白書",
-      "popularity": 299
-    },
-    {
-      "titleEn": "Sailor Moon",
-      "titleJa": "美少女戦士セーラームーン",
-      "popularity": 634
+      "score": 8.46
     },
     {
       "titleEn": "Porco Rosso",
       "titleJa": "紅の豚",
-      "popularity": 966
-    },
-    {
-      "titleEn": "Dragon Ball Z: The Return of Cooler",
-      "titleJa": "ドラゴンボールZ 激突!!100億パワーの戦士たち",
-      "popularity": 1804
-    },
-    {
-      "titleEn": "Dragon Ball Z: Super Android 13!",
-      "titleJa": "ドラゴンボールZ 極限バトル!!三大超サイヤ人",
-      "popularity": 1860
+      "score": 7.96
     },
     {
       "titleEn": "Shin Chan",
       "titleJa": "クレヨンしんちゃん",
-      "popularity": 2409
-    },
-    {
-      "titleEn": "Midori",
-      "titleJa": "地下幻燈劇画 少女椿",
-      "popularity": 2795
-    },
-    {
-      "titleEn": "Tenchi Muyo! Ryo-Ohki",
-      "titleJa": "天地無用！魎皇鬼",
-      "popularity": 3171
-    },
-    {
-      "titleEn": "Bastard!!",
-      "titleJa": "バスタード!! 暗黒の破壊神",
-      "popularity": 3509
-    },
-    {
-      "titleEn": "Ai no Kusabi",
-      "titleJa": "間の楔",
-      "popularity": 3842
-    },
-    {
-      "titleEn": "Video Girl Ai",
-      "titleJa": "電影少女 VIDEO・GIRL・AI",
-      "popularity": 4225
+      "score": 7.81
     },
     {
       "titleEn": "Giant Robo the Animation: The Day the Earth Stood Still",
       "titleJa": "ジャイアントロボ THE ANIMATION 地球が静止する日",
-      "popularity": 4426
+      "score": 7.8
+    },
+    {
+      "titleEn": "Sailor Moon",
+      "titleJa": "美少女戦士セーラームーン",
+      "score": 7.74
+    },
+    {
+      "titleEn": "Comet in Moominland",
+      "titleJa": "ムーミン谷の彗星",
+      "score": 7.69
+    },
+    {
+      "titleEn": "Tenchi Muyo! Ryo-Ohki",
+      "titleJa": "天地無用！魎皇鬼",
+      "score": 7.6
+    },
+    {
+      "titleEn": "Hime-chan no Ribbon",
+      "titleJa": "姫ちゃんのリボン",
+      "score": 7.45
+    },
+    {
+      "titleEn": "Tekkaman Blade",
+      "titleJa": "宇宙の騎士テッカマンブレード",
+      "score": 7.43
+    },
+    {
+      "titleEn": "Ranma ½: The Movie 2 - The Battle of Togenkyo: Rescue the Brides!",
+      "titleJa": "らんま1/2 決戦桃幻郷! 花嫁を奪りもどせ!!",
+      "score": 7.42
+    },
+    {
+      "titleEn": "Mama is Just a Fourth Grade Pupil",
+      "titleJa": "ママは小学４年生",
+      "score": 7.33
+    },
+    {
+      "titleEn": "Future GPX Cyber Formula 11",
+      "titleJa": "新世紀GPXサイバーフォーミュラ11",
+      "score": 7.31
     }
   ],
   "1993": [
     {
       "titleEn": "Slam Dunk",
       "titleJa": "スラムダンク",
-      "popularity": 808
+      "score": 8.55
     },
     {
-      "titleEn": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
-      "titleJa": "ドラゴンボールZ 燃えつきろ!!熱戦・烈戦・超激戦",
-      "popularity": 1507
+      "titleEn": "Ramayana: The Legend of Prince Rama",
+      "titleJa": "ラーマーヤナ ラーマ王子伝説",
+      "score": 8.39
     },
     {
-      "titleEn": "Sailor Moon R",
-      "titleJa": "美少女戦士セーラームーン R",
-      "popularity": 1550
+      "titleEn": "Legend of the Galactic Heroes: Overture to a New War",
+      "titleJa": "銀河英雄伝説外伝　新たなる戦いの序曲[オーヴァチュア]",
+      "score": 8.08
     },
     {
-      "titleEn": "Ninja Scroll",
-      "titleJa": "獣兵衛忍風帖",
-      "popularity": 1651
+      "titleEn": "Kyou kara Ore wa!!",
+      "titleJa": "今日から俺は！！",
+      "score": 8.05
     },
     {
-      "titleEn": "The Ocean Waves",
-      "titleJa": "海がきこえる",
-      "popularity": 1713
-    },
-    {
-      "titleEn": "JoJo's Bizarre Adventure",
-      "titleJa": "ジョジョの奇妙な冒険",
-      "popularity": 1744
-    },
-    {
-      "titleEn": "Dragon Ball Z: The History of Trunks",
-      "titleJa": "ドラゴンボールＺ・絶望への反抗！！残された超戦士・悟飯とトランク",
-      "popularity": 1874
-    },
-    {
-      "titleEn": "Dragon Ball Z: Bojack Unbound",
-      "titleJa": "ドラゴンボールZ 銀河ギリギリ!!ぶっちぎりの凄い奴",
-      "popularity": 1882
-    },
-    {
-      "titleEn": "Sailor Moon R: The Movie - The Promise of the Rose",
-      "titleJa": "美少女戦士セーラームーンＲ THE MOVIE",
-      "popularity": 2818
-    },
-    {
-      "titleEn": "Battle Angel Alita",
-      "titleJa": "銃夢 GUNNM",
-      "popularity": 2933
-    },
-    {
-      "titleEn": "Oh! My Goddess",
-      "titleJa": "ああっ女神さまっ",
-      "popularity": 3165
+      "titleEn": "Patlabor 2: The Movie",
+      "titleJa": "機動警察パトレイバー2 the Movie",
+      "score": 8.01
     },
     {
       "titleEn": "The Irresponsible Captain Tylor",
       "titleJa": "無責任艦長タイラー",
-      "popularity": 3275
+      "score": 7.84
+    },
+    {
+      "titleEn": "Dragon Ball Z: The History of Trunks",
+      "titleJa": "ドラゴンボールＺ・絶望への反抗！！残された超戦士・悟飯とトランク",
+      "score": 7.81
+    },
+    {
+      "titleEn": "Sailor Moon R",
+      "titleJa": "美少女戦士セーラームーン R",
+      "score": 7.73
+    },
+    {
+      "titleEn": "Black Jack",
+      "titleJa": "ブラック・ジャック",
+      "score": 7.73
+    },
+    {
+      "titleEn": "Ranma ½ OVA",
+      "titleJa": "らんま1/2 OVA",
+      "score": 7.73
+    },
+    {
+      "titleEn": "Sailor Moon R: The Movie - The Promise of the Rose",
+      "titleJa": "美少女戦士セーラームーンＲ THE MOVIE",
+      "score": 7.72
+    },
+    {
+      "titleEn": "Ninja Scroll",
+      "titleJa": "獣兵衛忍風帖",
+      "score": 7.61
     }
   ],
   "1994": [
     {
       "titleEn": "Sailor Moon S",
       "titleJa": "美少女戦士セーラームーン S",
-      "popularity": 1640
+      "score": 7.9
     },
     {
-      "titleEn": "Dragon Ball Z: Broly - Second Coming",
-      "titleJa": "ドラゴンボールZ 危険なふたり!超戦士はねむれない",
-      "popularity": 1750
-    },
-    {
-      "titleEn": "Dragon Ball Z: Bio-Broly",
-      "titleJa": "ドラゴンボールZ 超戦士撃破!!勝のはオレだ",
-      "popularity": 1861
-    },
-    {
-      "titleEn": "Pom Poko",
-      "titleJa": "平成狸合戦ぽんぽこ",
-      "popularity": 2048
-    },
-    {
-      "titleEn": "Magic Knight Rayearth",
-      "titleJa": "魔法騎士（マジックナイト）レイアース",
-      "popularity": 2699
-    },
-    {
-      "titleEn": "Mobile Fighter G Gundam",
-      "titleJa": "機動武闘伝Gガンダム",
-      "popularity": 2761
-    },
-    {
-      "titleEn": "Marmalade Boy",
-      "titleJa": "ママレード・ボーイ",
-      "popularity": 3102
-    },
-    {
-      "titleEn": "Sailor Moon S Movie: Hearts in Ice",
-      "titleJa": "美少女戦士セーラームーンS かぐや姫の恋人",
-      "popularity": 3153
+      "titleEn": "Galaxy Warring State Chronicle Rai",
+      "titleJa": "銀河戦国群雄伝ライ",
+      "score": 7.89
     },
     {
       "titleEn": "Macross Plus",
       "titleJa": "マクロスプラス",
-      "popularity": 3311
+      "score": 7.7
     },
     {
-      "titleEn": "Young GTO",
-      "titleJa": "湘南純愛組!",
-      "popularity": 3434
+      "titleEn": "Sailor Moon S Movie: Hearts in Ice",
+      "titleJa": "美少女戦士セーラームーンS かぐや姫の恋人",
+      "score": 7.69
     },
     {
-      "titleEn": "DNA²",
-      "titleJa": "Ｄ・Ｎ・Ａ²　～何処かで失くしたあいつのアイツ～",
-      "popularity": 3519
+      "titleEn": "Tenchi Muyo! Ryo-Ohki",
+      "titleJa": "天地無用！魎皇鬼",
+      "score": 7.61
     },
     {
-      "titleEn": "Genocyber",
-      "titleJa": "ジェノサイバー",
-      "popularity": 3720
+      "titleEn": "Magical Circle Guru Guru",
+      "titleJa": "魔法陣グルグル",
+      "score": 7.59
+    },
+    {
+      "titleEn": "Mobile Fighter G Gundam",
+      "titleJa": "機動武闘伝Gガンダム",
+      "score": 7.58
+    },
+    {
+      "titleEn": "Ranma 1/2 Special: Reawakening Memories",
+      "titleJa": "らんま1/2 SPECIAL よみがえる記憶",
+      "score": 7.57
+    },
+    {
+      "titleEn": "Doraemon the Movie: Nobita's Three Visionary Swordsmen",
+      "titleJa": "映画 ドラえもん のび太と夢幻三剣士",
+      "score": 7.5
+    },
+    {
+      "titleEn": "Slam Dunk: National Domination! Sakuragi Hanamichi",
+      "titleJa": "スラムダンク 全国制覇だ！桜木花道",
+      "score": 7.5
+    },
+    {
+      "titleEn": "You're Under Arrest",
+      "titleJa": "逮捕しちゃうぞ",
+      "score": 7.46
+    },
+    {
+      "titleEn": "Magic Knight Rayearth",
+      "titleJa": "魔法騎士（マジックナイト）レイアース",
+      "score": 7.45
     }
   ],
   "1995": [
     {
       "titleEn": "Neon Genesis Evangelion",
       "titleJa": "新世紀エヴァンゲリオン",
-      "popularity": 45
+      "score": 8.36
+    },
+    {
+      "titleEn": "Romeo's Blue Skies",
+      "titleJa": "ロミオの青い空",
+      "score": 8.31
     },
     {
       "titleEn": "Ghost in the Shell",
       "titleJa": "GHOST IN THE SHELL（攻殻機動隊）",
-      "popularity": 341
-    },
-    {
-      "titleEn": "Golden Boy",
-      "titleJa": "ゴールデンボーイ",
-      "popularity": 573
+      "score": 8.27
     },
     {
       "titleEn": "Whisper of the Heart",
       "titleJa": "耳をすませば",
-      "popularity": 654
+      "score": 8.22
     },
     {
-      "titleEn": "Mobile Suit Gundam Wing",
-      "titleJa": "新機動戦記ガンダムW",
-      "popularity": 1556
-    },
-    {
-      "titleEn": "Dragon Ball Z: Fusion Reborn",
-      "titleJa": "ドラゴンボールZ 復活のフュージョン!!悟空とベジータ",
-      "popularity": 1581
+      "titleEn": "Golden Boy",
+      "titleJa": "ゴールデンボーイ",
+      "score": 8.04
     },
     {
       "titleEn": "Slayers",
       "titleJa": "スレイヤーズ",
-      "popularity": 1677
+      "score": 7.72
     },
     {
       "titleEn": "Memories",
       "titleJa": "MEMORIES（メモリーズ）",
-      "popularity": 1685
+      "score": 7.72
     },
     {
-      "titleEn": "Dragon Ball Z: Wrath of the Dragon",
-      "titleJa": "ドラゴンボールZ 龍拳爆発!!悟空がやらねば誰がやる",
-      "popularity": 1754
+      "titleEn": "Macross Plus Movie Edition",
+      "titleJa": "マクロスプラス　ＭＯＶＩＥ　ＥＤＩＴＩＯＮ",
+      "score": 7.7
+    },
+    {
+      "titleEn": "Mobile Suit Gundam Wing",
+      "titleJa": "新機動戦記ガンダムW",
+      "score": 7.67
+    },
+    {
+      "titleEn": "Neighborhood Stories",
+      "titleJa": "ご近所物語",
+      "score": 7.67
     },
     {
       "titleEn": "Sailor Moon SuperS",
       "titleJa": "美少女戦士セーラームーン Super S",
-      "popularity": 1913
+      "score": 7.63
     },
     {
-      "titleEn": "Mysterious Play",
-      "titleJa": "ふしぎ遊戯",
-      "popularity": 1929
-    },
-    {
-      "titleEn": "Tenchi Muyo! Tenchi Universe",
-      "titleJa": "天地無用！",
-      "popularity": 2502
+      "titleEn": "Ranma ½ Super",
+      "titleJa": "らんま１／２　ＳＵＰＥＲ",
+      "score": 7.63
     }
   ],
   "1996": [
     {
-      "titleEn": "Dragon Ball GT",
-      "titleJa": "ドラゴンボールGT",
-      "popularity": 350
-    },
-    {
       "titleEn": "Rurouni Kenshin",
       "titleJa": "るろうに剣心 -明治剣客浪漫譚-",
-      "popularity": 469
+      "score": 8.28
     },
     {
       "titleEn": "Case Closed",
       "titleJa": "名探偵コナン",
-      "popularity": 701
-    },
-    {
-      "titleEn": "The Vision of Escaflowne",
-      "titleJa": "天空のエスカフローネ",
-      "popularity": 1522
-    },
-    {
-      "titleEn": "Sailor Moon Sailor Stars",
-      "titleJa": "美少女戦士セーラームーン セーラースターズ",
-      "popularity": 2010
-    },
-    {
-      "titleEn": "Mobile Suit Gundam: The 08th MS Team",
-      "titleJa": "機動戦士ガンダム 第08MS小隊",
-      "popularity": 2417
+      "score": 8.18
     },
     {
       "titleEn": "Kodocha",
       "titleJa": "こどものおもちゃ",
-      "popularity": 2720
+      "score": 8.05
     },
     {
       "titleEn": "Slayers Next",
       "titleJa": "スレイヤーズNEXT",
-      "popularity": 2736
+      "score": 8.01
     },
     {
-      "titleEn": "Dragon Ball: The Path to Power",
-      "titleJa": "ドラゴンボール 最強への道",
-      "popularity": 2918
+      "titleEn": "Mobile Suit Gundam: The 08th MS Team",
+      "titleJa": "機動戦士ガンダム 第08MS小隊",
+      "score": 8
+    },
+    {
+      "titleEn": "Sailor Moon Sailor Stars",
+      "titleJa": "美少女戦士セーラームーン セーラースターズ",
+      "score": 7.95
+    },
+    {
+      "titleEn": "Sans Famille",
+      "titleJa": "家なき子レミ",
+      "score": 7.9
+    },
+    {
+      "titleEn": "Baby and Me",
+      "titleJa": "赤ちゃんと僕",
+      "score": 7.82
+    },
+    {
+      "titleEn": "Kochira Katsushikaku Kameari Kouenmae Hashutsujo",
+      "titleJa": "こちら葛飾区亀有公園前派出所 (1996)",
+      "score": 7.78
+    },
+    {
+      "titleEn": "The Vision of Escaflowne",
+      "titleJa": "天空のエスカフローネ",
+      "score": 7.65
     },
     {
       "titleEn": "Hana Yori Dango",
       "titleJa": "花より男子",
-      "popularity": 2947
+      "score": 7.57
     },
     {
-      "titleEn": "Martian Successor Nadesico",
-      "titleJa": "機動戦艦ナデシコ",
-      "popularity": 3131
-    },
-    {
-      "titleEn": "Angel Densetsu",
-      "titleJa": "エンジェル伝説",
-      "popularity": 3552
+      "titleEn": "You're Under Arrest (1996)",
+      "titleJa": "逮捕しちゃうぞ (1996)",
+      "score": 7.54
     }
   ],
   "1997": [
     {
       "titleEn": "Princess Mononoke",
       "titleJa": "もののけ姫",
-      "popularity": 106
-    },
-    {
-      "titleEn": "Neon Genesis Evangelion: The End of Evangelion",
-      "titleJa": "新世紀エヴァンゲリオン劇場版 Air / まごころを, 君に",
-      "popularity": 178
+      "score": 8.67
     },
     {
       "titleEn": "Berserk",
       "titleJa": "剣風伝奇ベルセルク",
-      "popularity": 302
+      "score": 8.6
     },
     {
-      "titleEn": "Pokémon",
-      "titleJa": "ポケットモンスター",
-      "popularity": 349
-    },
-    {
-      "titleEn": "Neon Genesis Evangelion: Death & Rebirth",
-      "titleJa": "新世紀エヴァンゲリオン劇場版 シト新生",
-      "popularity": 968
+      "titleEn": "Neon Genesis Evangelion: The End of Evangelion",
+      "titleJa": "新世紀エヴァンゲリオン劇場版 Air / まごころを, 君に",
+      "score": 8.56
     },
     {
       "titleEn": "Revolutionary Girl Utena",
       "titleJa": "少女革命ウテナ",
-      "popularity": 1126
+      "score": 8.22
     },
     {
-      "titleEn": "Dragon Ball GT: A Hero's Legacy",
-      "titleJa": "ドラゴンボールGT 悟空外伝! 勇気の証しは四星球(スーシンチュウ)",
-      "popularity": 2553
+      "titleEn": "The File of Young Kindaichi",
+      "titleJa": "金田一少年の事件簿",
+      "score": 7.94
     },
     {
       "titleEn": "Case Closed Movie 01: The Time Bombed Skyscraper",
       "titleJa": "名探偵コナン 時計じかけの摩天楼",
-      "popularity": 2682
+      "score": 7.86
     },
     {
-      "titleEn": "Flame of Recca",
-      "titleJa": "烈火の炎",
-      "popularity": 2812
+      "titleEn": "King of Braves GaoGaiGar",
+      "titleJa": "勇者王ガオガイガー",
+      "score": 7.83
+    },
+    {
+      "titleEn": "The Dog of Flanders",
+      "titleJa": "フランダースの犬 (1997)",
+      "score": 7.81
     },
     {
       "titleEn": "Slayers Try",
       "titleJa": "スレイヤーズ TRY",
-      "popularity": 3122
-    },
-    {
-      "titleEn": "Samurai X: The Motion Picture",
-      "titleJa": "るろうに剣心 -明治剣客浪漫譚- 維新志士への鎮魂歌",
-      "popularity": 3233
+      "score": 7.8
     },
     {
       "titleEn": "Mobile Suit Gundam Wing: Endless Waltz",
       "titleJa": "新機動戦記ガンダムW エンドレス・ワルツ",
-      "popularity": 3381
+      "score": 7.73
+    },
+    {
+      "titleEn": "Cooking Master Boy",
+      "titleJa": "中華一番",
+      "score": 7.6
+    },
+    {
+      "titleEn": "Samurai X: The Motion Picture",
+      "titleJa": "るろうに剣心 -明治剣客浪漫譚- 維新志士への鎮魂歌",
+      "score": 7.55
     }
   ],
   "1998": [
     {
       "titleEn": "Cowboy Bebop",
       "titleJa": "カウボーイビバップ",
-      "popularity": 42
-    },
-    {
-      "titleEn": "Serial Experiments Lain",
-      "titleJa": "シリアルエクスペリメンツレイン",
-      "popularity": 241
-    },
-    {
-      "titleEn": "Trigun",
-      "titleJa": "トライガン",
-      "popularity": 260
+      "score": 8.75
     },
     {
       "titleEn": "Perfect Blue",
       "titleJa": "パーフェクトブルー",
-      "popularity": 280
-    },
-    {
-      "titleEn": "Cardcaptor Sakura",
-      "titleJa": "カードキャプターさくら",
-      "popularity": 522
+      "score": 8.55
     },
     {
       "titleEn": "Initial D First Stage",
       "titleJa": "頭文字〈イニシャル〉D",
-      "popularity": 604
+      "score": 8.35
     },
     {
-      "titleEn": "Pokémon: The First Movie - Mewtwo Strikes Back",
-      "titleJa": "ポケットモンスター ミュウツーの逆襲",
-      "popularity": 952
+      "titleEn": "Trigun",
+      "titleJa": "トライガン",
+      "score": 8.22
     },
     {
-      "titleEn": "Yu☆Gi☆Oh!",
-      "titleJa": "遊☆戯☆王",
-      "popularity": 1024
+      "titleEn": "Cardcaptor Sakura",
+      "titleJa": "カードキャプターさくら",
+      "score": 8.18
     },
     {
-      "titleEn": "His and Her Circumstances",
-      "titleJa": "彼氏彼女の事情",
-      "popularity": 1079
+      "titleEn": "Legend of the Galactic Heroes Gaiden",
+      "titleJa": "銀河英雄伝説外伝／千億の星、千億の光",
+      "score": 8.13
     },
     {
-      "titleEn": "Outlaw Star",
-      "titleJa": "星方武侠アウトロースター",
-      "popularity": 1568
+      "titleEn": "Serial Experiments Lain",
+      "titleJa": "シリアルエクスペリメンツレイン",
+      "score": 8.09
     },
     {
       "titleEn": "Case Closed Movie 02: The Fourteenth Target",
       "titleJa": "名探偵コナン １４番目の標的",
-      "popularity": 2876
+      "score": 7.88
+    },
+    {
+      "titleEn": "Outlaw Star",
+      "titleJa": "星方武侠アウトロースター",
+      "score": 7.83
     },
     {
       "titleEn": "Mobile Suit Gundam Wing: Endless Waltz",
       "titleJa": "新機動戦記ガンダムW Endless Waltz 特別篇",
-      "popularity": 2974
+      "score": 7.77
+    },
+    {
+      "titleEn": "Getter Robo: Armageddon",
+      "titleJa": "真(チェンジ!!)ゲッターロボ 世界最後の日",
+      "score": 7.73
+    },
+    {
+      "titleEn": "Pokémon: The First Movie - Mewtwo Strikes Back",
+      "titleJa": "ポケットモンスター ミュウツーの逆襲",
+      "score": 7.67
     }
   ],
   "1999": [
     {
       "titleEn": "One Piece",
       "titleJa": "ONE PIECE",
-      "popularity": 17
-    },
-    {
-      "titleEn": "Great Teacher Onizuka",
-      "titleJa": "グレート・ティーチャー・オニヅカ",
-      "popularity": 220
-    },
-    {
-      "titleEn": "Hunter x Hunter",
-      "titleJa": "HUNTER×HUNTER（ハンター×ハンター）",
-      "popularity": 376
-    },
-    {
-      "titleEn": "Digimon: Digital Monsters",
-      "titleJa": "デジモンアドベンチャー",
-      "popularity": 609
+      "score": 8.73
     },
     {
       "titleEn": "Samurai X: Trust and Betrayal",
       "titleJa": "るろうに剣心―明治剣客浪漫譚―追憶編",
-      "popularity": 915
+      "score": 8.69
+    },
+    {
+      "titleEn": "Great Teacher Onizuka",
+      "titleJa": "グレート・ティーチャー・オニヅカ",
+      "score": 8.68
+    },
+    {
+      "titleEn": "Hunter x Hunter",
+      "titleJa": "HUNTER×HUNTER（ハンター×ハンター）",
+      "score": 8.43
     },
     {
       "titleEn": "Initial D Second Stage",
       "titleJa": "頭文字〈イニシャル〉D SECOND STAGE",
-      "popularity": 1052
+      "score": 8.18
     },
     {
-      "titleEn": "Pokémon: The Movie 2000",
-      "titleJa": "ポケットモンスター 幻のポケモンルギア爆誕",
-      "popularity": 1318
+      "titleEn": "Legend of the Galactic Heroes Gaiden (1999)",
+      "titleJa": "銀河英雄伝説外伝 螺旋迷宮",
+      "score": 8.06
     },
     {
-      "titleEn": "Now and Then, Here and There",
-      "titleJa": "今、そこにいる僕",
-      "popularity": 1634
+      "titleEn": "Case Closed Movie 03: The Last Wizard of the Century",
+      "titleJa": "名探偵コナン 世紀末の魔術師",
+      "score": 8.03
     },
     {
-      "titleEn": "Digimon: The Movie",
-      "titleJa": "デジモンアドベンチャー 劇場版",
-      "popularity": 2037
+      "titleEn": "∀ Gundam",
+      "titleJa": "∀ガンダム",
+      "score": 7.79
     },
     {
-      "titleEn": "Excel Saga",
-      "titleJa": "へっぽこ実験アニメーション エクセル♥サーガ",
-      "popularity": 2067
+      "titleEn": "Digimon: Digital Monsters",
+      "titleJa": "デジモンアドベンチャー",
+      "score": 7.78
+    },
+    {
+      "titleEn": "Master Keaton OVA",
+      "titleJa": "マスターキートン",
+      "score": 7.73
+    },
+    {
+      "titleEn": "Revolutionary Girl Utena: The Adolescence of Utena",
+      "titleJa": "少女革命ウテナ　アドゥレセンス黙示録",
+      "score": 7.68
     },
     {
       "titleEn": "Cardcaptor Sakura The Movie",
       "titleJa": "劇場版 カードキャプターさくら",
-      "popularity": 2209
-    },
-    {
-      "titleEn": "The Big O",
-      "titleJa": "THEビッグオー",
-      "popularity": 2224
+      "score": 7.63
     }
   ],
   "2000": [
     {
-      "titleEn": "FLCL",
-      "titleJa": "フリクリ",
-      "popularity": 228
-    },
-    {
-      "titleEn": "InuYasha",
-      "titleJa": "犬夜叉",
-      "popularity": 247
-    },
-    {
       "titleEn": "Fighting Spirit",
       "titleJa": "はじめの一歩 THE FIGHTING!",
-      "popularity": 356
+      "score": 8.78
     },
     {
-      "titleEn": "Yu-Gi-Oh!",
-      "titleJa": "遊☆戯☆王　デュエルモンスターズ",
-      "popularity": 608
+      "titleEn": "Cardcaptor Sakura Movie 2: The Sealed Card",
+      "titleJa": "劇場版 カードキャプターさくら 封印されたカード",
+      "score": 8.21
     },
     {
-      "titleEn": "Love Hina",
-      "titleJa": "ラブひな",
-      "popularity": 957
+      "titleEn": "GaoGaiGar Final",
+      "titleJa": "勇者王ガオガイガーFINAL",
+      "score": 8.09
     },
     {
-      "titleEn": "Ghost Stories",
-      "titleJa": "学校の怪談",
-      "popularity": 1116
+      "titleEn": "FLCL",
+      "titleJa": "フリクリ",
+      "score": 8.04
     },
     {
-      "titleEn": "Digimon Adventure 02",
-      "titleJa": "デジモンアドベンチャー０２",
-      "popularity": 1164
+      "titleEn": "Case Closed Movie 04: Captured In Her Eyes",
+      "titleJa": "瞳の中の暗殺者",
+      "score": 8.02
     },
     {
       "titleEn": "Vampire Hunter D: Bloodlust",
       "titleJa": "バンパイアハンターD",
-      "popularity": 1183
+      "score": 7.96
+    },
+    {
+      "titleEn": "InuYasha",
+      "titleJa": "犬夜叉",
+      "score": 7.87
+    },
+    {
+      "titleEn": "Digimon: The Movie",
+      "titleJa": "デジモンアドベンチャー ぼくらのウォーゲーム！",
+      "score": 7.8
     },
     {
       "titleEn": "Jin-Roh: The Wolf Brigade",
       "titleJa": "人狼 JIN-ROH",
-      "popularity": 1338
+      "score": 7.78
     },
     {
-      "titleEn": "Pokémon 3: The Movie",
-      "titleJa": "ポケットモンスター 結晶塔の帝王 ENTEI",
-      "popularity": 1404
+      "titleEn": "Ghost Stories",
+      "titleJa": "学校の怪談",
+      "score": 7.75
     },
     {
-      "titleEn": "One Piece: The Movie",
-      "titleJa": "ONE PIECE",
-      "popularity": 1691
+      "titleEn": "Banner of the Stars",
+      "titleJa": "星界の戦旗",
+      "score": 7.65
     },
     {
-      "titleEn": "Boogiepop Phantom",
-      "titleJa": "ブギーポップは笑わない Boogiepop Phantom",
-      "popularity": 1704
+      "titleEn": "Daa! Daa! Daa!",
+      "titleJa": "だぁ! だぁ! だぁ!",
+      "score": 7.64
     }
   ],
   "2001": [
     {
       "titleEn": "Spirited Away",
       "titleJa": "千と千尋の神隠し",
-      "popularity": 44
-    },
-    {
-      "titleEn": "Hellsing",
-      "titleJa": "Hellsing [ヘルシング]",
-      "popularity": 285
-    },
-    {
-      "titleEn": "Fruits Basket",
-      "titleJa": "フルーツバスケット",
-      "popularity": 433
+      "score": 8.77
     },
     {
       "titleEn": "Cowboy Bebop: The Movie",
       "titleJa": "カウボーイビバップ 天国の扉",
-      "popularity": 642
+      "score": 8.38
     },
     {
-      "titleEn": "Shaman King",
-      "titleJa": "シャーマンキング",
-      "popularity": 684
-    },
-    {
-      "titleEn": "Digimon Tamers",
-      "titleJa": "デジモンテイマーズ",
-      "popularity": 1269
-    },
-    {
-      "titleEn": "Initial D Third Stage",
-      "titleJa": "頭文字〈イニシャル〉D THIRD STAGE",
-      "popularity": 1325
-    },
-    {
-      "titleEn": "The Prince of Tennis",
-      "titleJa": "テニスの王子様",
-      "popularity": 1350
-    },
-    {
-      "titleEn": "Pokémon 4Ever",
-      "titleJa": "ポケットモンスター セレビィ 時を越えた遭遇（であい）",
-      "popularity": 1588
-    },
-    {
-      "titleEn": "Baki the Grappler",
-      "titleJa": "グラップラー刃牙",
-      "popularity": 1607
+      "titleEn": "Case Closed Movie 05: Countdown to Heaven",
+      "titleJa": "名探偵コナン 天国へのカウントダウン",
+      "score": 8.11
     },
     {
       "titleEn": "Hikaru no Go",
       "titleJa": "ヒカルの碁",
-      "popularity": 1709
+      "score": 8.07
     },
     {
-      "titleEn": "Noir",
-      "titleJa": "ノワール",
-      "popularity": 2008
+      "titleEn": "Samurai X: Reflection",
+      "titleJa": "るろうに剣心 -明治剣客浪漫譚- 星霜編",
+      "score": 7.96
+    },
+    {
+      "titleEn": "Initial D Third Stage",
+      "titleJa": "頭文字〈イニシャル〉D THIRD STAGE",
+      "score": 7.91
+    },
+    {
+      "titleEn": "The Prince of Tennis",
+      "titleJa": "テニスの王子様",
+      "score": 7.85
+    },
+    {
+      "titleEn": "Haré+Guu",
+      "titleJa": "ジャングルはいつもハレのちグゥ",
+      "score": 7.8
+    },
+    {
+      "titleEn": "Banner of the Stars II",
+      "titleJa": "星界の戦旗 II",
+      "score": 7.77
+    },
+    {
+      "titleEn": "Shaman King",
+      "titleJa": "シャーマンキング",
+      "score": 7.73
+    },
+    {
+      "titleEn": "Fruits Basket",
+      "titleJa": "フルーツバスケット",
+      "score": 7.69
+    },
+    {
+      "titleEn": "Digimon Tamers",
+      "titleJa": "デジモンテイマーズ",
+      "score": 7.65
     }
   ],
   "2002": [
     {
-      "titleEn": "Naruto",
-      "titleJa": "ナルト",
-      "popularity": 9
-    },
-    {
-      "titleEn": "Full Metal Panic!",
-      "titleJa": "フルメタル・パニック！",
-      "popularity": 467
-    },
-    {
-      "titleEn": "Chobits",
-      "titleJa": "ちょびっツ",
-      "popularity": 485
-    },
-    {
       "titleEn": "Ghost in the Shell: Stand Alone Complex",
       "titleJa": "攻殻機動隊 STAND ALONE COMPLEX",
-      "popularity": 612
+      "score": 8.42
     },
     {
-      "titleEn": "Azumanga Daioh: The Animation",
-      "titleJa": "あずまんが大王 THE ANIMATION",
-      "popularity": 637
+      "titleEn": "Hunter x Hunter: Original Video Animation",
+      "titleJa": "HUNTER×HUNTER Original Video Animation",
+      "score": 8.31
     },
     {
-      "titleEn": "Haibane Renmei",
-      "titleJa": "灰羽連盟",
-      "popularity": 850
-    },
-    {
-      "titleEn": "The Cat Returns",
-      "titleJa": "猫の恩返し",
-      "popularity": 898
+      "titleEn": "Case Closed Movie 06: The Phantom of Baker Street",
+      "titleJa": "名探偵コナン ベイカー街の亡霊",
+      "score": 8.29
     },
     {
       "titleEn": "Millennium Actress",
       "titleJa": "千年女優",
-      "popularity": 1303
+      "score": 8.24
     },
     {
-      "titleEn": "Pokémon: Advanced",
-      "titleJa": "ポケットモンスター　アドバンスジェネレーション",
-      "popularity": 1326
+      "titleEn": "Princess Tutu",
+      "titleJa": "プリンセスチュチュ",
+      "score": 8.14
     },
     {
-      "titleEn": ".hack//Sign",
-      "titleJa": ".hack//SIGN",
-      "popularity": 1374
+      "titleEn": "Azumanga Daioh: The Animation",
+      "titleJa": "あずまんが大王 THE ANIMATION",
+      "score": 8.06
     },
     {
-      "titleEn": "Please Teacher!",
-      "titleJa": "おねがい☆ティーチャー",
-      "popularity": 1412
+      "titleEn": "Saint Seiya: The Hades Chapter - Sanctuary",
+      "titleJa": "聖闘士星矢 冥王ハーデス十二宮編",
+      "score": 8.05
     },
     {
-      "titleEn": "Mobile Suit Gundam SEED",
-      "titleJa": "機動戦士ガンダムSEED",
-      "popularity": 1436
+      "titleEn": "The Twelve Kingdoms",
+      "titleJa": "十二国記",
+      "score": 8.01
+    },
+    {
+      "titleEn": "Naruto",
+      "titleJa": "ナルト",
+      "score": 8.01
+    },
+    {
+      "titleEn": "Haibane Renmei",
+      "titleJa": "灰羽連盟",
+      "score": 7.98
+    },
+    {
+      "titleEn": "Hanada Shounen-shi",
+      "titleJa": "花田少年史",
+      "score": 7.98
+    },
+    {
+      "titleEn": "Searching for the Full Moon",
+      "titleJa": "満月をさがして",
+      "score": 7.93
     }
   ],
   "2003": [
     {
-      "titleEn": "Fullmetal Alchemist",
-      "titleJa": "鋼の錬金術師",
-      "popularity": 85
-    },
-    {
-      "titleEn": "Wolf's Rain",
-      "titleJa": "ウルフズレイン",
-      "popularity": 758
-    },
-    {
       "titleEn": "Kino's Journey",
       "titleJa": "キノの旅 -the Beautiful World-",
-      "popularity": 768
+      "score": 8.28
     },
     {
       "titleEn": "Tokyo Godfathers",
       "titleJa": "東京ゴッドファーザーズ",
-      "popularity": 845
+      "score": 8.28
     },
     {
-      "titleEn": "Full Metal Panic? Fumoffu",
-      "titleJa": "フルメタル・パニック? ふもっふ",
-      "popularity": 877
-    },
-    {
-      "titleEn": "Texhnolyze",
-      "titleJa": "TEXHNOLYZE",
-      "popularity": 969
+      "titleEn": "Fighting Spirit: Champion Road",
+      "titleJa": "はじめの一歩 -Champion Road-",
+      "score": 8.25
     },
     {
       "titleEn": "Planetes",
       "titleJa": "プラネテス",
-      "popularity": 983
+      "score": 8.25
     },
     {
-      "titleEn": "Chrono Crusade",
-      "titleJa": "クロノクルセイド",
-      "popularity": 1139
+      "titleEn": "Fighting Spirit: Mashiba vs. Kimura",
+      "titleJa": "はじめの一歩 間柴vs木村 死刑執行",
+      "score": 8.24
     },
     {
-      "titleEn": "Gungrave",
-      "titleJa": "ガングレイヴ",
-      "popularity": 1243
+      "titleEn": "Hunter x Hunter: Greed Island",
+      "titleJa": "HUNTER×HUNTER Greed Island",
+      "score": 8.18
     },
     {
-      "titleEn": "Gunslinger Girl",
-      "titleJa": "ガンスリンガー・ガール",
-      "popularity": 1321
+      "titleEn": "Interstella5555: The 5tory of The 5ecret 5tar 5ystem",
+      "titleJa": "インターステラ5555",
+      "score": 8.13
     },
     {
-      "titleEn": "D.N.Angel",
-      "titleJa": "Ｄ・Ｎ・ＡＮＧＥＬ",
-      "popularity": 1381
+      "titleEn": "Fullmetal Alchemist",
+      "titleJa": "鋼の錬金術師",
+      "score": 8.11
     },
     {
-      "titleEn": "Last Exile",
-      "titleJa": "LAST EXILE（ラストエグザイル）",
-      "popularity": 1427
+      "titleEn": "Fighting Spirit Special",
+      "titleJa": "はじめの一歩 THE FIGHTING! ボクサーの拳",
+      "score": 8.08
+    },
+    {
+      "titleEn": "Full Metal Panic? Fumoffu",
+      "titleJa": "フルメタル・パニック? ふもっふ",
+      "score": 8.02
+    },
+    {
+      "titleEn": "Kaleido Star",
+      "titleJa": "カレイドスター",
+      "score": 7.9
+    },
+    {
+      "titleEn": "Cromartie High School",
+      "titleJa": "魁!! クロマティ高校",
+      "score": 7.88
     }
   ],
   "2004": [
     {
-      "titleEn": "Bleach",
-      "titleJa": "BLEACH - ブリーチ -",
-      "popularity": 35
-    },
-    {
-      "titleEn": "Elfen Lied",
-      "titleJa": "エルフェンリート",
-      "popularity": 78
+      "titleEn": "Monster",
+      "titleJa": "モンスター",
+      "score": 8.89
     },
     {
       "titleEn": "Howl's Moving Castle",
       "titleJa": "ハウルの動く城",
-      "popularity": 100
+      "score": 8.67
     },
     {
       "titleEn": "Samurai Champloo",
       "titleJa": "サムライチャンプルー",
-      "popularity": 108
-    },
-    {
-      "titleEn": "Monster",
-      "titleJa": "モンスター",
-      "popularity": 121
-    },
-    {
-      "titleEn": "Paranoia Agent",
-      "titleJa": "妄想代理人",
-      "popularity": 549
-    },
-    {
-      "titleEn": "Gantz",
-      "titleJa": "ガンツ",
-      "popularity": 691
-    },
-    {
-      "titleEn": "Beck: Mongolian Chop Squad",
-      "titleJa": "ベック",
-      "popularity": 721
-    },
-    {
-      "titleEn": "School Rumble",
-      "titleJa": "スクールランブル",
-      "popularity": 770
-    },
-    {
-      "titleEn": "Naruto the Movie 1: Ninja Clash in the Land of Snow",
-      "titleJa": "劇場版　NARUTO　大活劇！雪姫忍法帖だってばよ!!",
-      "popularity": 856
-    },
-    {
-      "titleEn": "Gankutsuou: The Count of Monte Cristo",
-      "titleJa": "巌窟王",
-      "popularity": 1010
+      "score": 8.52
     },
     {
       "titleEn": "Ghost in the Shell: Stand Alone Complex 2nd GIG",
       "titleJa": "攻殻機動隊 S.A.C. 2nd GIG",
-      "popularity": 1127
+      "score": 8.51
+    },
+    {
+      "titleEn": "Beck: Mongolian Chop Squad",
+      "titleJa": "ベック",
+      "score": 8.29
+    },
+    {
+      "titleEn": "Hunter x Hunter: Greed Island Final",
+      "titleJa": "HUNTER×HUNTER G・I Final",
+      "score": 8.25
+    },
+    {
+      "titleEn": "Major S1",
+      "titleJa": "メジャー （第1シリーズ）",
+      "score": 8.2
+    },
+    {
+      "titleEn": "Initial D Fourth Stage",
+      "titleJa": "頭文字〈イニシャル〉D FOURTH STAGE",
+      "score": 8.17
+    },
+    {
+      "titleEn": "Gankutsuou: The Count of Monte Cristo",
+      "titleJa": "巌窟王",
+      "score": 8.11
+    },
+    {
+      "titleEn": "Detective Conan Movie 08: Magician of the Silver Sky",
+      "titleJa": "名探偵コナン 銀翼の奇術師[マジシャン]",
+      "score": 8.05
+    },
+    {
+      "titleEn": "Wolf's Rain OVA",
+      "titleJa": "ウルフズ・レイン",
+      "score": 7.98
+    },
+    {
+      "titleEn": "Bleach",
+      "titleJa": "BLEACH - ブリーチ -",
+      "score": 7.97
     }
   ],
   "2005": [
     {
       "titleEn": "Mushi-Shi",
       "titleJa": "蟲師",
-      "popularity": 225
+      "score": 8.65
     },
     {
-      "titleEn": "Shakugan no Shana: Season I",
-      "titleJa": "灼眼のシャナ",
-      "popularity": 437
+      "titleEn": "Gintama: Jump Festa 2005 Special",
+      "titleJa": "銀魂〜何事も最初が肝心なので多少背伸びするくらいが丁度良い〜",
+      "score": 8.08
+    },
+    {
+      "titleEn": "Ghost in the Shell: Stand Alone Complex - The Laughing Man",
+      "titleJa": "攻殻機動隊 Stand Alone Complex - The Laughing Man",
+      "score": 8.06
     },
     {
       "titleEn": "Eureka Seven",
       "titleJa": "交響詩篇エウレカセブン",
-      "popularity": 548
+      "score": 8.05
     },
     {
-      "titleEn": "Blood+",
-      "titleJa": "ブラッドプラス",
-      "popularity": 657
-    },
-    {
-      "titleEn": "Hell Girl",
-      "titleJa": "地獄少女",
-      "popularity": 690
-    },
-    {
-      "titleEn": "Fullmetal Alchemist: The Movie - Conqueror of Shamballa",
-      "titleJa": "劇場版 鋼の錬金術師 シャンバラを征く者",
-      "popularity": 767
-    },
-    {
-      "titleEn": "Air",
-      "titleJa": "AIR",
-      "popularity": 874
-    },
-    {
-      "titleEn": "Shuffle!",
-      "titleJa": "SHUFFLE! (シャッフル!)",
-      "popularity": 917
+      "titleEn": "Glass Mask",
+      "titleJa": "ガラスの仮面 (2005)",
+      "score": 8.03
     },
     {
       "titleEn": "Honey and Clover",
       "titleJa": "ハチミツとクローバー",
-      "popularity": 945
+      "score": 7.98
     },
     {
-      "titleEn": "Black Cat",
-      "titleJa": "ブラックキャット",
-      "popularity": 949
+      "titleEn": "Magical Girl Lyrical Nanoha A's",
+      "titleJa": "魔法少女リリカルなのは エース",
+      "score": 7.95
+    },
+    {
+      "titleEn": "xxxHOLiC The Movie: A Midsummer Night's Dream",
+      "titleJa": "劇場版　×××HOLiC　真夏ノ夜ノ夢",
+      "score": 7.93
+    },
+    {
+      "titleEn": "Akagi",
+      "titleJa": "闘牌伝説アカギ　闇に舞い降りた天才",
+      "score": 7.92
+    },
+    {
+      "titleEn": "Eyeshield 21",
+      "titleJa": "アイシールド21",
+      "score": 7.91
     },
     {
       "titleEn": "Full Metal Panic! The Second Raid",
       "titleJa": "フルメタル パニック！The Second Raid",
-      "popularity": 988
+      "score": 7.91
     },
     {
-      "titleEn": "Naruto the Movie 2: Legend of the Stone of Gelel",
-      "titleJa": "劇場版　NARUTO　大激突！幻の地底遺跡だってばよ",
-      "popularity": 1070
+      "titleEn": "Paradise Kiss",
+      "titleJa": "Paradise kiss",
+      "score": 7.87
     }
   ],
   "2006": [
     {
-      "titleEn": "Death Note",
-      "titleJa": "デスノート",
-      "popularity": 2
+      "titleEn": "Gintama",
+      "titleJa": "銀魂",
+      "score": 8.93
     },
     {
       "titleEn": "Code Geass: Lelouch of the Rebellion",
       "titleJa": "コードギアス 反逆のルルーシュ",
-      "popularity": 22
+      "score": 8.7
     },
     {
-      "titleEn": "Ouran High School Host Club",
-      "titleJa": "桜蘭高校ホスト部",
-      "popularity": 133
+      "titleEn": "Death Note",
+      "titleJa": "デスノート",
+      "score": 8.62
     },
     {
-      "titleEn": "Gintama",
-      "titleJa": "銀魂",
-      "popularity": 147
-    },
-    {
-      "titleEn": "Black Lagoon",
-      "titleJa": "BLACK LAGOON",
-      "popularity": 158
+      "titleEn": "Nana",
+      "titleJa": "NANA [ナナ]",
+      "score": 8.56
     },
     {
       "titleEn": "Hellsing Ultimate",
       "titleJa": "HELLSING OVA",
-      "popularity": 182
-    },
-    {
-      "titleEn": "Fate/stay night",
-      "titleJa": "Fate/stay night",
-      "popularity": 185
-    },
-    {
-      "titleEn": "The Melancholy of Haruhi Suzumiya",
-      "titleJa": "涼宮ハルヒの憂鬱",
-      "popularity": 193
-    },
-    {
-      "titleEn": "The Familiar of Zero",
-      "titleJa": "ゼロの使い魔",
-      "popularity": 239
-    },
-    {
-      "titleEn": "Higurashi: When They Cry",
-      "titleJa": "ひぐらしのなく頃に",
-      "popularity": 246
-    },
-    {
-      "titleEn": "The Girl Who Leapt Through Time",
-      "titleJa": "時をかける少女",
-      "popularity": 254
+      "score": 8.34
     },
     {
       "titleEn": "Welcome to the N.H.K.",
       "titleJa": "N・H・Kにようこそ！",
-      "popularity": 266
+      "score": 8.31
+    },
+    {
+      "titleEn": "Major S2",
+      "titleJa": "メジャー (第2シリーズ)",
+      "score": 8.18
+    },
+    {
+      "titleEn": "Honey and Clover II",
+      "titleJa": "ハチミツとクローバー II",
+      "score": 8.18
+    },
+    {
+      "titleEn": "Black Lagoon: The Second Barrage",
+      "titleJa": "BLACK LAGOON The Second Barrage",
+      "score": 8.17
+    },
+    {
+      "titleEn": "Ouran High School Host Club",
+      "titleJa": "桜蘭高校ホスト部",
+      "score": 8.16
+    },
+    {
+      "titleEn": "Aria the Natural",
+      "titleJa": "ARIA The NATURAL",
+      "score": 8.16
+    },
+    {
+      "titleEn": "Reborn!",
+      "titleJa": "家庭教師ヒットマンREBORN!",
+      "score": 8.12
     }
   ],
   "2007": [
     {
-      "titleEn": "Naruto Shippuden",
-      "titleJa": "-ナルト- 疾風伝",
-      "popularity": 16
-    },
-    {
       "titleEn": "Gurren Lagann",
       "titleJa": "天元突破グレンラガン",
-      "popularity": 67
+      "score": 8.64
     },
     {
-      "titleEn": "Clannad",
-      "titleJa": "CLANNAD",
-      "popularity": 93
-    },
-    {
-      "titleEn": "5 Centimeters per Second",
-      "titleJa": "秒速５センチメートル",
-      "popularity": 179
-    },
-    {
-      "titleEn": "Darker than Black",
-      "titleJa": "Darker than BLACK -黒の契約者-",
-      "popularity": 181
+      "titleEn": "Mononoke",
+      "titleJa": "モノノ怪",
+      "score": 8.41
     },
     {
       "titleEn": "Baccano!",
       "titleJa": "バッカーノ！",
-      "popularity": 199
+      "score": 8.35
     },
     {
-      "titleEn": "Claymore",
-      "titleJa": "クレイモア",
-      "popularity": 318
+      "titleEn": "Naruto Shippuden",
+      "titleJa": "-ナルト- 疾風伝",
+      "score": 8.28
     },
     {
-      "titleEn": "School Days",
-      "titleJa": "スクールデイズ",
-      "popularity": 323
+      "titleEn": "Kaiji: Ultimate Survivor",
+      "titleJa": "逆境無頼カイジ Ultimate Survivor",
+      "score": 8.26
     },
     {
-      "titleEn": "Lucky☆Star",
-      "titleJa": "らき☆すた",
-      "popularity": 340
+      "titleEn": "Tsubasa RESERVoir CHRoNiCLE: Tokyo Revelations",
+      "titleJa": "ツバサ TOKYO REVELATIONS",
+      "score": 8.26
     },
     {
-      "titleEn": "Lovely Complex",
-      "titleJa": "ラブ★コン",
-      "popularity": 375
+      "titleEn": "Nodame Cantabile",
+      "titleJa": "のだめカンタービレ",
+      "score": 8.25
     },
     {
-      "titleEn": "Evangelion: 1.0 You Are (Not) Alone",
-      "titleJa": "ヱヴァンゲリヲン新劇場版:序",
-      "popularity": 400
+      "titleEn": "Sword of the Stranger",
+      "titleJa": "ストレンヂア -無皇刃譚-",
+      "score": 8.25
     },
     {
-      "titleEn": "The Familiar of Zero: Knight of the Twin Moons",
-      "titleJa": "ゼロの使い魔 ～双月の騎士～",
-      "popularity": 461
+      "titleEn": "Major S3",
+      "titleJa": "メジャー (第3シリーズ)",
+      "score": 8.21
+    },
+    {
+      "titleEn": "Higurashi: When They Cry – Kai",
+      "titleJa": "ひぐらしのなく頃に解",
+      "score": 8.16
+    },
+    {
+      "titleEn": "Moribito - Guardian of the Spirit",
+      "titleJa": "精霊の守り人",
+      "score": 8.12
+    },
+    {
+      "titleEn": "Mobile Suit Gundam 00",
+      "titleJa": "機動戦士ガンダム00",
+      "score": 8.1
     }
   ],
   "2008": [
     {
-      "titleEn": "Toradora!",
-      "titleJa": "とらドラ！",
-      "popularity": 25
+      "titleEn": "Clannad: After Story",
+      "titleJa": "CLANNAD〜AFTER STORY〜 クラナド アフターストーリー",
+      "score": 8.93
     },
     {
       "titleEn": "Code Geass: Lelouch of the Rebellion R2",
       "titleJa": "コードギアス 反逆のルルーシュ R2",
-      "popularity": 47
+      "score": 8.91
     },
     {
-      "titleEn": "Soul Eater",
-      "titleJa": "ソウルイーター",
-      "popularity": 64
+      "titleEn": "The Garden of Sinners Chapter 5: Paradox Spiral",
+      "titleJa": "劇場版 空の境界 the Garden of sinners 第五章『矛盾螺旋』",
+      "score": 8.51
     },
     {
-      "titleEn": "Clannad: After Story",
-      "titleJa": "CLANNAD〜AFTER STORY〜 クラナド アフターストーリー",
-      "popularity": 120
+      "titleEn": "Aria the Origination",
+      "titleJa": "ARIA The ORIGINATION",
+      "score": 8.47
     },
     {
-      "titleEn": "Black Butler",
-      "titleJa": "黒執事",
-      "popularity": 122
+      "titleEn": "Gintama: Jump Festa 2008 Special",
+      "titleJa": "ジャンプアニメツアー 2008 白夜叉降誕",
+      "score": 8.36
     },
     {
-      "titleEn": "Spice and Wolf",
-      "titleJa": "狼と香辛料",
-      "popularity": 237
-    },
-    {
-      "titleEn": "A Certain Magical Index",
-      "titleJa": "とある魔術の禁書目録",
-      "popularity": 240
-    },
-    {
-      "titleEn": "Rosario + Vampire",
-      "titleJa": "ロザリオとバンパイア",
-      "popularity": 311
-    },
-    {
-      "titleEn": "To Love Ru",
-      "titleJa": "To LOVEる -とらぶる-",
-      "popularity": 345
-    },
-    {
-      "titleEn": "Ponyo",
-      "titleJa": "崖の上のポニョ",
-      "popularity": 378
-    },
-    {
-      "titleEn": "Vampire Knight",
-      "titleJa": "ヴァンパイア騎士〈ナイト〉",
-      "popularity": 381
+      "titleEn": "One Outs",
+      "titleJa": "ワンナウツ",
+      "score": 8.32
     },
     {
       "titleEn": "Natsume's Book of Friends",
       "titleJa": "夏目友人帳",
-      "popularity": 426
+      "score": 8.3
+    },
+    {
+      "titleEn": "Spice and Wolf",
+      "titleJa": "狼と香辛料",
+      "score": 8.21
+    },
+    {
+      "titleEn": "xxxHOLiC◆Kei",
+      "titleJa": "×××HOLiC◆継",
+      "score": 8.2
+    },
+    {
+      "titleEn": "Major S4",
+      "titleJa": "メジャー　（第4シリーズ)",
+      "score": 8.18
+    },
+    {
+      "titleEn": "Gurren Lagann The Movie: Childhood's End",
+      "titleJa": "劇場版 天元突破グレンラガン 紅蓮篇",
+      "score": 8.17
+    },
+    {
+      "titleEn": "Kaiba",
+      "titleJa": "カイバ",
+      "score": 8.14
     }
   ],
   "2009": [
     {
       "titleEn": "Fullmetal Alchemist: Brotherhood",
       "titleJa": "鋼の錬金術師 FULLMETAL ALCHEMIST",
-      "popularity": 3
+      "score": 9.1
     },
     {
-      "titleEn": "Fairy Tail",
-      "titleJa": "FAIRY TAIL（フェアリーテイル）",
-      "popularity": 54
+      "titleEn": "Fighting Spirit: New Challenger",
+      "titleJa": "はじめの一歩 新シリーズ",
+      "score": 8.67
+    },
+    {
+      "titleEn": "Gurren Lagann The Movie: The Lights in the Sky are Stars",
+      "titleJa": "劇場版 天元突破グレンラガン 螺巌篇",
+      "score": 8.59
+    },
+    {
+      "titleEn": "Natsume's Book of Friends Season 2",
+      "titleJa": "続 夏目友人帳",
+      "score": 8.53
+    },
+    {
+      "titleEn": "Major S5",
+      "titleJa": "メジャー",
+      "score": 8.39
+    },
+    {
+      "titleEn": "Cross Game",
+      "titleJa": "クロスゲーム",
+      "score": 8.37
+    },
+    {
+      "titleEn": "The Garden of Sinners Chapter 7: A Study in Murder - Part 2",
+      "titleJa": "劇場版 空の境界 the Garden of sinners 第七章『殺人考察（後）』",
+      "score": 8.37
     },
     {
       "titleEn": "Bakemonogatari",
       "titleJa": "化物語",
-      "popularity": 96
-    },
-    {
-      "titleEn": "K-ON!",
-      "titleJa": "けいおん!",
-      "popularity": 153
-    },
-    {
-      "titleEn": "Kimi ni Todoke: From Me to You",
-      "titleJa": "君に届け",
-      "popularity": 169
-    },
-    {
-      "titleEn": "A Certain Scientific Railgun",
-      "titleJa": "とある科学の超電磁砲",
-      "popularity": 371
-    },
-    {
-      "titleEn": "Eden of The East",
-      "titleJa": "東のエデン",
-      "popularity": 409
+      "score": 8.32
     },
     {
       "titleEn": "Evangelion: 2.0 You Can (Not) Advance",
       "titleJa": "ヱヴァンゲリヲン新劇場版:破",
-      "popularity": 424
-    },
-    {
-      "titleEn": "The Melancholy of Haruhi Suzumiya Season 2",
-      "titleJa": "涼宮ハルヒの憂鬱",
-      "popularity": 435
-    },
-    {
-      "titleEn": "Summer Wars",
-      "titleJa": "サマーウォーズ",
-      "popularity": 448
+      "score": 8.3
     },
     {
       "titleEn": "Spice and Wolf II",
       "titleJa": "狼と香辛料II",
-      "popularity": 473
+      "score": 8.3
     },
     {
-      "titleEn": "Heaven's Lost Property",
-      "titleJa": "そらのおとしもの",
-      "popularity": 492
+      "titleEn": "The Beast Player Erin",
+      "titleJa": "獣の奏者エリン",
+      "score": 8.29
+    },
+    {
+      "titleEn": "Redline",
+      "titleJa": "REDLINE",
+      "score": 8.29
     }
   ],
   "2010": [
     {
-      "titleEn": "Angel Beats!",
-      "titleJa": "Angel Beats!（エンジェルビーツ!）",
-      "popularity": 32
+      "titleEn": "The Disappearance of Haruhi Suzumiya",
+      "titleJa": "涼宮ハルヒの消失",
+      "score": 8.59
     },
     {
-      "titleEn": "High School of the Dead",
-      "titleJa": "学園黙示録 HIGHSCHOOL OF THE DEAD",
-      "popularity": 79
+      "titleEn": "The Tatami Galaxy",
+      "titleJa": "四畳半神話大系",
+      "score": 8.55
     },
     {
-      "titleEn": "Durarara!!",
-      "titleJa": "デュラララ!!",
-      "popularity": 94
+      "titleEn": "Gintama: The Movie",
+      "titleJa": "劇場版 銀魂 新訳紅桜篇",
+      "score": 8.52
     },
     {
-      "titleEn": "Maid Sama!",
-      "titleJa": "会長はメイド様!",
-      "popularity": 109
+      "titleEn": "Rainbow",
+      "titleJa": "RAINBOW 二舎六房の七人",
+      "score": 8.46
+    },
+    {
+      "titleEn": "Katanagatari",
+      "titleJa": "刀語",
+      "score": 8.3
+    },
+    {
+      "titleEn": "Nodame Cantabile Finale",
+      "titleJa": "のだめカンタービレ フィナーレ",
+      "score": 8.22
     },
     {
       "titleEn": "K-ON! Season 2",
       "titleJa": "けいおん!!",
-      "popularity": 298
+      "score": 8.18
     },
     {
-      "titleEn": "OreImo",
-      "titleJa": "俺の妹がこんなに可愛いわけがない",
-      "popularity": 316
-    },
-    {
-      "titleEn": "Baka & Test: Summon the Beasts",
-      "titleJa": "バカとテストと召喚獣",
-      "popularity": 355
-    },
-    {
-      "titleEn": "The World God Only Knows",
-      "titleJa": "神のみぞ知るセカイ",
-      "popularity": 360
+      "titleEn": "xxxHOLiC Rou",
+      "titleJa": "xxxHOLiC 籠",
+      "score": 8.18
     },
     {
       "titleEn": "Bakuman.",
       "titleJa": "バクマン。",
-      "popularity": 363
+      "score": 8.17
     },
     {
-      "titleEn": "The Disappearance of Haruhi Suzumiya",
-      "titleJa": "涼宮ハルヒの消失",
-      "popularity": 370
+      "titleEn": "Princess Jellyfish",
+      "titleJa": "海月姫",
+      "score": 8.11
     },
     {
-      "titleEn": "Shiki",
-      "titleJa": "屍鬼",
-      "popularity": 374
+      "titleEn": "Durarara!!",
+      "titleJa": "デュラララ!!",
+      "score": 8.09
     },
     {
-      "titleEn": "Kiss x Sis (TV)",
-      "titleJa": "キスシス",
-      "popularity": 402
+      "titleEn": "Mobile Suit Gundam Unicorn",
+      "titleJa": "機動戦士ガンダムUC（ユニコーン）",
+      "score": 8.09
     }
   ],
   "2011": [
     {
-      "titleEn": "Hunter x Hunter",
-      "titleJa": "HUNTER×HUNTER（ハンター×ハンター）",
-      "popularity": 8
-    },
-    {
       "titleEn": "Steins;Gate",
       "titleJa": "STEINS;GATE",
-      "popularity": 14
+      "score": 9.07
     },
     {
-      "titleEn": "The Future Diary",
-      "titleJa": "未来日記",
-      "popularity": 37
+      "titleEn": "Hunter x Hunter",
+      "titleJa": "HUNTER×HUNTER（ハンター×ハンター）",
+      "score": 9.03
     },
     {
-      "titleEn": "Blue Exorcist",
-      "titleJa": "青の祓魔師",
-      "popularity": 41
+      "titleEn": "Gintama Season 2",
+      "titleJa": "銀魂'",
+      "score": 9.02
     },
     {
-      "titleEn": "Anohana: The Flower We Saw That Day",
-      "titleJa": "あの日見た花の名前を僕達はまだ知らない。",
-      "popularity": 72
-    },
-    {
-      "titleEn": "Fate/Zero",
-      "titleJa": "フェイト/ゼロ",
-      "popularity": 82
-    },
-    {
-      "titleEn": "Puella Magi Madoka Magica",
-      "titleJa": "魔法少女まどか★マギカ",
-      "popularity": 104
-    },
-    {
-      "titleEn": "Deadman Wonderland",
-      "titleJa": "デッドマン・ワンダーランド",
-      "popularity": 113
-    },
-    {
-      "titleEn": "Guilty Crown",
-      "titleJa": "ギルティクラウン",
-      "popularity": 119
+      "titleEn": "Natsume's Book of Friends Season 3",
+      "titleJa": "夏目友人帳 参",
+      "score": 8.56
     },
     {
       "titleEn": "Nichijou - My Ordinary Life",
       "titleJa": "日常",
-      "popularity": 195
+      "score": 8.47
+    },
+    {
+      "titleEn": "Puella Magi Madoka Magica",
+      "titleJa": "魔法少女まどか★マギカ",
+      "score": 8.38
+    },
+    {
+      "titleEn": "K-ON! The Movie",
+      "titleJa": "映画 けいおん！",
+      "score": 8.35
+    },
+    {
+      "titleEn": "Bakuman. Season 2",
+      "titleJa": "バクマン。2ndシーズン",
+      "score": 8.33
+    },
+    {
+      "titleEn": "Bunny Drop",
+      "titleJa": "うさぎドロップ",
+      "score": 8.32
+    },
+    {
+      "titleEn": "Anohana: The Flower We Saw That Day",
+      "titleJa": "あの日見た花の名前を僕達はまだ知らない。",
+      "score": 8.29
     },
     {
       "titleEn": "Into the Forest of Fireflies' Light",
       "titleJa": "蛍火の杜へ",
-      "popularity": 233
+      "score": 8.27
     },
     {
-      "titleEn": "Haganai: I don't have many friends",
-      "titleJa": "僕は友達が少ない",
-      "popularity": 245
+      "titleEn": "Fate/Zero",
+      "titleJa": "フェイト/ゼロ",
+      "score": 8.27
     }
   ],
   "2012": [
     {
-      "titleEn": "Sword Art Online",
-      "titleJa": "ソードアート・オンライン",
-      "popularity": 6
+      "titleEn": "Gintama: Enchousen",
+      "titleJa": "銀魂' 延長戦",
+      "score": 9.02
     },
     {
-      "titleEn": "JoJo's Bizarre Adventure (2012)",
-      "titleJa": "ジョジョの奇妙な冒険",
-      "popularity": 58
+      "titleEn": "Natsume's Book of Friends Season 4",
+      "titleJa": "夏目友人帳 肆",
+      "score": 8.63
     },
     {
-      "titleEn": "Another",
-      "titleJa": "アナザー",
-      "popularity": 62
-    },
-    {
-      "titleEn": "Psycho-Pass",
-      "titleJa": "サイコパス",
-      "popularity": 65
-    },
-    {
-      "titleEn": "High School DxD",
-      "titleJa": "ハイスクールD×D",
-      "popularity": 90
-    },
-    {
-      "titleEn": "Hyouka",
-      "titleJa": "氷菓",
-      "popularity": 98
-    },
-    {
-      "titleEn": "Love, Chunibyo & Other Delusions!",
-      "titleJa": "中二病でも恋がしたい!",
-      "popularity": 101
-    },
-    {
-      "titleEn": "The Pet Girl of Sakurasou",
-      "titleJa": "さくら荘のペットな彼女",
-      "popularity": 111
-    },
-    {
-      "titleEn": "Kuroko's Basketball",
-      "titleJa": "黒子のバスケ",
-      "popularity": 117
+      "titleEn": "Wolf Children",
+      "titleJa": "おおかみこどもの雨と雪",
+      "score": 8.56
     },
     {
       "titleEn": "Fate/Zero Season 2",
       "titleJa": "フェイト/ゼロ 2ndシーズン",
-      "popularity": 137
+      "score": 8.54
     },
     {
-      "titleEn": "My Little Monster",
-      "titleJa": "となりの怪物くん",
-      "popularity": 142
+      "titleEn": "Bakuman. Season 3",
+      "titleJa": "バクマン。",
+      "score": 8.52
     },
     {
-      "titleEn": "Magi: The Labyrinth of Magic",
-      "titleJa": "マギ The labyrinth of magic",
-      "popularity": 154
+      "titleEn": "Space Brothers",
+      "titleJa": "宇宙兄弟",
+      "score": 8.48
+    },
+    {
+      "titleEn": "Puella Magi Madoka Magica the Movie Part 2: Eternal",
+      "titleJa": "劇場版 魔法少女まどか☆マギカ 永遠の物語",
+      "score": 8.37
+    },
+    {
+      "titleEn": "Psycho-Pass",
+      "titleJa": "サイコパス",
+      "score": 8.33
+    },
+    {
+      "titleEn": "Star Blazers: Space Battleship Yamato 2199",
+      "titleJa": "宇宙戦艦ヤマト2199",
+      "score": 8.31
+    },
+    {
+      "titleEn": "Steins;Gate: Egoistic Poriomania",
+      "titleJa": "シュタインズ ゲート 横行跋扈のポリオマニア",
+      "score": 8.29
+    },
+    {
+      "titleEn": "Kids on the Slope",
+      "titleJa": "坂道のアポロン",
+      "score": 8.29
+    },
+    {
+      "titleEn": "From the New World",
+      "titleJa": "新世界より",
+      "score": 8.25
     }
   ],
   "2013": [
     {
+      "titleEn": "Gintama: The Movie: The Final Chapter: Be Forever Yorozuya",
+      "titleJa": "劇場版 銀魂 完結篇 万事屋よ永遠なれ",
+      "score": 8.9
+    },
+    {
+      "titleEn": "Monogatari Series: Second Season",
+      "titleJa": "〈物語〉シリーズ セカンドシーズン",
+      "score": 8.76
+    },
+    {
+      "titleEn": "Fighting Spirit: Rising",
+      "titleJa": "はじめの一歩 Rising",
+      "score": 8.61
+    },
+    {
       "titleEn": "Attack on Titan",
       "titleJa": "進撃の巨人",
-      "popularity": 1
+      "score": 8.56
     },
     {
-      "titleEn": "Kill la Kill",
-      "titleJa": "キルラキル",
-      "popularity": 57
+      "titleEn": "Puella Magi Madoka Magica the Movie: Rebellion",
+      "titleJa": "劇場版 魔法少女まどか☆マギカ 叛逆の物語",
+      "score": 8.49
     },
     {
-      "titleEn": "The Devil is a Part-Timer!",
-      "titleJa": "はたらく魔王さま!",
-      "popularity": 74
+      "titleEn": "Steins;Gate: The Movie - Load Region of Déjà Vu",
+      "titleJa": "劇場版 シュタインズゲート 負荷領域のデジャヴ",
+      "score": 8.45
     },
     {
-      "titleEn": "My Teen Romantic Comedy SNAFU",
-      "titleJa": "やはり俺の青春ラブコメはまちがっている。",
-      "popularity": 86
+      "titleEn": "Chihayafuru 2",
+      "titleJa": "ちはやふる 2",
+      "score": 8.37
     },
     {
-      "titleEn": "Beyond the Boundary",
-      "titleJa": "境界の彼方",
-      "popularity": 126
+      "titleEn": "Berserk: The Golden Age Arc III - The Advent",
+      "titleJa": "ベルセルク 黄金時代篇Ⅲ 降臨",
+      "score": 8.21
     },
     {
-      "titleEn": "Log Horizon",
-      "titleJa": "ログ・ホライズン",
-      "popularity": 138
-    },
-    {
-      "titleEn": "Golden Time",
-      "titleJa": "ゴールデンタイム",
-      "popularity": 152
-    },
-    {
-      "titleEn": "Date A Live",
-      "titleJa": "デート・ア・ライブ",
-      "popularity": 156
-    },
-    {
-      "titleEn": "Danganronpa: The Animation",
-      "titleJa": "ダンガンロンパ 希望の学園と絶望の高校生 THE ANIMATION",
-      "popularity": 184
-    },
-    {
-      "titleEn": "High School DxD New",
-      "titleJa": "ハイスクールD×D NEW",
-      "popularity": 196
-    },
-    {
-      "titleEn": "The Garden of Words",
-      "titleJa": "言の葉の庭",
-      "popularity": 210
+      "titleEn": "The Tale of the Princess Kaguya",
+      "titleJa": "かぐや姫の物語",
+      "score": 8.21
     },
     {
       "titleEn": "Kuroko's Basketball 2",
       "titleJa": "黒子のバスケ",
-      "popularity": 214
+      "score": 8.2
+    },
+    {
+      "titleEn": "Magi: The Kingdom of Magic",
+      "titleJa": "マギ The kingdom of magic",
+      "score": 8.2
+    },
+    {
+      "titleEn": "The Wind Rises",
+      "titleJa": "風立ちぬ",
+      "score": 8.13
     }
   ],
   "2014": [
     {
-      "titleEn": "Tokyo Ghoul",
-      "titleJa": "東京喰種-トーキョーグール-",
-      "popularity": 10
+      "titleEn": "Mushi-shi: Next Passage Part 2",
+      "titleJa": "蟲師 続章",
+      "score": 8.72
     },
     {
-      "titleEn": "No Game, No Life",
-      "titleJa": "ノーゲーム・ノーライフ",
-      "popularity": 19
+      "titleEn": "Mushi-shi: Next Passage Part 1",
+      "titleJa": "蟲師 続章",
+      "score": 8.69
     },
     {
       "titleEn": "Your Lie in April",
       "titleJa": "四月は君の嘘",
-      "popularity": 24
+      "score": 8.64
     },
     {
-      "titleEn": "Noragami",
-      "titleJa": "ノラガミ",
-      "popularity": 27
+      "titleEn": "Ping Pong the Animation",
+      "titleJa": "ピンポン THE ANIMATION",
+      "score": 8.62
     },
     {
-      "titleEn": "Akame ga Kill!",
-      "titleJa": "アカメが斬る！",
-      "popularity": 30
-    },
-    {
-      "titleEn": "The Seven Deadly Sins",
-      "titleJa": "七つの大罪",
-      "popularity": 33
+      "titleEn": "Mushi-shi: The Shadow that Devours the Sun",
+      "titleJa": "蟲師 特別篇「日蝕む翳」",
+      "score": 8.52
     },
     {
       "titleEn": "Haikyu!!",
       "titleJa": "ハイキュー!!",
-      "popularity": 36
+      "score": 8.44
     },
     {
-      "titleEn": "Sword Art Online II",
-      "titleJa": "ソードアート・オンライン II",
-      "popularity": 40
+      "titleEn": "Attack on Titan: No Regrets",
+      "titleJa": "進撃の巨人 悔いなき選択",
+      "score": 8.41
+    },
+    {
+      "titleEn": "Barakamon",
+      "titleJa": "ばらかもん",
+      "score": 8.37
     },
     {
       "titleEn": "Parasyte: The Maxim",
       "titleJa": "寄生獣 セイの格率",
-      "popularity": 43
+      "score": 8.32
     },
     {
-      "titleEn": "JoJo's Bizarre Adventure: Stardust Crusaders",
-      "titleJa": "ジョジョの奇妙な冒険 スターダストクルセイダース",
-      "popularity": 110
+      "titleEn": "Silver Spoon 2nd Season",
+      "titleJa": "銀の匙",
+      "score": 8.27
     },
     {
-      "titleEn": "Terror in Resonance",
-      "titleJa": "残響のテロル",
-      "popularity": 123
+      "titleEn": "Shirobako",
+      "titleJa": "SHIROBAKO",
+      "score": 8.27
     },
     {
-      "titleEn": "Nisekoi: False Love",
-      "titleJa": "ニセコイ",
-      "popularity": 125
+      "titleEn": "Space Dandy 2nd Season",
+      "titleJa": "スペース☆ダンディ 第2シリーズ",
+      "score": 8.26
     }
   ],
   "2015": [
     {
-      "titleEn": "One Punch Man",
-      "titleJa": "ワンパンマン",
-      "popularity": 4
-    },
-    {
-      "titleEn": "Assassination Classroom",
-      "titleJa": "暗殺教室",
-      "popularity": 34
-    },
-    {
-      "titleEn": "Death Parade",
-      "titleJa": "デス・パレード",
-      "popularity": 50
-    },
-    {
-      "titleEn": "Tokyo Ghoul √A",
-      "titleJa": "東京喰種√A",
-      "popularity": 52
-    },
-    {
-      "titleEn": "Food Wars! Shokugeki no Soma",
-      "titleJa": "食戟のソーマ",
-      "popularity": 63
-    },
-    {
-      "titleEn": "Charlotte",
-      "titleJa": "Charlotte（シャーロット）",
-      "popularity": 66
-    },
-    {
-      "titleEn": "Overlord",
-      "titleJa": "オーバーロード",
-      "popularity": 69
-    },
-    {
-      "titleEn": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
-      "titleJa": "ダンジョンに出会いを求めるのは間違っているだろうか",
-      "popularity": 76
-    },
-    {
-      "titleEn": "Noragami Aragoto",
-      "titleJa": "ノラガミ ARAGOTO",
-      "popularity": 84
+      "titleEn": "Gintama Season 4",
+      "titleJa": "銀魂°",
+      "score": 9.05
     },
     {
       "titleEn": "Haikyu!! 2nd Season",
       "titleJa": "ハイキュー!! セカンドシーズン",
-      "popularity": 88
+      "score": 8.62
     },
     {
-      "titleEn": "Seraph of the End: Vampire Reign",
-      "titleJa": "終わりのセラフ",
-      "popularity": 102
+      "titleEn": "One Punch Man",
+      "titleJa": "ワンパンマン",
+      "score": 8.48
+    },
+    {
+      "titleEn": "Owarimonogatari",
+      "titleJa": "終物語",
+      "score": 8.45
     },
     {
       "titleEn": "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt",
       "titleJa": "ジョジョの奇妙な冒険 スターダストクルセイダース エジプト編",
-      "popularity": 134
+      "score": 8.44
+    },
+    {
+      "titleEn": "Fate/stay night [Unlimited Blade Works] Season 2",
+      "titleJa": "Fate/stay night [Unlimited Blade Works] 2nd シーズン",
+      "score": 8.32
+    },
+    {
+      "titleEn": "Ace of Diamond: Second Season",
+      "titleJa": "ダイヤのA[エース]～Second Season～",
+      "score": 8.3
+    },
+    {
+      "titleEn": "Kuroko's Basketball 3",
+      "titleJa": "黒子のバスケ",
+      "score": 8.29
+    },
+    {
+      "titleEn": "Steins;Gate: Open the Missing Link - Divide By Zero",
+      "titleJa": "シュタインズ・ゲート境界面上のミッシングリンク-Divide By Zero-",
+      "score": 8.26
+    },
+    {
+      "titleEn": "Kamisama Kiss Season 2",
+      "titleJa": "神様はじめました◎",
+      "score": 8.23
+    },
+    {
+      "titleEn": "The Boy and the Beast",
+      "titleJa": "バケモノの子",
+      "score": 8.23
+    },
+    {
+      "titleEn": "My Teen Romantic Comedy SNAFU TOO!",
+      "titleJa": "やはり俺の青春ラブコメはまちがっている。続",
+      "score": 8.2
     }
   ],
   "2016": [
     {
-      "titleEn": "My Hero Academia",
-      "titleJa": "僕のヒーローアカデミア",
-      "popularity": 7
+      "titleEn": "A Silent Voice",
+      "titleJa": "聲の形",
+      "score": 8.93
     },
     {
       "titleEn": "Your Name.",
       "titleJa": "君の名は。",
-      "popularity": 11
-    },
-    {
-      "titleEn": "A Silent Voice",
-      "titleJa": "聲の形",
-      "popularity": 20
-    },
-    {
-      "titleEn": "Re:ZERO -Starting Life in Another World-",
-      "titleJa": "Re:ゼロから始める異世界生活",
-      "popularity": 23
-    },
-    {
-      "titleEn": "Mob Psycho 100",
-      "titleJa": "モブサイコ100",
-      "popularity": 28
-    },
-    {
-      "titleEn": "Erased",
-      "titleJa": "僕だけがいない街",
-      "popularity": 29
-    },
-    {
-      "titleEn": "KonoSuba: God's Blessing on This Wonderful World!",
-      "titleJa": "この素晴らしい世界に祝福を！",
-      "popularity": 39
-    },
-    {
-      "titleEn": "Assassination Classroom Second Season",
-      "titleJa": "暗殺教室　第２期",
-      "popularity": 87
-    },
-    {
-      "titleEn": "Bungo Stray Dogs",
-      "titleJa": "文豪ストレイドッグス",
-      "popularity": 89
+      "score": 8.83
     },
     {
       "titleEn": "Haikyu!! 3rd Season",
       "titleJa": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校",
-      "popularity": 116
+      "score": 8.77
+    },
+    {
+      "titleEn": "Kizumonogatari Part 2: Hot-Blooded",
+      "titleJa": "傷物語〈Ⅱ熱血篇〉",
+      "score": 8.56
+    },
+    {
+      "titleEn": "Natsume's Book of Friends Season 5",
+      "titleJa": "夏目友人帳 伍",
+      "score": 8.56
+    },
+    {
+      "titleEn": "Showa Genroku Rakugo Shinju",
+      "titleJa": "昭和元禄落語心中",
+      "score": 8.55
     },
     {
       "titleEn": "JoJo's Bizarre Adventure: Diamond Is Unbreakable",
       "titleJa": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
-      "popularity": 129
+      "score": 8.5
+    },
+    {
+      "titleEn": "Mob Psycho 100",
+      "titleJa": "モブサイコ100",
+      "score": 8.49
+    },
+    {
+      "titleEn": "Assassination Classroom Second Season",
+      "titleJa": "暗殺教室　第２期",
+      "score": 8.47
     },
     {
       "titleEn": "The Disastrous Life of Saiki K.",
       "titleJa": "斉木楠雄のΨ難",
-      "popularity": 132
+      "score": 8.41
+    },
+    {
+      "titleEn": "March Comes In Like a Lion",
+      "titleJa": "3月のライオン",
+      "score": 8.37
+    },
+    {
+      "titleEn": "Kizumonogatari Part 1: Iron-Blooded",
+      "titleJa": "傷物語〈Ⅰ鉄血篇〉",
+      "score": 8.36
     }
   ],
   "2017": [
     {
-      "titleEn": "Attack on Titan Season 2",
-      "titleJa": "進撃の巨人 Season2",
-      "popularity": 12
+      "titleEn": "Gintama Season 5",
+      "titleJa": "銀魂。",
+      "score": 8.98
     },
     {
-      "titleEn": "My Hero Academia Season 2",
-      "titleJa": "僕のヒーローアカデミア",
-      "popularity": 15
+      "titleEn": "March Comes In Like a Lion 2nd Season",
+      "titleJa": "3月のライオン 第2シリーズ",
+      "score": 8.9
     },
     {
-      "titleEn": "Black Clover",
-      "titleJa": "ブラッククローバー",
-      "popularity": 56
+      "titleEn": "Owarimonogatari Second Season",
+      "titleJa": "終物語",
+      "score": 8.86
     },
     {
-      "titleEn": "KonoSuba: God's Blessing on This Wonderful World! 2",
-      "titleJa": "この素晴らしい世界に祝福を！ 2",
-      "popularity": 77
+      "titleEn": "Kizumonogatari Part 3: Cold-Blooded",
+      "titleJa": "傷物語〈Ⅲ冷血篇〉",
+      "score": 8.78
     },
     {
-      "titleEn": "Kakegurui",
-      "titleJa": "賭ケグルイ",
-      "popularity": 80
+      "titleEn": "Descending Stories: Showa Genroku Rakugo Shinju",
+      "titleJa": "昭和元禄落語心中～助六再び篇～",
+      "score": 8.7
     },
     {
       "titleEn": "Made in Abyss",
       "titleJa": "メイドインアビス",
-      "popularity": 91
+      "score": 8.63
     },
     {
-      "titleEn": "Classroom of the Elite",
-      "titleJa": "ようこそ実力至上主義の教室へ",
-      "popularity": 103
+      "titleEn": "Natsume's Book of Friends Season 6",
+      "titleJa": "夏目友人帳 陸",
+      "score": 8.61
     },
     {
-      "titleEn": "Miss Kobayashi's Dragon Maid",
-      "titleJa": "小林さんちのメイドラゴン",
-      "popularity": 112
+      "titleEn": "Attack on Titan Season 2",
+      "titleJa": "進撃の巨人 Season2",
+      "score": 8.53
     },
     {
-      "titleEn": "Food Wars! The Third Plate",
-      "titleJa": "食戟のソーマ 餐ノ皿",
-      "popularity": 171
+      "titleEn": "Gintama. Slip Arc",
+      "titleJa": "銀魂。ポロリ編",
+      "score": 8.52
     },
     {
-      "titleEn": "Saga of Tanya the Evil",
-      "titleJa": "幼女戦記",
-      "popularity": 177
+      "titleEn": "Land of the Lustrous",
+      "titleJa": "宝石の国",
+      "score": 8.39
     },
     {
-      "titleEn": "The Ancient Magus' Bride",
-      "titleJa": "魔法使いの嫁",
-      "popularity": 180
+      "titleEn": "KonoSuba: God's Blessing on This Wonderful World! 2",
+      "titleJa": "この素晴らしい世界に祝福を！ 2",
+      "score": 8.25
     },
     {
-      "titleEn": "Masamune-kun's Revenge",
-      "titleJa": "政宗くんのリベンジ",
-      "popularity": 200
+      "titleEn": "Black Butler: Book of the Atlantic",
+      "titleJa": "劇場版 黒執事 Book of the Atlantic",
+      "score": 8.24
     }
   ],
   "2018": [
     {
-      "titleEn": "Attack on Titan Season 3",
-      "titleJa": "進撃の巨人 Season3",
-      "popularity": 18
+      "titleEn": "Gintama. Silver Soul Arc - Second Half War",
+      "titleJa": "銀魂. 銀ノ魂篇 後半戦",
+      "score": 8.88
     },
     {
-      "titleEn": "My Hero Academia Season 3",
-      "titleJa": "僕のヒーローアカデミア",
-      "popularity": 26
+      "titleEn": "Gintama. Silver Soul Arc",
+      "titleJa": "銀魂. 銀ノ魂篇",
+      "score": 8.81
     },
     {
       "titleEn": "Violet Evergarden",
       "titleJa": "ヴァイオレット・エヴァーガーデン",
-      "popularity": 46
+      "score": 8.68
     },
     {
-      "titleEn": "Rascal Does Not Dream of Bunny Girl Senpai",
-      "titleJa": "青春ブタ野郎はバニーガール先輩の夢を見ない",
-      "popularity": 49
-    },
-    {
-      "titleEn": "DARLING in the FRANXX",
-      "titleJa": "ダーリン・イン・ザ・フランキス",
-      "popularity": 61
-    },
-    {
-      "titleEn": "That Time I Got Reincarnated as a Slime",
-      "titleJa": "転生したらスライムだった件",
-      "popularity": 81
-    },
-    {
-      "titleEn": "Tokyo Ghoul:re",
-      "titleJa": "東京喰種トーキョーグール：re",
-      "popularity": 118
-    },
-    {
-      "titleEn": "Devilman: Crybaby",
-      "titleJa": "DEVILMAN crybaby",
-      "popularity": 124
-    },
-    {
-      "titleEn": "Goblin Slayer",
-      "titleJa": "ゴブリンスレイヤー",
-      "popularity": 131
-    },
-    {
-      "titleEn": "The Seven Deadly Sins: Revival of the Commandments",
-      "titleJa": "七つの大罪 戒めの復活",
-      "popularity": 136
-    },
-    {
-      "titleEn": "Sword Art Online: Alicization",
-      "titleJa": "ソードアート・オンライン アリシゼーション",
-      "popularity": 148
+      "titleEn": "Attack on Titan Season 3",
+      "titleJa": "進撃の巨人 Season3",
+      "score": 8.63
     },
     {
       "titleEn": "JoJo's Bizarre Adventure: Golden Wind",
       "titleJa": "ジョジョの奇妙な冒険 黄金の風",
-      "popularity": 149
+      "score": 8.58
+    },
+    {
+      "titleEn": "I Want To Eat Your Pancreas",
+      "titleJa": "君の膵臓をたべたい",
+      "score": 8.55
+    },
+    {
+      "titleEn": "Steins;Gate 0",
+      "titleJa": "シュタインズ・ゲート ゼロ",
+      "score": 8.54
+    },
+    {
+      "titleEn": "A Place Further Than The Universe",
+      "titleJa": "宇宙よりも遠い場所",
+      "score": 8.51
+    },
+    {
+      "titleEn": "The Master of Diabolism",
+      "titleJa": "魔道祖师",
+      "score": 8.46
+    },
+    {
+      "titleEn": "Banana Fish",
+      "titleJa": "BANANA FISH",
+      "score": 8.45
+    },
+    {
+      "titleEn": "Grand Blue Dreaming",
+      "titleJa": "ぐらんぶる",
+      "score": 8.44
+    },
+    {
+      "titleEn": "The Disastrous Life of Saiki K. 2",
+      "titleJa": "斉木楠雄のΨ難 2",
+      "score": 8.41
     }
   ],
   "2019": [
     {
-      "titleEn": "Demon Slayer: Kimetsu no Yaiba",
-      "titleJa": "鬼滅の刃",
-      "popularity": 5
-    },
-    {
       "titleEn": "Attack on Titan Season 3 Part 2",
       "titleJa": "進撃の巨人 Season3 Part.2",
-      "popularity": 21
-    },
-    {
-      "titleEn": "The Promised Neverland",
-      "titleJa": "約束のネバーランド",
-      "popularity": 38
-    },
-    {
-      "titleEn": "Dr. Stone",
-      "titleJa": "ドクターストーン",
-      "popularity": 48
-    },
-    {
-      "titleEn": "Kaguya-sama: Love is War",
-      "titleJa": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
-      "popularity": 51
-    },
-    {
-      "titleEn": "My Hero Academia Season 4",
-      "titleJa": "僕のヒーローアカデミア",
-      "popularity": 53
-    },
-    {
-      "titleEn": "One Punch Man Season 2",
-      "titleJa": "ワンパンマン",
-      "popularity": 55
-    },
-    {
-      "titleEn": "The Rising of the Shield Hero",
-      "titleJa": "盾の勇者の成り上がり",
-      "popularity": 68
-    },
-    {
-      "titleEn": "Vinland Saga",
-      "titleJa": "ヴィンランド・サガ",
-      "popularity": 70
+      "score": 9.05
     },
     {
       "titleEn": "Mob Psycho 100 II",
       "titleJa": "モブサイコ100 II",
-      "popularity": 73
+      "score": 8.78
     },
     {
-      "titleEn": "Fire Force",
-      "titleJa": "炎炎ノ消防隊",
-      "popularity": 95
+      "titleEn": "Vinland Saga",
+      "titleJa": "ヴィンランド・サガ",
+      "score": 8.77
     },
     {
-      "titleEn": "Dororo",
-      "titleJa": "どろろ",
-      "popularity": 107
+      "titleEn": "Rascal Does Not Dream of a Dreaming Girl",
+      "titleJa": "青春ブタ野郎はゆめみる少女の夢を見ない",
+      "score": 8.59
+    },
+    {
+      "titleEn": "The Promised Neverland",
+      "titleJa": "約束のネバーランド",
+      "score": 8.48
+    },
+    {
+      "titleEn": "Fate/stay night: Heaven's Feel - II. Lost Butterfly",
+      "titleJa": "劇場版「Fate/stay night [Heaven's Feel] II.lost butterfly」",
+      "score": 8.47
+    },
+    {
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba",
+      "titleJa": "鬼滅の刃",
+      "score": 8.43
+    },
+    {
+      "titleEn": "Zoku Owarimonogatari",
+      "titleJa": "続・終物語",
+      "score": 8.43
+    },
+    {
+      "titleEn": "Violet Evergarden: Eternity and the Auto Memory Doll",
+      "titleJa": "ヴァイオレット・エヴァーガーデン 外伝 -永遠と自動手記人形-",
+      "score": 8.42
+    },
+    {
+      "titleEn": "Kono Oto Tomare!: Sounds of Life Season 2",
+      "titleJa": "この音とまれ！",
+      "score": 8.42
+    },
+    {
+      "titleEn": "KonoSuba: God's Blessing on This Wonderful World! - Legend of Crimson",
+      "titleJa": "映画 この素晴らしい世界に祝福を！紅伝説",
+      "score": 8.41
+    },
+    {
+      "titleEn": "Saekano the Movie: Finale",
+      "titleJa": "冴えない彼女の育てかた Fine",
+      "score": 8.41
     }
   ],
   "2020": [
     {
-      "titleEn": "Jujutsu Kaisen",
-      "titleJa": "呪術廻戦",
-      "popularity": 13
+      "titleEn": "Violet Evergarden: The Movie",
+      "titleJa": "劇場版 ヴァイオレット・エヴァーガーデン",
+      "score": 8.84
     },
     {
-      "titleEn": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
-      "titleJa": "劇場版 鬼滅の刃 無限列車編",
-      "popularity": 71
+      "titleEn": "Kingdom: Season 3",
+      "titleJa": "キングダム 第3シリーズ",
+      "score": 8.83
+    },
+    {
+      "titleEn": "Fate/stay night: Heaven's Feel - III. Spring Song",
+      "titleJa": "劇場版「Fate/stay night [Heaven's Feel] III.spring song」",
+      "score": 8.64
     },
     {
       "titleEn": "Kaguya-sama: Love is War?",
       "titleJa": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
-      "popularity": 99
+      "score": 8.62
     },
     {
-      "titleEn": "Re:ZERO -Starting Life in Another World- Season 2",
-      "titleJa": "Re：ゼロから始める異世界生活",
-      "popularity": 127
+      "titleEn": "Made in Abyss: Dawn of the Deep Soul",
+      "titleJa": "劇場版メイドインアビス 深き魂の黎明",
+      "score": 8.61
     },
     {
-      "titleEn": "Rent-a-Girlfriend",
-      "titleJa": "彼女、お借りします",
-      "popularity": 163
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+      "titleJa": "劇場版 鬼滅の刃 無限列車編",
+      "score": 8.56
     },
     {
-      "titleEn": "Tower of God",
-      "titleJa": "神之塔 -Tower of God-",
-      "popularity": 168
-    },
-    {
-      "titleEn": "Haikyu!! To the Top",
-      "titleJa": "ハイキュー!! TO THE TOP",
-      "popularity": 172
-    },
-    {
-      "titleEn": "The God of High School",
-      "titleJa": "THE GOD OF HIGH SCHOOL ゴッド・オブ・ハイスクール",
-      "popularity": 190
+      "titleEn": "Jujutsu Kaisen",
+      "titleJa": "呪術廻戦",
+      "score": 8.55
     },
     {
       "titleEn": "Haikyu!! To the Top 2nd-cour",
       "titleJa": "ハイキュー TO THE TOP 第2クール",
-      "popularity": 218
+      "score": 8.55
     },
     {
-      "titleEn": "The Misfit of Demon King Academy",
-      "titleJa": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～",
-      "popularity": 229
+      "titleEn": "Fruits Basket 2nd Season",
+      "titleJa": "フルーツバスケット 2nd season",
+      "score": 8.53
     },
     {
-      "titleEn": "Fire Force Season 2",
-      "titleJa": "炎炎ノ消防隊 弐ノ章",
-      "popularity": 230
+      "titleEn": "Golden Kamuy Season 3",
+      "titleJa": "ゴールデンカムイ",
+      "score": 8.43
     },
     {
-      "titleEn": "Tonikawa: Over The Moon For You",
-      "titleJa": "トニカクカワイイ",
-      "popularity": 265
+      "titleEn": "Heaven Official's Blessing",
+      "titleJa": "天官賜福",
+      "score": 8.41
+    },
+    {
+      "titleEn": "Josee, the Tiger and the Fish",
+      "titleJa": "ジョゼと虎と魚たち",
+      "score": 8.38
     }
   ],
   "2021": [
     {
+      "titleEn": "Gintama: The Very Final",
+      "titleJa": "銀魂 THE FINAL",
+      "score": 9.04
+    },
+    {
+      "titleEn": "Fruits Basket: The Final Season",
+      "titleJa": "フルーツバスケット The Final",
+      "score": 8.95
+    },
+    {
       "titleEn": "Attack on Titan: Final Season",
       "titleJa": "進撃の巨人 The Final Season",
-      "popularity": 31
+      "score": 8.78
     },
     {
-      "titleEn": "Horimiya",
-      "titleJa": "ホリミヤ",
-      "popularity": 83
+      "titleEn": "Link Click",
+      "titleJa": "時光代理人",
+      "score": 8.72
     },
     {
-      "titleEn": "Mushoku Tensei: Jobless Reincarnation",
-      "titleJa": "無職転生 ～異世界行ったら本気だす～",
-      "popularity": 92
+      "titleEn": "86 Eighty-Six Part 2",
+      "titleJa": "86―エイティシックス―",
+      "score": 8.72
     },
     {
-      "titleEn": "Tokyo Revengers",
-      "titleJa": "東京リベンジャーズ",
-      "popularity": 105
-    },
-    {
-      "titleEn": "My Hero Academia Season 5",
-      "titleJa": "僕のヒーローアカデミア",
-      "popularity": 115
-    },
-    {
-      "titleEn": "Dr. Stone: Stone Wars",
-      "titleJa": "ドクターストーン STONE WARS",
-      "popularity": 140
-    },
-    {
-      "titleEn": "Jujutsu Kaisen 0",
-      "titleJa": "劇場版 呪術廻戦 0",
-      "popularity": 143
-    },
-    {
-      "titleEn": "That Time I Got Reincarnated as a Slime Season 2",
-      "titleJa": "転生したらスライムだった件",
-      "popularity": 161
+      "titleEn": "Odd Taxi",
+      "titleJa": "オッドタクシー",
+      "score": 8.64
     },
     {
       "titleEn": "Mushoku Tensei: Jobless Reincarnation Part 2",
       "titleJa": "無職転生 ～異世界行ったら本気だす～ 第2クール",
-      "popularity": 166
+      "score": 8.63
+    },
+    {
+      "titleEn": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+      "titleJa": "シン・エヴァンゲリオン劇場版𝄇",
+      "score": 8.58
+    },
+    {
+      "titleEn": "Laid-Back Camp Season 2",
+      "titleJa": "ゆるキャン△ SEASON2",
+      "score": 8.5
+    },
+    {
+      "titleEn": "Ranking of Kings",
+      "titleJa": "王様ランキング",
+      "score": 8.49
     },
     {
       "titleEn": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
       "titleJa": "Re：ゼロから始める異世界生活",
-      "popularity": 174
+      "score": 8.42
     },
     {
-      "titleEn": "The Promised Neverland Season 2",
-      "titleJa": "約束のネバーランド",
-      "popularity": 189
-    },
-    {
-      "titleEn": "Komi Can't Communicate",
-      "titleJa": "古見さんは、コミュ症です。",
-      "popularity": 191
+      "titleEn": "Jujutsu Kaisen 0",
+      "titleJa": "劇場版 呪術廻戦 0",
+      "score": 8.4
     }
   ],
   "2022": [
     {
-      "titleEn": "Chainsaw Man",
-      "titleJa": "チェンソーマン",
-      "popularity": 59
-    },
-    {
-      "titleEn": "Spy x Family",
-      "titleJa": "SPY×FAMILY",
-      "popularity": 60
-    },
-    {
-      "titleEn": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
-      "titleJa": "鬼滅の刃 遊郭編",
-      "popularity": 75
-    },
-    {
-      "titleEn": "Attack on Titan: Final Season Part 2",
-      "titleJa": "進撃の巨人 The Final Season Part 2",
-      "popularity": 97
-    },
-    {
-      "titleEn": "My Dress-Up Darling",
-      "titleJa": "その着せ替え人形は恋をする",
-      "popularity": 130
-    },
-    {
-      "titleEn": "Spy x Family Part 2",
-      "titleJa": "SPY×FAMILY",
-      "popularity": 164
+      "titleEn": "Bleach: Thousand-Year Blood War",
+      "titleJa": "BLEACH 千年血戦篇",
+      "score": 8.99
     },
     {
       "titleEn": "Kaguya-sama: Love is War -Ultra Romantic-",
       "titleJa": "かぐや様は告らせたい-ウルトラロマンティック-",
-      "popularity": 167
+      "score": 8.98
     },
     {
-      "titleEn": "Cyberpunk: Edgerunners",
-      "titleJa": "サイバーパンク エッジランナーズ",
-      "popularity": 207
+      "titleEn": "Attack on Titan: Final Season Part 2",
+      "titleJa": "進撃の巨人 The Final Season Part 2",
+      "score": 8.76
     },
     {
-      "titleEn": "The Rising of the Shield Hero Season 2",
-      "titleJa": "盾の勇者の成り上がり Season2",
-      "popularity": 253
+      "titleEn": "Bocchi the Rock!",
+      "titleJa": "ぼっち・ざ・ろっく！",
+      "score": 8.75
     },
     {
-      "titleEn": "Blue Lock",
-      "titleJa": "ブルーロック",
-      "popularity": 255
+      "titleEn": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+      "titleJa": "かぐや様は告らせたい -ファーストキッスは終わらない-",
+      "score": 8.73
+    },
+    {
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+      "titleJa": "鬼滅の刃 遊郭編",
+      "score": 8.72
     },
     {
       "titleEn": "Mob Psycho 100 III",
       "titleJa": "モブサイコ100 III",
-      "popularity": 268
+      "score": 8.71
     },
     {
-      "titleEn": "The Eminence in Shadow",
-      "titleJa": "陰の実力者になりたくて！",
-      "popularity": 272
+      "titleEn": "Cyberpunk: Edgerunners",
+      "titleJa": "サイバーパンク エッジランナーズ",
+      "score": 8.61
+    },
+    {
+      "titleEn": "Made in Abyss: The Golden City of the Scorching Sun",
+      "titleJa": "メイドインアビス 烈日の黄金郷",
+      "score": 8.61
+    },
+    {
+      "titleEn": "JoJo's Bizarre Adventure: Stone Ocean Part 3",
+      "titleJa": "ジョジョの奇妙な冒険 ストーンオーシャン",
+      "score": 8.52
+    },
+    {
+      "titleEn": "Summer Time Rendering",
+      "titleJa": "サマータイムレンダ",
+      "score": 8.47
+    },
+    {
+      "titleEn": "Spy x Family",
+      "titleJa": "SPY×FAMILY",
+      "score": 8.46
     }
   ],
   "2023": [
     {
-      "titleEn": "Jujutsu Kaisen Season 2",
-      "titleJa": "呪術廻戦 懐玉・玉折／渋谷事変",
-      "popularity": 128
-    },
-    {
       "titleEn": "Frieren: Beyond Journey's End",
       "titleJa": "葬送のフリーレン",
-      "popularity": 139
-    },
-    {
-      "titleEn": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
-      "titleJa": "鬼滅の刃 刀鍛冶の里編",
-      "popularity": 176
-    },
-    {
-      "titleEn": "[Oshi No Ko]",
-      "titleJa": "【推しの子】",
-      "popularity": 192
-    },
-    {
-      "titleEn": "Hell's Paradise",
-      "titleJa": "地獄楽",
-      "popularity": 250
-    },
-    {
-      "titleEn": "Attack on Titan: Final Season - The Final Chapters",
-      "titleJa": "進撃の巨人 The Final Season完結編",
-      "popularity": 277
-    },
-    {
-      "titleEn": "Vinland Saga Season 2",
-      "titleJa": "ヴィンランド・サガ SEASON2",
-      "popularity": 290
-    },
-    {
-      "titleEn": "Mashle: Magic and Muscles",
-      "titleJa": "マッシュル-MASHLE-",
-      "popularity": 315
-    },
-    {
-      "titleEn": "Mushoku Tensei: Jobless Reincarnation Season 2",
-      "titleJa": "無職転生 II ～異世界行ったら本気だす～",
-      "popularity": 332
+      "score": 9.3
     },
     {
       "titleEn": "The Apothecary Diaries",
       "titleJa": "薬屋のひとりごと",
-      "popularity": 352
+      "score": 8.87
     },
     {
-      "titleEn": "Zom 100: Bucket List of the Dead",
-      "titleJa": "ゾン100～ゾンビになるまでにしたい100のこと～",
-      "popularity": 373
+      "titleEn": "Attack on Titan: Final Season - The Final Chapters",
+      "titleJa": "進撃の巨人 The Final Season完結編",
+      "score": 8.86
     },
     {
-      "titleEn": "Spy x Family Season 2",
-      "titleJa": "SPY×FAMILY Season 2",
-      "popularity": 398
+      "titleEn": "Vinland Saga Season 2",
+      "titleJa": "ヴィンランド・サガ SEASON2",
+      "score": 8.81
+    },
+    {
+      "titleEn": "Jujutsu Kaisen Season 2",
+      "titleJa": "呪術廻戦 懐玉・玉折／渋谷事変",
+      "score": 8.75
+    },
+    {
+      "titleEn": "Bleach: Thousand-Year Blood War - The Separation",
+      "titleJa": "BLEACH 千年血戦篇-訣別譚-",
+      "score": 8.7
+    },
+    {
+      "titleEn": "Link Click Season 2",
+      "titleJa": "时光代理人 第二季",
+      "score": 8.65
+    },
+    {
+      "titleEn": "Bungo Stray Dogs 5",
+      "titleJa": "文豪ストレイドッグス",
+      "score": 8.62
+    },
+    {
+      "titleEn": "[Oshi No Ko]",
+      "titleJa": "【推しの子】",
+      "score": 8.57
+    },
+    {
+      "titleEn": "Pluto",
+      "titleJa": "プルートウ",
+      "score": 8.45
+    },
+    {
+      "titleEn": "Bungo Stray Dogs 4",
+      "titleJa": "文豪ストレイドッグス",
+      "score": 8.43
+    },
+    {
+      "titleEn": "Rascal Does Not Dream of a Knapsack Kid",
+      "titleJa": "青春ブタ野郎はランドセルガールの夢を見ない",
+      "score": 8.33
     }
   ],
   "2024": [
     {
-      "titleEn": "Solo Leveling",
-      "titleJa": "俺だけレベルアップな件",
-      "popularity": 186
+      "titleEn": "One Piece Fan Letter",
+      "titleJa": "ONE PIECE FAN LETTER",
+      "score": 9.04
     },
     {
-      "titleEn": "Dan Da Dan",
-      "titleJa": "ダンダダン",
-      "popularity": 293
+      "titleEn": "The Dangers in My Heart Season 2",
+      "titleJa": "僕の心のヤバイやつ 第2期",
+      "score": 8.74
     },
     {
-      "titleEn": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
-      "titleJa": "鬼滅の刃 柱稽古編",
-      "popularity": 368
+      "titleEn": "Orb: On the Movements of the Earth",
+      "titleJa": "チ。―地球の運動について―",
+      "score": 8.71
     },
     {
-      "titleEn": "Kaiju No. 8",
-      "titleJa": "怪獣8号",
-      "popularity": 393
+      "titleEn": "Monogatari Series: Off & Monster Season",
+      "titleJa": "〈物語〉シリーズ オフ&モンスターシーズン",
+      "score": 8.67
     },
     {
-      "titleEn": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
-      "titleJa": "無職転生 II ～異世界行ったら本気だす～ (第2クール)",
-      "popularity": 489
+      "titleEn": "Bleach: Thousand-Year Blood War - The Conflict",
+      "titleJa": "BLEACH 千年血戦篇-相剋譚-",
+      "score": 8.67
     },
     {
-      "titleEn": "KonoSuba: God's Blessing on This Wonderful World! 3",
-      "titleJa": "この素晴らしい世界に祝福を！3",
-      "popularity": 490
+      "titleEn": "Look Back",
+      "titleJa": "ルックバック",
+      "score": 8.64
+    },
+    {
+      "titleEn": "Haikyu!! Movie: The Dumpster Battle",
+      "titleJa": "劇場版ハイキュー!! ゴミ捨て場の決戦",
+      "score": 8.61
     },
     {
       "titleEn": "Delicious in Dungeon",
       "titleJa": "ダンジョン飯",
-      "popularity": 498
-    },
-    {
-      "titleEn": "Classroom of the Elite III",
-      "titleJa": "ようこそ実力至上主義の教室へ 3rd Season",
-      "popularity": 524
-    },
-    {
-      "titleEn": "Mashle: Magic and Muscles The Divine Visionary Candidate Exam Arc",
-      "titleJa": "マッシュル-MASHLE- 神覚者候補選抜試験編",
-      "popularity": 551
+      "score": 8.6
     },
     {
       "titleEn": "[Oshi No Ko] Season 2",
       "titleJa": "【推しの子】第2期",
-      "popularity": 554
+      "score": 8.57
     },
     {
-      "titleEn": "Alya Sometimes Hides Her Feelings in Russian",
-      "titleJa": "時々ボソッとロシア語でデレる隣のアーリャさん",
-      "popularity": 589
+      "titleEn": "Dan Da Dan",
+      "titleJa": "ダンダダン",
+      "score": 8.5
     },
     {
-      "titleEn": "That Time I Got Reincarnated as a Slime Season 3",
-      "titleJa": "転生したらスライムだった件 第3期",
-      "popularity": 593
+      "titleEn": "Kimi ni Todoke: From Me to You Season 3",
+      "titleJa": "君に届け3RD SEASON",
+      "score": 8.47
+    },
+    {
+      "titleEn": "Re:ZERO -Starting Life in Another World- Season 3",
+      "titleJa": "Re:ゼロから始める異世界生活 3rd season",
+      "score": 8.46
     }
   ]
 }

@@ -5,8 +5,8 @@ import { translations, type Language } from './i18n'
 interface I18nContextType {
   language: Language
   setLanguage: (lang: Language) => void
-  t: (key: keyof typeof translations.zh, interpolations?: Record<string, string | number>) => string
-  isZh: boolean
+  t: (key: keyof typeof translations.en, interpolations?: Record<string, string | number>) => string
+  isJa: boolean
   isEn: boolean
 }
 
@@ -16,9 +16,9 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguageState] = useState<Language>(() => {
     try {
       const saved = localStorage.getItem('language')
-      return saved ? JSON.parse(saved) : 'zh'
+      return saved ? JSON.parse(saved) : 'en'
     } catch {
-      return 'zh'
+      return 'en'
     }
   })
 
@@ -30,10 +30,10 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
       console.error('Failed to save language to localStorage:', error)
     }
   }
-
-  const t = (key: keyof typeof translations.zh, interpolations?: Record<string, string | number>) => {
+  
+  const t = (key: keyof typeof translations.en, interpolations?: Record<string, string | number>) => {
     const currentTranslations = translations[language]
-    let text = currentTranslations[key] || translations.zh[key] || key
+    let text = currentTranslations[key] || translations.en[key] || key
     
     if (interpolations) {
       Object.entries(interpolations).forEach(([placeholder, value]) => {
@@ -48,7 +48,7 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
     language,
     setLanguage,
     t,
-    isZh: language === 'zh',
+    isJa: language === 'ja',
     isEn: language === 'en'
   }
 

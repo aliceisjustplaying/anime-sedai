@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun add:*)",
+      "Bash(bun run:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(bun:*)",
+      "Bash(npx tsx:*)",
+      "Bash(find:*)",
+      "Bash(wrangler:*)"
+    ],
+    "deny": []
+  }
+}

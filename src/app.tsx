@@ -73,9 +73,9 @@ export const App = () => {
     return `
 ${preset}
 ${
-  t("watched") === "Watched"
+  language === "en"
     ? "User anime viewing record: (the year below is the anime release year)"
-    : "用户动画观看记录：(下面的年份是动画发布的年份)"
+    : "ユーザーのアニメ視聴記録：(下記の年はアニメの公開年です)"
 }
 ${Object.keys(animeData)
   .map((year) => {
@@ -85,11 +85,11 @@ ${Object.keys(animeData)
 
     const sliceItems = items.slice(0, 12)
     const watched = sliceItems
-      .filter((item) => selectedAnime.includes(getAnimeTitle(item, "zh")))
+      .filter((item) => selectedAnime.includes(getAnimeTitle(item, "en")))
       .map((item) => getAnimeTitle(item, language))
       .join(", ")
     const unWatched = sliceItems
-      .filter((item) => !selectedAnime.includes(getAnimeTitle(item, "zh")))
+      .filter((item) => !selectedAnime.includes(getAnimeTitle(item, "en")))
       .map((item) => getAnimeTitle(item, language))
       .join(", ")
 
@@ -107,7 +107,7 @@ ${Object.keys(animeData)
   }, [selectedAnime, promptType, language, t])
 
   const totalAnime = Object.values(animeData).flatMap((year) => {
-    return year.map((item) => getAnimeTitle(item, "zh")).slice(0, 12)
+    return year.map((item) => getAnimeTitle(item, "en")).slice(0, 12)
   }).length
 
   return (
@@ -160,7 +160,7 @@ ${Object.keys(animeData)
                     </div>
                     <div className="flex shrink-0">
                       {items.slice(0, 12).map((item) => {
-                        const animeKey = getAnimeTitle(item, "zh")
+                        const animeKey = getAnimeTitle(item, "en")
                         const displayTitle = getAnimeTitle(item, language)
                         const isSelected = selectedAnime.includes(animeKey)
                         return (
@@ -241,7 +241,7 @@ ${Object.keys(animeData)
               setSelectedAnime(
                 Object.values(animeData).flatMap((year) => {
                   return year
-                    .map((item) => getAnimeTitle(item, "zh"))
+                    .map((item) => getAnimeTitle(item, "en"))
                     .slice(0, 12)
                 })
               )
@@ -359,19 +359,22 @@ ${Object.keys(animeData)
         <div className="mt-2 text-center">
           {t("footer")}
           <a
-            href={
-              language === "zh"
-                ? "https://x.com/localhost_4173"
-                : "https://x.com/localhost_5173"
-            }
+            href="https://x.com/localhost_5173"
             target="_blank"
             className="underline"
           >
-            {language === "zh" ? "低空飞行" : "egoist"}
+            egoist
           </a>
-          {t("madeBy")}
+          , modified by{" "}
           <a
-            href="https://github.com/egoist/anime-sedai"
+            href="https://x.com/__justplaying"
+            target="_blank"
+            className="underline"
+          >
+            alice (__justplaying)
+          </a>,{" "}
+          <a
+            href="https://github.com/aliceisjustplaying/anime-sedai"
             target="_blank"
             className="underline"
           >

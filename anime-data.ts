@@ -18,6 +18,11 @@ const data: Data = {
       "popularity": 150
     },
     {
+      "titleEn": "Castle in the Sky",
+      "titleJa": "天空の城ラピュタ",
+      "popularity": 464
+    },
+    {
       "titleEn": "Saint Seiya: Knights of the Zodiac",
       "titleJa": "聖闘士星矢(セイントセイヤ)",
       "popularity": 1319
@@ -26,6 +31,11 @@ const data: Data = {
       "titleEn": "Maison Ikkoku",
       "titleJa": "めぞん一刻",
       "popularity": 2618
+    },
+    {
+      "titleEn": "Dragon Ball: Curse of the Blood Rubies",
+      "titleJa": "ドラゴンボール 神龍の伝説",
+      "popularity": 2765
     },
     {
       "titleEn": "Mobile Suit Gundam ZZ",
@@ -38,39 +48,29 @@ const data: Data = {
       "popularity": 4465
     },
     {
-      "titleEn": "Fight! Kickers",
-      "titleJa": "がんばれ！キッカーズ",
-      "popularity": 6792
+      "titleEn": "Project A-Ko",
+      "titleJa": "プロジェクトＡ子",
+      "popularity": 4886
     },
     {
-      "titleEn": "Ai Shoujo Pollyanna Story",
-      "titleJa": "愛少女ポリアンナ物語",
-      "popularity": 8146
+      "titleEn": "Fist of the North Star: The Movie",
+      "titleJa": "北斗の拳",
+      "popularity": 4949
     },
     {
-      "titleEn": "Hikari no Densetsu",
-      "titleJa": "光の伝説",
-      "popularity": 8169
+      "titleEn": "M.D. Geist",
+      "titleJa": "装鬼兵ＭＤガイスト",
+      "popularity": 5401
     },
     {
-      "titleEn": "Magical Idol Pastel Yumi",
-      "titleJa": "魔法のアイドル パステルユーミ",
-      "popularity": 9684
+      "titleEn": "Barefoot Gen 2",
+      "titleJa": "はだしのゲン　２",
+      "popularity": 5836
     },
     {
-      "titleEn": "Maple Town",
-      "titleJa": "メイプルタウン物語",
-      "popularity": 10098
-    },
-    {
-      "titleEn": "The Wonderful Wizard of Oz",
-      "titleJa": "オズの魔法使い",
-      "popularity": 10405
-    },
-    {
-      "titleEn": "Animated Classics of Japanese Literature",
-      "titleJa": "青春アニメ全集",
-      "popularity": 10963
+      "titleEn": "Violence Jack: Slumking",
+      "titleJa": "バイオレンス ジャック 〜ハーレム・ボンバー編〜",
+      "popularity": 5860
     }
   ],
   "1987": [
@@ -80,9 +80,39 @@ const data: Data = {
       "popularity": 2457
     },
     {
+      "titleEn": "Dragon Ball: Sleeping Princess in Devil's Castle",
+      "titleJa": "ドラゴンボール 魔神城のねむり姫",
+      "popularity": 2830
+    },
+    {
+      "titleEn": "Wicked City",
+      "titleJa": "妖獣都市",
+      "popularity": 3013
+    },
+    {
+      "titleEn": "Bubblegum Crisis",
+      "titleJa": "バブルガムクライシス",
+      "popularity": 3050
+    },
+    {
       "titleEn": "Kimagure Orange Road",
       "titleJa": "きまぐれオレンジ☆ロード",
       "popularity": 3323
+    },
+    {
+      "titleEn": "Royal Space Force: The Wings of Honneamise",
+      "titleJa": "王立宇宙軍 オネアミスの翼",
+      "popularity": 3404
+    },
+    {
+      "titleEn": "Neo Tokyo",
+      "titleJa": "Manie-Manie 迷宮物語",
+      "popularity": 3972
+    },
+    {
+      "titleEn": "Devilman: The Birth",
+      "titleJa": "デビルマン 誕生編",
+      "popularity": 4136
     },
     {
       "titleEn": "Fist of the North Star 2",
@@ -90,111 +120,81 @@ const data: Data = {
       "popularity": 4187
     },
     {
-      "titleEn": "Tales of Little Women",
-      "titleJa": "愛の若草物語",
-      "popularity": 6791
+      "titleEn": "Robot Carnival",
+      "titleJa": "ロボット・カーニバル",
+      "popularity": 4440
     },
     {
-      "titleEn": "Lady Lady!!",
-      "titleJa": "レディレディ！！",
-      "popularity": 7705
+      "titleEn": "Saint Seiya: Evil Goddess Eris",
+      "titleJa": "聖闘士星矢 邪神エリス",
+      "popularity": 5163
     },
     {
-      "titleEn": "Metal Armor Dragonar",
-      "titleJa": "機甲戦記ドラグナー",
-      "popularity": 7977
-    },
-    {
-      "titleEn": "Zillion",
-      "titleJa": "赤い光弾ジリオン",
-      "popularity": 8135
-    },
-    {
-      "titleEn": "Sunny Ryoko",
-      "titleJa": "陽あたり良好！",
-      "popularity": 8347
-    },
-    {
-      "titleEn": "The Three Musketeers",
-      "titleJa": "アニメ三銃士",
-      "popularity": 8417
-    },
-    {
-      "titleEn": "Grimm's Fairy Tale Classics",
-      "titleJa": "グリム名作劇場",
-      "popularity": 8589
-    },
-    {
-      "titleEn": "Mister Ajikko",
-      "titleJa": "ミスター味っ子",
-      "popularity": 8634
-    },
-    {
-      "titleEn": "Lemon Angel",
-      "titleJa": "くりぃむレモン レモンエンジェル",
-      "popularity": 8857
+      "titleEn": "Black Magic M-66",
+      "titleJa": "ブラックマジックＭ（マリオ）－６６",
+      "popularity": 5237
     }
   ],
   "1988": [
     {
+      "titleEn": "My Neighbor Totoro",
+      "titleJa": "となりのトトロ",
+      "popularity": 144
+    },
+    {
+      "titleEn": "Akira",
+      "titleJa": "AKIRA（アキラ）",
+      "popularity": 209
+    },
+    {
+      "titleEn": "Grave of the Fireflies",
+      "titleJa": "火垂るの墓",
+      "popularity": 300
+    },
+    {
+      "titleEn": "Legend of the Galactic Heroes",
+      "titleJa": "銀河英雄伝説",
+      "popularity": 754
+    },
+    {
+      "titleEn": "Gunbuster",
+      "titleJa": "トップをねらえ！ GunBuster",
+      "popularity": 1772
+    },
+    {
+      "titleEn": "Dragon Ball: Mystical Adventure",
+      "titleJa": "ドラゴンボール 摩訶不思議大冒険",
+      "popularity": 3019
+    },
+    {
+      "titleEn": "Mobile Suit Gundam: Char's Counterattack",
+      "titleJa": "機動戦士ガンダム 逆襲のシャア",
+      "popularity": 3201
+    },
+    {
+      "titleEn": "Legend of the Galactic Heroes: My Conquest is the Sea of Stars",
+      "titleJa": "銀河英雄伝説: わが征くは星の大海",
+      "popularity": 3697
+    },
+    {
+      "titleEn": "Patlabor: The Mobile Police",
+      "titleJa": "機動警察パトレイバー",
+      "popularity": 3742
+    },
+    {
+      "titleEn": "Appleseed",
+      "titleJa": "アップル・シード",
+      "popularity": 4164
+    },
+    {
+      "titleEn": "Dragon Ball Specials",
+      "titleJa": "ドラゴンボール",
+      "popularity": 4190
+    },
+    {
       "titleEn": "City Hunter 2",
       "titleJa": "シティーハンター2",
       "popularity": 4377
-    },
-    {
-      "titleEn": "Samurai Troopers",
-      "titleJa": "鎧伝サムライトルーパー",
-      "popularity": 5209
-    },
-    {
-      "titleEn": "Charge!! Men's Private School",
-      "titleJa": "魁!!男塾",
-      "popularity": 5721
-    },
-    {
-      "titleEn": "Osomatsu-kun (1988)",
-      "titleJa": "おそ松くん",
-      "popularity": 7926
-    },
-    {
-      "titleEn": "Kiteretsu Encyclopedia",
-      "titleJa": "キテレツ大百科",
-      "popularity": 8006
-    },
-    {
-      "titleEn": "Oishinbo",
-      "titleJa": "美味しんぼ",
-      "popularity": 8746
-    },
-    {
-      "titleEn": "Little Lord Fauntleroy",
-      "titleJa": "小公子セディ",
-      "popularity": 8884
-    },
-    {
-      "titleEn": "Sore Ike! Anpanman",
-      "titleJa": "それいけ！アンパンマン",
-      "popularity": 9090
-    },
-    {
-      "titleEn": "Iron Fist Chinmi",
-      "titleJa": "鉄拳チンミ",
-      "popularity": 9096
-    },
-    {
-      "titleEn": "Hello! Lady Lynn",
-      "titleJa": "ハロー! レディリン",
-      "popularity": 9192
-    },
-    {
-      "titleEn": "F",
-      "titleJa": "Ｆ-エフ",
-      "popularity": 9444
-    },
-    {
-      "titleEn": "Sonic Soldier Borgman",
-      "titleJa": "超音戦士ボーグマン",
-      "popularity": 9572
     }
   ],
   "1989": [
@@ -204,9 +204,29 @@ const data: Data = {
       "popularity": 114
     },
     {
+      "titleEn": "Kiki's Delivery Service",
+      "titleJa": "魔女の宅急便",
+      "popularity": 372
+    },
+    {
       "titleEn": "Ranma ½",
       "titleJa": "らんま1/2",
       "popularity": 961
+    },
+    {
+      "titleEn": "Dragon Ball Z: Dead Zone",
+      "titleJa": "ドラゴンボールZ オラの悟飯をかえせッ!!",
+      "popularity": 1864
+    },
+    {
+      "titleEn": "Mobile Suit Gundam 0080: War in the Pocket",
+      "titleJa": "機動戦士ガンダム 0080 ポケットの中の戦争",
+      "popularity": 2909
+    },
+    {
+      "titleEn": "Patlabor: The Movie",
+      "titleJa": "機動警察パトレイバー the Movie",
+      "popularity": 3294
     },
     {
       "titleEn": "Patlabor: The Mobile Police - The TV Series",
@@ -219,56 +239,76 @@ const data: Data = {
       "popularity": 4035
     },
     {
+      "titleEn": "Angel Cop",
+      "titleJa": "エンゼルコップ",
+      "popularity": 4728
+    },
+    {
+      "titleEn": "Riding Bean",
+      "titleJa": "ライディング・ビーン",
+      "popularity": 4731
+    },
+    {
       "titleEn": "Yawara!",
       "titleJa": "YAWARA!",
       "popularity": 4854
     },
     {
-      "titleEn": "Tenkuu Senki Shurato",
-      "titleJa": "天空戦記シュラト",
-      "popularity": 6305
-    },
-    {
-      "titleEn": "The Jungle Book",
-      "titleJa": "ジャングルブック・少年モーグリ",
-      "popularity": 7426
-    },
-    {
-      "titleEn": "Laughing Salesman",
-      "titleJa": "笑ゥせぇるすまん",
-      "popularity": 7584
-    },
-    {
-      "titleEn": "Legendary Idol Eriko",
-      "titleJa": "アイドル伝説えり子",
-      "popularity": 7907
-    },
-    {
-      "titleEn": "Alfred J. Kwak",
-      "titleJa": "小さなアヒルの大きな愛の物語 あひるのクワック",
-      "popularity": 8241
-    },
-    {
-      "titleEn": "Jungle Taitei (1989)",
-      "titleJa": "ジャングル大帝",
-      "popularity": 8511
-    },
-    {
-      "titleEn": "Peter Pan & Wendy",
-      "titleJa": "ピーターパンの冒険",
-      "popularity": 8897
+      "titleEn": "Baoh the Visitor",
+      "titleJa": "バオー来訪者",
+      "popularity": 5079
     }
   ],
   "1990": [
+    {
+      "titleEn": "Dragon Ball Z: The Tree of Might",
+      "titleJa": "ドラゴンボールZ 地球まるごと超決戦",
+      "popularity": 1711
+    },
+    {
+      "titleEn": "Dragon Ball Z: The World's Strongest",
+      "titleJa": "ドラゴンボールZ この世で一番強いヤツ",
+      "popularity": 2001
+    },
+    {
+      "titleEn": "Dragon Ball Z: Bardock, The Father of Goku",
+      "titleJa": "DRAGON BALL Z スペシャル たったひとりの最終決戦~フリーザに挑んだZ戦士孫悟空の父~",
+      "popularity": 2099
+    },
+    {
+      "titleEn": "Record of Lodoss War",
+      "titleJa": "ロードス島戦記",
+      "popularity": 2463
+    },
     {
       "titleEn": "Nadia: The Secret of Blue Water",
       "titleJa": "ふしぎの海のナディア",
       "popularity": 2695
     },
     {
+      "titleEn": "Cyber City",
+      "titleJa": "CYBER CITY OEDO 808 (サイバーシティ オーエド ハチマルハチ)",
+      "popularity": 4079
+    },
+    {
       "titleEn": "Moomin",
       "titleJa": "楽しいムーミン一家",
       "popularity": 4292
+    },
+    {
+      "titleEn": "Devilman: The Demon Bird",
+      "titleJa": "デビルマン 妖鳥シレーヌ編",
+      "popularity": 4729
+    },
+    {
+      "titleEn": "A Wind Named Amnesia",
+      "titleJa": "風の名はアムネジア",
+      "popularity": 5007
+    },
+    {
+      "titleEn": "AD Police Files",
+      "titleJa": "ADポリス",
+      "popularity": 5150
     },
     {
       "titleEn": "My Daddy Long Legs",
@@ -279,53 +319,53 @@ const data: Data = {
       "titleEn": "Samurai Pizza Cats",
       "titleJa": "キャッ党忍伝てやんでえ",
       "popularity": 5840
-    },
-    {
-      "titleEn": "Chibi Maruko-chan",
-      "titleJa": "ちびまる子ちゃん",
-      "popularity": 6025
-    },
-    {
-      "titleEn": "The Great Adventures of Robin Hood",
-      "titleJa": "ロビンフッドの大冒険",
-      "popularity": 6910
-    },
-    {
-      "titleEn": "Dragon Warrior",
-      "titleJa": "ドラゴンクエスト～勇者アベル伝説～",
-      "popularity": 7582
-    },
-    {
-      "titleEn": "NG Knight Ramune & 40",
-      "titleJa": "NG騎士ラムネ＆４０",
-      "popularity": 9127
-    },
-    {
-      "titleEn": "Mahou no Angel Sweet Mint",
-      "titleJa": "魔法のエンジェル スイートミント",
-      "popularity": 9526
-    },
-    {
-      "titleEn": "The Brave Fighter Exkizer",
-      "titleJa": "勇者エクスカイザー",
-      "popularity": 9990
-    },
-    {
-      "titleEn": "Karasu Tengu Kabuto",
-      "titleJa": "カラス天狗カブト",
-      "popularity": 10358
-    },
-    {
-      "titleEn": "Magical★Taruruuto-kun",
-      "titleJa": "まじかる☆タルるートくん",
-      "popularity": 10869
     }
   ],
   "1991": [
     {
+      "titleEn": "Dragon Ball Z: Cooler's Revenge",
+      "titleJa": "ドラゴンボールZ とびっきりの最強対最強",
+      "popularity": 1605
+    },
+    {
+      "titleEn": "Only Yesterday",
+      "titleJa": "おもひでぽろぽろ",
+      "popularity": 1611
+    },
+    {
+      "titleEn": "Dragon Ball Z: Lord Slug",
+      "titleJa": "ドラゴンボールZ 超サイヤ人だ孫悟空",
+      "popularity": 1898
+    },
+    {
       "titleEn": "Dear Brother",
       "titleJa": "おにいさまへ…",
       "popularity": 3298
+    },
+    {
+      "titleEn": "Mobile Suit Gundam 0083: Stardust Memory",
+      "titleJa": "機動戦士ガンダム0083 STARDUST MEMORY",
+      "popularity": 3427
+    },
+    {
+      "titleEn": "Roujin Z",
+      "titleJa": "老人Ｚ",
+      "popularity": 3759
+    },
+    {
+      "titleEn": "Mobile Suit Gundam F91",
+      "titleJa": "機動戦士ガンダムＦ91",
+      "popularity": 4050
+    },
+    {
+      "titleEn": "Otaku no Video",
+      "titleJa": "おたくのビデオ",
+      "popularity": 4150
+    },
+    {
+      "titleEn": "3x3 Eyes",
+      "titleJa": "3×3EYES",
+      "popularity": 4374
     },
     {
       "titleEn": "City Hunter '91",
@@ -338,49 +378,9 @@ const data: Data = {
       "popularity": 4735
     },
     {
-      "titleEn": "Future GPX Cyber Formula",
-      "titleJa": "新世紀GPXサイバーフォーミュラ",
-      "popularity": 6757
-    },
-    {
-      "titleEn": "The Trapp Family Story",
-      "titleJa": "トラップ 一家 物語",
-      "popularity": 7078
-    },
-    {
-      "titleEn": "Tanoshii Muumin Ikka Bouken Nikki",
-      "titleJa": "楽しいムーミン一家 冒険日記",
-      "popularity": 7725
-    },
-    {
-      "titleEn": "The Secret Garden",
-      "titleJa": "アニメ ひみつの花園",
-      "popularity": 8057
-    },
-    {
-      "titleEn": "Yokoyama Mitsuteru Sangokushi",
-      "titleJa": "横山光輝 三国志",
-      "popularity": 8075
-    },
-    {
-      "titleEn": "Honoo no Toukyuuji: Dodge Danpei",
-      "titleJa": "炎の闘球児・ドッジ弾平",
-      "popularity": 8462
-    },
-    {
-      "titleEn": "Top Striker",
-      "titleJa": "燃えろ! トップストライカー",
-      "popularity": 9058
-    },
-    {
-      "titleEn": "Kinnikuman: Kinnikusei Oui Soudatsu-hen",
-      "titleJa": "キン肉マン　キン肉星王位争奪編",
-      "popularity": 9155
-    },
-    {
-      "titleEn": "Fairy Princess Minky Momo 2nd",
-      "titleJa": "魔法のプリンセス　ミンキーモモ（夢を抱きしめて）",
-      "popularity": 9287
+      "titleEn": "Ranma ½: Big Trouble in Nekonron, China",
+      "titleJa": "らんま 1/2 中国寝崑崙大決戦! 掟やぶりの激闘編!!",
+      "popularity": 4826
     }
   ],
   "1992": [
@@ -395,54 +395,54 @@ const data: Data = {
       "popularity": 634
     },
     {
+      "titleEn": "Porco Rosso",
+      "titleJa": "紅の豚",
+      "popularity": 966
+    },
+    {
+      "titleEn": "Dragon Ball Z: The Return of Cooler",
+      "titleJa": "ドラゴンボールZ 激突!!100億パワーの戦士たち",
+      "popularity": 1804
+    },
+    {
+      "titleEn": "Dragon Ball Z: Super Android 13!",
+      "titleJa": "ドラゴンボールZ 極限バトル!!三大超サイヤ人",
+      "popularity": 1860
+    },
+    {
       "titleEn": "Shin Chan",
       "titleJa": "クレヨンしんちゃん",
       "popularity": 2409
     },
     {
-      "titleEn": "Tekkaman Blade",
-      "titleJa": "宇宙の騎士テッカマンブレード",
-      "popularity": 5414
+      "titleEn": "Midori",
+      "titleJa": "地下幻燈劇画 少女椿",
+      "popularity": 2795
     },
     {
-      "titleEn": "Hime-chan no Ribbon",
-      "titleJa": "姫ちゃんのリボン",
-      "popularity": 6644
+      "titleEn": "Tenchi Muyo! Ryo-Ohki",
+      "titleJa": "天地無用！魎皇鬼",
+      "popularity": 3171
     },
     {
-      "titleEn": "Mama is Just a Fourth Grade Pupil",
-      "titleJa": "ママは小学４年生",
-      "popularity": 7575
+      "titleEn": "Bastard!!",
+      "titleJa": "バスタード!! 暗黒の破壊神",
+      "popularity": 3509
     },
     {
-      "titleEn": "Legendary Brave da Garn",
-      "titleJa": "伝説の勇者ダ・ガーン",
-      "popularity": 8995
+      "titleEn": "Ai no Kusabi",
+      "titleJa": "間の楔",
+      "popularity": 3842
     },
     {
-      "titleEn": "Kaze no Naka no Shoujo: Kinpatsu no Jeanie",
-      "titleJa": "風の中の少女 金髪のジェニー",
-      "popularity": 9309
+      "titleEn": "Video Girl Ai",
+      "titleJa": "電影少女 VIDEO・GIRL・AI",
+      "popularity": 4225
     },
     {
-      "titleEn": "Hana no Mahoutsukai Mary Bell",
-      "titleJa": "花の魔法使いマリーベル",
-      "popularity": 9917
-    },
-    {
-      "titleEn": "Bush Baby, Little Angel of the Great Plains",
-      "titleJa": "大草原の小さな天使　ブッシュベイビー",
-      "popularity": 10170
-    },
-    {
-      "titleEn": "Mikan Enikki",
-      "titleJa": "みかん絵日記",
-      "popularity": 10211
-    },
-    {
-      "titleEn": "Tsuyoshi Shikkari Shinasai",
-      "titleJa": "ツヨシしっかりしなさい",
-      "popularity": 10269
+      "titleEn": "Giant Robo the Animation: The Day the Earth Stood Still",
+      "titleJa": "ジャイアントロボ THE ANIMATION 地球が静止する日",
+      "popularity": 4426
     }
   ],
   "1993": [
@@ -452,59 +452,59 @@ const data: Data = {
       "popularity": 808
     },
     {
+      "titleEn": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+      "titleJa": "ドラゴンボールZ 燃えつきろ!!熱戦・烈戦・超激戦",
+      "popularity": 1507
+    },
+    {
       "titleEn": "Sailor Moon R",
       "titleJa": "美少女戦士セーラームーン R",
       "popularity": 1550
     },
     {
+      "titleEn": "Ninja Scroll",
+      "titleJa": "獣兵衛忍風帖",
+      "popularity": 1651
+    },
+    {
+      "titleEn": "The Ocean Waves",
+      "titleJa": "海がきこえる",
+      "popularity": 1713
+    },
+    {
+      "titleEn": "JoJo's Bizarre Adventure",
+      "titleJa": "ジョジョの奇妙な冒険",
+      "popularity": 1744
+    },
+    {
+      "titleEn": "Dragon Ball Z: The History of Trunks",
+      "titleJa": "ドラゴンボールＺ・絶望への反抗！！残された超戦士・悟飯とトランク",
+      "popularity": 1874
+    },
+    {
+      "titleEn": "Dragon Ball Z: Bojack Unbound",
+      "titleJa": "ドラゴンボールZ 銀河ギリギリ!!ぶっちぎりの凄い奴",
+      "popularity": 1882
+    },
+    {
+      "titleEn": "Sailor Moon R: The Movie - The Promise of the Rose",
+      "titleJa": "美少女戦士セーラームーンＲ THE MOVIE",
+      "popularity": 2818
+    },
+    {
+      "titleEn": "Battle Angel Alita",
+      "titleJa": "銃夢 GUNNM",
+      "popularity": 2933
+    },
+    {
+      "titleEn": "Oh! My Goddess",
+      "titleJa": "ああっ女神さまっ",
+      "popularity": 3165
+    },
+    {
       "titleEn": "The Irresponsible Captain Tylor",
       "titleJa": "無責任艦長タイラー",
       "popularity": 3275
-    },
-    {
-      "titleEn": "Mobile Suit Victory Gundam",
-      "titleJa": "機動戦士Vガンダム",
-      "popularity": 4358
-    },
-    {
-      "titleEn": "Blue Legend Shoot!",
-      "titleJa": "蒼き伝説　シュート！",
-      "popularity": 5666
-    },
-    {
-      "titleEn": "Ghost Sweeper Mikami",
-      "titleJa": "GS（ゴーストスイーパー）美神",
-      "popularity": 5717
-    },
-    {
-      "titleEn": "Legendary Brave Swordsman Yaiba",
-      "titleJa": "剣勇伝説ＹＡＩＢＡ",
-      "popularity": 6678
-    },
-    {
-      "titleEn": "Nintama Rantarou",
-      "titleJa": "忍たま乱太郎",
-      "popularity": 7418
-    },
-    {
-      "titleEn": "Little Women II: Jo's Boys",
-      "titleJa": "若草物語ナンとジョー先生",
-      "popularity": 7744
-    },
-    {
-      "titleEn": "Miracle☆Girls",
-      "titleJa": "ミラクル☆ガールズ",
-      "popularity": 8307
-    },
-    {
-      "titleEn": "Yuusha Tokkyuu Might Gaine",
-      "titleJa": "勇者特急マイトガイン",
-      "popularity": 9753
-    },
-    {
-      "titleEn": "Jungle no Ouja Tar-chan",
-      "titleJa": "ジャングルの王者ターちゃん",
-      "popularity": 10058
     }
   ],
   "1994": [
@@ -512,6 +512,21 @@ const data: Data = {
       "titleEn": "Sailor Moon S",
       "titleJa": "美少女戦士セーラームーン S",
       "popularity": 1640
+    },
+    {
+      "titleEn": "Dragon Ball Z: Broly - Second Coming",
+      "titleJa": "ドラゴンボールZ 危険なふたり!超戦士はねむれない",
+      "popularity": 1750
+    },
+    {
+      "titleEn": "Dragon Ball Z: Bio-Broly",
+      "titleJa": "ドラゴンボールZ 超戦士撃破!!勝のはオレだ",
+      "popularity": 1861
+    },
+    {
+      "titleEn": "Pom Poko",
+      "titleJa": "平成狸合戦ぽんぽこ",
+      "popularity": 2048
     },
     {
       "titleEn": "Magic Knight Rayearth",
@@ -529,44 +544,29 @@ const data: Data = {
       "popularity": 3102
     },
     {
+      "titleEn": "Sailor Moon S Movie: Hearts in Ice",
+      "titleJa": "美少女戦士セーラームーンS かぐや姫の恋人",
+      "popularity": 3153
+    },
+    {
+      "titleEn": "Macross Plus",
+      "titleJa": "マクロスプラス",
+      "popularity": 3311
+    },
+    {
+      "titleEn": "Young GTO",
+      "titleJa": "湘南純愛組!",
+      "popularity": 3434
+    },
+    {
       "titleEn": "DNA²",
       "titleJa": "Ｄ・Ｎ・Ａ²　～何処かで失くしたあいつのアイツ～",
       "popularity": 3519
     },
     {
-      "titleEn": "Macross 7",
-      "titleJa": "マクロス７",
-      "popularity": 4180
-    },
-    {
-      "titleEn": "Blue Seed",
-      "titleJa": "ブルーシード",
-      "popularity": 4256
-    },
-    {
-      "titleEn": "Captain Tsubasa J",
-      "titleJa": "キャプテン翼Ｊ",
-      "popularity": 4296
-    },
-    {
-      "titleEn": "Galaxy Warring State Chronicle Rai",
-      "titleJa": "銀河戦国群雄伝ライ",
-      "popularity": 5514
-    },
-    {
-      "titleEn": "Red Riding Hood Chacha",
-      "titleJa": "赤ずきんチャチャ",
-      "popularity": 5533
-    },
-    {
-      "titleEn": "Magical Circle Guru Guru",
-      "titleJa": "魔法陣グルグル",
-      "popularity": 6377
-    },
-    {
-      "titleEn": "Super Pig",
-      "titleJa": "愛と勇気のピッグガール　とんでぶーりん",
-      "popularity": 6477
+      "titleEn": "Genocyber",
+      "titleJa": "ジェノサイバー",
+      "popularity": 3720
     }
   ],
   "1995": [
@@ -576,14 +576,44 @@ const data: Data = {
       "popularity": 45
     },
     {
+      "titleEn": "Ghost in the Shell",
+      "titleJa": "GHOST IN THE SHELL（攻殻機動隊）",
+      "popularity": 341
+    },
+    {
+      "titleEn": "Golden Boy",
+      "titleJa": "ゴールデンボーイ",
+      "popularity": 573
+    },
+    {
+      "titleEn": "Whisper of the Heart",
+      "titleJa": "耳をすませば",
+      "popularity": 654
+    },
+    {
       "titleEn": "Mobile Suit Gundam Wing",
       "titleJa": "新機動戦記ガンダムW",
       "popularity": 1556
     },
     {
+      "titleEn": "Dragon Ball Z: Fusion Reborn",
+      "titleJa": "ドラゴンボールZ 復活のフュージョン!!悟空とベジータ",
+      "popularity": 1581
+    },
+    {
       "titleEn": "Slayers",
       "titleJa": "スレイヤーズ",
       "popularity": 1677
+    },
+    {
+      "titleEn": "Memories",
+      "titleJa": "MEMORIES（メモリーズ）",
+      "popularity": 1685
+    },
+    {
+      "titleEn": "Dragon Ball Z: Wrath of the Dragon",
+      "titleJa": "ドラゴンボールZ 龍拳爆発!!悟空がやらねば誰がやる",
+      "popularity": 1754
     },
     {
       "titleEn": "Sailor Moon SuperS",
@@ -599,36 +629,6 @@ const data: Data = {
       "titleEn": "Tenchi Muyo! Tenchi Universe",
       "titleJa": "天地無用！",
       "popularity": 2502
-    },
-    {
-      "titleEn": "Romeo's Blue Skies",
-      "titleJa": "ロミオの青い空",
-      "popularity": 3240
-    },
-    {
-      "titleEn": "Magic Knight Rayearth II",
-      "titleJa": "魔法騎士（マジックナイト）レイアース II",
-      "popularity": 4001
-    },
-    {
-      "titleEn": "Neighborhood Stories",
-      "titleJa": "ご近所物語",
-      "popularity": 4429
-    },
-    {
-      "titleEn": "Street Fighter II: The Animated Series",
-      "titleJa": "ストリートファイターII V",
-      "popularity": 4454
-    },
-    {
-      "titleEn": "Wedding Peach",
-      "titleJa": "愛天使伝説 ウェディングピーチ",
-      "popularity": 4769
-    },
-    {
-      "titleEn": "Sorcerer Hunters",
-      "titleJa": "爆れつハンター",
-      "popularity": 4819
     }
   ],
   "1996": [
@@ -658,6 +658,11 @@ const data: Data = {
       "popularity": 2010
     },
     {
+      "titleEn": "Mobile Suit Gundam: The 08th MS Team",
+      "titleJa": "機動戦士ガンダム 第08MS小隊",
+      "popularity": 2417
+    },
+    {
       "titleEn": "Kodocha",
       "titleJa": "こどものおもちゃ",
       "popularity": 2720
@@ -666,6 +671,11 @@ const data: Data = {
       "titleEn": "Slayers Next",
       "titleJa": "スレイヤーズNEXT",
       "popularity": 2736
+    },
+    {
+      "titleEn": "Dragon Ball: The Path to Power",
+      "titleJa": "ドラゴンボール 最強への道",
+      "popularity": 2918
     },
     {
       "titleEn": "Hana Yori Dango",
@@ -678,22 +688,22 @@ const data: Data = {
       "popularity": 3131
     },
     {
-      "titleEn": "You're Under Arrest (1996)",
-      "titleJa": "逮捕しちゃうぞ (1996)",
-      "popularity": 3816
-    },
-    {
-      "titleEn": "After War Gundam X",
-      "titleJa": "機動新世紀ガンダムX",
-      "popularity": 3895
-    },
-    {
-      "titleEn": "Baby and Me",
-      "titleJa": "赤ちゃんと僕",
-      "popularity": 3982
+      "titleEn": "Angel Densetsu",
+      "titleJa": "エンジェル伝説",
+      "popularity": 3552
     }
   ],
   "1997": [
+    {
+      "titleEn": "Princess Mononoke",
+      "titleJa": "もののけ姫",
+      "popularity": 106
+    },
+    {
+      "titleEn": "Neon Genesis Evangelion: The End of Evangelion",
+      "titleJa": "新世紀エヴァンゲリオン劇場版 Air / まごころを, 君に",
+      "popularity": 178
+    },
     {
       "titleEn": "Berserk",
       "titleJa": "剣風伝奇ベルセルク",
@@ -705,9 +715,24 @@ const data: Data = {
       "popularity": 349
     },
     {
+      "titleEn": "Neon Genesis Evangelion: Death & Rebirth",
+      "titleJa": "新世紀エヴァンゲリオン劇場版 シト新生",
+      "popularity": 968
+    },
+    {
       "titleEn": "Revolutionary Girl Utena",
       "titleJa": "少女革命ウテナ",
       "popularity": 1126
+    },
+    {
+      "titleEn": "Dragon Ball GT: A Hero's Legacy",
+      "titleJa": "ドラゴンボールGT 悟空外伝! 勇気の証しは四星球(スーシンチュウ)",
+      "popularity": 2553
+    },
+    {
+      "titleEn": "Case Closed Movie 01: The Time Bombed Skyscraper",
+      "titleJa": "名探偵コナン 時計じかけの摩天楼",
+      "popularity": 2682
     },
     {
       "titleEn": "Flame of Recca",
@@ -720,39 +745,14 @@ const data: Data = {
       "popularity": 3122
     },
     {
-      "titleEn": "Vampire Princess Miyu",
-      "titleJa": "吸血姫美夕",
-      "popularity": 3665
+      "titleEn": "Samurai X: The Motion Picture",
+      "titleJa": "るろうに剣心 -明治剣客浪漫譚- 維新志士への鎮魂歌",
+      "popularity": 3233
     },
     {
-      "titleEn": "Tenchi in Tokyo",
-      "titleJa": "新・天地無用!",
-      "popularity": 3889
-    },
-    {
-      "titleEn": "The File of Young Kindaichi",
-      "titleJa": "金田一少年の事件簿",
-      "popularity": 4101
-    },
-    {
-      "titleEn": "King of Braves GaoGaiGar",
-      "titleJa": "勇者王ガオガイガー",
-      "popularity": 4843
-    },
-    {
-      "titleEn": "Cooking Master Boy",
-      "titleJa": "中華一番",
-      "popularity": 5118
-    },
-    {
-      "titleEn": "Dr. Slump",
-      "titleJa": "ドクタースランプ",
-      "popularity": 5285
-    },
-    {
-      "titleEn": "CLAMP School Detectives",
-      "titleJa": "CLAMP学園探偵団",
-      "popularity": 5708
+      "titleEn": "Mobile Suit Gundam Wing: Endless Waltz",
+      "titleJa": "新機動戦記ガンダムW エンドレス・ワルツ",
+      "popularity": 3381
     }
   ],
   "1998": [
@@ -772,6 +772,11 @@ const data: Data = {
       "popularity": 260
     },
     {
+      "titleEn": "Perfect Blue",
+      "titleJa": "パーフェクトブルー",
+      "popularity": 280
+    },
+    {
       "titleEn": "Cardcaptor Sakura",
       "titleJa": "カードキャプターさくら",
       "popularity": 522
@@ -780,6 +785,11 @@ const data: Data = {
       "titleEn": "Initial D First Stage",
       "titleJa": "頭文字〈イニシャル〉D",
       "popularity": 604
+    },
+    {
+      "titleEn": "Pokémon: The First Movie - Mewtwo Strikes Back",
+      "titleJa": "ポケットモンスター ミュウツーの逆襲",
+      "popularity": 952
     },
     {
       "titleEn": "Yu☆Gi☆Oh!",
@@ -797,24 +807,14 @@ const data: Data = {
       "popularity": 1568
     },
     {
-      "titleEn": "Orphen",
-      "titleJa": "魔術士オーフェン",
-      "popularity": 3430
+      "titleEn": "Case Closed Movie 02: The Fourteenth Target",
+      "titleJa": "名探偵コナン １４番目の標的",
+      "popularity": 2876
     },
     {
-      "titleEn": "Bubblegum Crisis Tokyo 2040",
-      "titleJa": "バブルガムクライシス TOKYO2040",
-      "popularity": 3730
-    },
-    {
-      "titleEn": "Record of Lodoss War: Chronicles of the Heroic Knight",
-      "titleJa": "ロードス島戦記　英雄騎士伝",
-      "popularity": 3958
-    },
-    {
-      "titleEn": "Master Keaton",
-      "titleJa": "マスターキートン",
-      "popularity": 4340
+      "titleEn": "Mobile Suit Gundam Wing: Endless Waltz",
+      "titleJa": "新機動戦記ガンダムW Endless Waltz 特別篇",
+      "popularity": 2974
     }
   ],
   "1999": [
@@ -839,9 +839,19 @@ const data: Data = {
       "popularity": 609
     },
     {
+      "titleEn": "Samurai X: Trust and Betrayal",
+      "titleJa": "るろうに剣心―明治剣客浪漫譚―追憶編",
+      "popularity": 915
+    },
+    {
       "titleEn": "Initial D Second Stage",
       "titleJa": "頭文字〈イニシャル〉D SECOND STAGE",
       "popularity": 1052
+    },
+    {
+      "titleEn": "Pokémon: The Movie 2000",
+      "titleJa": "ポケットモンスター 幻のポケモンルギア爆誕",
+      "popularity": 1318
     },
     {
       "titleEn": "Now and Then, Here and There",
@@ -849,37 +859,32 @@ const data: Data = {
       "popularity": 1634
     },
     {
+      "titleEn": "Digimon: The Movie",
+      "titleJa": "デジモンアドベンチャー 劇場版",
+      "popularity": 2037
+    },
+    {
       "titleEn": "Excel Saga",
       "titleJa": "へっぽこ実験アニメーション エクセル♥サーガ",
       "popularity": 2067
     },
     {
+      "titleEn": "Cardcaptor Sakura The Movie",
+      "titleJa": "劇場版 カードキャプターさくら",
+      "popularity": 2209
+    },
+    {
       "titleEn": "The Big O",
       "titleJa": "THEビッグオー",
       "popularity": 2224
-    },
-    {
-      "titleEn": "Blue Gender",
-      "titleJa": "BLUE GENDER",
-      "popularity": 2489
-    },
-    {
-      "titleEn": "Pet Shop of Horrors",
-      "titleJa": "Pet Shop of Horrors (ペットショップ・オブ・ホラーズ)",
-      "popularity": 2754
-    },
-    {
-      "titleEn": "Medabots",
-      "titleJa": "メダロット",
-      "popularity": 3024
-    },
-    {
-      "titleEn": "Magical DoReMi",
-      "titleJa": "おジャ魔女どれみ",
-      "popularity": 3068
     }
   ],
   "2000": [
+    {
+      "titleEn": "FLCL",
+      "titleJa": "フリクリ",
+      "popularity": 228
+    },
     {
       "titleEn": "InuYasha",
       "titleJa": "犬夜叉",
@@ -911,37 +916,37 @@ const data: Data = {
       "popularity": 1164
     },
     {
+      "titleEn": "Vampire Hunter D: Bloodlust",
+      "titleJa": "バンパイアハンターD",
+      "popularity": 1183
+    },
+    {
+      "titleEn": "Jin-Roh: The Wolf Brigade",
+      "titleJa": "人狼 JIN-ROH",
+      "popularity": 1338
+    },
+    {
+      "titleEn": "Pokémon 3: The Movie",
+      "titleJa": "ポケットモンスター 結晶塔の帝王 ENTEI",
+      "popularity": 1404
+    },
+    {
+      "titleEn": "One Piece: The Movie",
+      "titleJa": "ONE PIECE",
+      "popularity": 1691
+    },
+    {
       "titleEn": "Boogiepop Phantom",
       "titleJa": "ブギーポップは笑わない Boogiepop Phantom",
       "popularity": 1704
-    },
-    {
-      "titleEn": "Gravitation",
-      "titleJa": "グラビテーション",
-      "popularity": 1945
-    },
-    {
-      "titleEn": "Vandread",
-      "titleJa": "ヴァンドレッド",
-      "popularity": 2456
-    },
-    {
-      "titleEn": "Ceres, Celestial Legend",
-      "titleJa": "妖しのセレス",
-      "popularity": 2955
-    },
-    {
-      "titleEn": "Hamtaro",
-      "titleJa": "とっとこハム太郎",
-      "popularity": 2993
-    },
-    {
-      "titleEn": "Descendants of Darkness",
-      "titleJa": "闇の末裔",
-      "popularity": 3130
     }
   ],
   "2001": [
+    {
+      "titleEn": "Spirited Away",
+      "titleJa": "千と千尋の神隠し",
+      "popularity": 44
+    },
     {
       "titleEn": "Hellsing",
       "titleJa": "Hellsing [ヘルシング]",
@@ -951,6 +956,11 @@ const data: Data = {
       "titleEn": "Fruits Basket",
       "titleJa": "フルーツバスケット",
       "popularity": 433
+    },
+    {
+      "titleEn": "Cowboy Bebop: The Movie",
+      "titleJa": "カウボーイビバップ 天国の扉",
+      "popularity": 642
     },
     {
       "titleEn": "Shaman King",
@@ -963,9 +973,19 @@ const data: Data = {
       "popularity": 1269
     },
     {
+      "titleEn": "Initial D Third Stage",
+      "titleJa": "頭文字〈イニシャル〉D THIRD STAGE",
+      "popularity": 1325
+    },
+    {
       "titleEn": "The Prince of Tennis",
       "titleJa": "テニスの王子様",
       "popularity": 1350
+    },
+    {
+      "titleEn": "Pokémon 4Ever",
+      "titleJa": "ポケットモンスター セレビィ 時を越えた遭遇（であい）",
+      "popularity": 1588
     },
     {
       "titleEn": "Baki the Grappler",
@@ -981,26 +1001,6 @@ const data: Data = {
       "titleEn": "Noir",
       "titleJa": "ノワール",
       "popularity": 2008
-    },
-    {
-      "titleEn": "Beyblade",
-      "titleJa": "爆転シュート　ベイブレード",
-      "popularity": 2015
-    },
-    {
-      "titleEn": "Rave Master",
-      "titleJa": "レイヴ",
-      "popularity": 2194
-    },
-    {
-      "titleEn": "Baki the Grappler: Saidai Tournament-hen",
-      "titleJa": "グラップラー刃牙(バキ) 最大トーナメント編",
-      "popularity": 2277
-    },
-    {
-      "titleEn": "X",
-      "titleJa": "X−エックス−",
-      "popularity": 2475
     }
   ],
   "2002": [
@@ -1035,6 +1035,16 @@ const data: Data = {
       "popularity": 850
     },
     {
+      "titleEn": "The Cat Returns",
+      "titleJa": "猫の恩返し",
+      "popularity": 898
+    },
+    {
+      "titleEn": "Millennium Actress",
+      "titleJa": "千年女優",
+      "popularity": 1303
+    },
+    {
       "titleEn": "Pokémon: Advanced",
       "titleJa": "ポケットモンスター　アドバンスジェネレーション",
       "popularity": 1326
@@ -1053,16 +1063,6 @@ const data: Data = {
       "titleEn": "Mobile Suit Gundam SEED",
       "titleJa": "機動戦士ガンダムSEED",
       "popularity": 1436
-    },
-    {
-      "titleEn": "Princess Tutu",
-      "titleJa": "プリンセスチュチュ",
-      "popularity": 1446
-    },
-    {
-      "titleEn": "The Twelve Kingdoms",
-      "titleJa": "十二国記",
-      "popularity": 1567
     }
   ],
   "2003": [
@@ -1080,6 +1080,11 @@ const data: Data = {
       "titleEn": "Kino's Journey",
       "titleJa": "キノの旅 -the Beautiful World-",
       "popularity": 768
+    },
+    {
+      "titleEn": "Tokyo Godfathers",
+      "titleJa": "東京ゴッドファーザーズ",
+      "popularity": 845
     },
     {
       "titleEn": "Full Metal Panic? Fumoffu",
@@ -1120,11 +1125,6 @@ const data: Data = {
       "titleEn": "Last Exile",
       "titleJa": "LAST EXILE（ラストエグザイル）",
       "popularity": 1427
-    },
-    {
-      "titleEn": "Lunar Legend Tsukihime",
-      "titleJa": "真月譚 月姫",
-      "popularity": 1472
     }
   ],
   "2004": [
@@ -1137,6 +1137,11 @@ const data: Data = {
       "titleEn": "Elfen Lied",
       "titleJa": "エルフェンリート",
       "popularity": 78
+    },
+    {
+      "titleEn": "Howl's Moving Castle",
+      "titleJa": "ハウルの動く城",
+      "popularity": 100
     },
     {
       "titleEn": "Samurai Champloo",
@@ -1169,6 +1174,11 @@ const data: Data = {
       "popularity": 770
     },
     {
+      "titleEn": "Naruto the Movie 1: Ninja Clash in the Land of Snow",
+      "titleJa": "劇場版　NARUTO　大活劇！雪姫忍法帖だってばよ!!",
+      "popularity": 856
+    },
+    {
       "titleEn": "Gankutsuou: The Count of Monte Cristo",
       "titleJa": "巌窟王",
       "popularity": 1010
@@ -1177,16 +1187,6 @@ const data: Data = {
       "titleEn": "Ghost in the Shell: Stand Alone Complex 2nd GIG",
       "titleJa": "攻殻機動隊 S.A.C. 2nd GIG",
       "popularity": 1127
-    },
-    {
-      "titleEn": "Yu-Gi-Oh! GX",
-      "titleJa": "遊☆戯☆王　デュエルモンスターズ GX",
-      "popularity": 1167
-    },
-    {
-      "titleEn": "Rozen Maiden",
-      "titleJa": "ローゼンメイデン",
-      "popularity": 1236
     }
   ],
   "2005": [
@@ -1216,6 +1216,11 @@ const data: Data = {
       "popularity": 690
     },
     {
+      "titleEn": "Fullmetal Alchemist: The Movie - Conqueror of Shamballa",
+      "titleJa": "劇場版 鋼の錬金術師 シャンバラを征く者",
+      "popularity": 767
+    },
+    {
       "titleEn": "Air",
       "titleJa": "AIR",
       "popularity": 874
@@ -1241,14 +1246,9 @@ const data: Data = {
       "popularity": 988
     },
     {
-      "titleEn": "Paradise Kiss",
-      "titleJa": "Paradise kiss",
-      "popularity": 1074
-    },
-    {
-      "titleEn": "Tsubasa RESERVoir CHRoNiCLE",
-      "titleJa": "ツバサ・クロニクル",
-      "popularity": 1129
+      "titleEn": "Naruto the Movie 2: Legend of the Stone of Gelel",
+      "titleJa": "劇場版　NARUTO　大激突！幻の地底遺跡だってばよ",
+      "popularity": 1070
     }
   ],
   "2006": [
@@ -1278,6 +1278,11 @@ const data: Data = {
       "popularity": 158
     },
     {
+      "titleEn": "Hellsing Ultimate",
+      "titleJa": "HELLSING OVA",
+      "popularity": 182
+    },
+    {
       "titleEn": "Fate/stay night",
       "titleJa": "Fate/stay night",
       "popularity": 185
@@ -1298,19 +1303,14 @@ const data: Data = {
       "popularity": 246
     },
     {
+      "titleEn": "The Girl Who Leapt Through Time",
+      "titleJa": "時をかける少女",
+      "popularity": 254
+    },
+    {
       "titleEn": "Welcome to the N.H.K.",
       "titleJa": "N・H・Kにようこそ！",
       "popularity": 266
-    },
-    {
-      "titleEn": "Nana",
-      "titleJa": "NANA [ナナ]",
-      "popularity": 297
-    },
-    {
-      "titleEn": "D.Gray-man",
-      "titleJa": "ディー・グレイマン",
-      "popularity": 305
     }
   ],
   "2007": [
@@ -1328,6 +1328,11 @@ const data: Data = {
       "titleEn": "Clannad",
       "titleJa": "CLANNAD",
       "popularity": 93
+    },
+    {
+      "titleEn": "5 Centimeters per Second",
+      "titleJa": "秒速５センチメートル",
+      "popularity": 179
     },
     {
       "titleEn": "Darker than Black",
@@ -1360,19 +1365,14 @@ const data: Data = {
       "popularity": 375
     },
     {
+      "titleEn": "Evangelion: 1.0 You Are (Not) Alone",
+      "titleJa": "ヱヴァンゲリヲン新劇場版:序",
+      "popularity": 400
+    },
+    {
       "titleEn": "The Familiar of Zero: Knight of the Twin Moons",
       "titleJa": "ゼロの使い魔 ～双月の騎士～",
       "popularity": 461
-    },
-    {
-      "titleEn": "Higurashi: When They Cry – Kai",
-      "titleJa": "ひぐらしのなく頃に解",
-      "popularity": 477
-    },
-    {
-      "titleEn": "Kaze no Stigma",
-      "titleJa": "風のスティグマ",
-      "popularity": 528
     }
   ],
   "2008": [
@@ -1422,6 +1422,11 @@ const data: Data = {
       "popularity": 345
     },
     {
+      "titleEn": "Ponyo",
+      "titleJa": "崖の上のポニョ",
+      "popularity": 378
+    },
+    {
       "titleEn": "Vampire Knight",
       "titleJa": "ヴァンパイア騎士〈ナイト〉",
       "popularity": 381
@@ -1430,11 +1435,6 @@ const data: Data = {
       "titleEn": "Natsume's Book of Friends",
       "titleJa": "夏目友人帳",
       "popularity": 426
-    },
-    {
-      "titleEn": "The Familiar of Zero: Rondo of Princesses",
-      "titleJa": "ゼロの使い魔 ～三美姫（プリンセッセ）の輪舞（ロンド）～",
-      "popularity": 535
     }
   ],
   "2009": [
@@ -1474,9 +1474,19 @@ const data: Data = {
       "popularity": 409
     },
     {
+      "titleEn": "Evangelion: 2.0 You Can (Not) Advance",
+      "titleJa": "ヱヴァンゲリヲン新劇場版:破",
+      "popularity": 424
+    },
+    {
       "titleEn": "The Melancholy of Haruhi Suzumiya Season 2",
       "titleJa": "涼宮ハルヒの憂鬱",
       "popularity": 435
+    },
+    {
+      "titleEn": "Summer Wars",
+      "titleJa": "サマーウォーズ",
+      "popularity": 448
     },
     {
       "titleEn": "Spice and Wolf II",
@@ -1487,16 +1497,6 @@ const data: Data = {
       "titleEn": "Heaven's Lost Property",
       "titleJa": "そらのおとしもの",
       "popularity": 492
-    },
-    {
-      "titleEn": "Pandora Hearts",
-      "titleJa": "パンドラハーツ",
-      "popularity": 561
-    },
-    {
-      "titleEn": "Darker than Black: Gemini of the Meteor",
-      "titleJa": "DARKER THAN BLACK 流星の双子",
-      "popularity": 593
     }
   ],
   "2010": [
@@ -1546,6 +1546,11 @@ const data: Data = {
       "popularity": 363
     },
     {
+      "titleEn": "The Disappearance of Haruhi Suzumiya",
+      "titleJa": "涼宮ハルヒの消失",
+      "popularity": 370
+    },
+    {
       "titleEn": "Shiki",
       "titleJa": "屍鬼",
       "popularity": 374
@@ -1554,11 +1559,6 @@ const data: Data = {
       "titleEn": "Kiss x Sis (TV)",
       "titleJa": "キスシス",
       "popularity": 402
-    },
-    {
-      "titleEn": "Black Butler II",
-      "titleJa": "黒執事II",
-      "popularity": 406
     }
   ],
   "2011": [
@@ -1613,14 +1613,14 @@ const data: Data = {
       "popularity": 195
     },
     {
+      "titleEn": "Into the Forest of Fireflies' Light",
+      "titleJa": "蛍火の杜へ",
+      "popularity": 233
+    },
+    {
       "titleEn": "Haganai: I don't have many friends",
       "titleJa": "僕は友達が少ない",
       "popularity": 245
-    },
-    {
-      "titleEn": "Infinite Stratos",
-      "titleJa": "IS 〈インフィニット・ストラトス〉",
-      "popularity": 346
     }
   ],
   "2012": [
@@ -1737,14 +1737,14 @@ const data: Data = {
       "popularity": 196
     },
     {
+      "titleEn": "The Garden of Words",
+      "titleJa": "言の葉の庭",
+      "popularity": 210
+    },
+    {
       "titleEn": "Kuroko's Basketball 2",
       "titleJa": "黒子のバスケ",
       "popularity": 214
-    },
-    {
-      "titleEn": "Magi: The Kingdom of Magic",
-      "titleJa": "マギ The kingdom of magic",
-      "popularity": 223
     }
   ],
   "2014": [
@@ -1878,6 +1878,16 @@ const data: Data = {
       "popularity": 7
     },
     {
+      "titleEn": "Your Name.",
+      "titleJa": "君の名は。",
+      "popularity": 11
+    },
+    {
+      "titleEn": "A Silent Voice",
+      "titleJa": "聲の形",
+      "popularity": 20
+    },
+    {
       "titleEn": "Re:ZERO -Starting Life in Another World-",
       "titleJa": "Re:ゼロから始める異世界生活",
       "popularity": 23
@@ -1921,16 +1931,6 @@ const data: Data = {
       "titleEn": "The Disastrous Life of Saiki K.",
       "titleJa": "斉木楠雄のΨ難",
       "popularity": 132
-    },
-    {
-      "titleEn": "Food Wars! The Second Plate",
-      "titleJa": "食戟のソーマ 弍ノ皿",
-      "popularity": 135
-    },
-    {
-      "titleEn": "ReLIFE",
-      "titleJa": "ReLIFE",
-      "popularity": 151
     }
   ],
   "2017": [
@@ -2032,6 +2032,11 @@ const data: Data = {
       "popularity": 118
     },
     {
+      "titleEn": "Devilman: Crybaby",
+      "titleJa": "DEVILMAN crybaby",
+      "popularity": 124
+    },
+    {
       "titleEn": "Goblin Slayer",
       "titleJa": "ゴブリンスレイヤー",
       "popularity": 131
@@ -2050,11 +2055,6 @@ const data: Data = {
       "titleEn": "JoJo's Bizarre Adventure: Golden Wind",
       "titleJa": "ジョジョの奇妙な冒険 黄金の風",
       "popularity": 149
-    },
-    {
-      "titleEn": "Overlord II",
-      "titleJa": "オーバーロードⅡ",
-      "popularity": 155
     }
   ],
   "2019": [
@@ -2126,6 +2126,11 @@ const data: Data = {
       "popularity": 13
     },
     {
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+      "titleJa": "劇場版 鬼滅の刃 無限列車編",
+      "popularity": 71
+    },
+    {
       "titleEn": "Kaguya-sama: Love is War?",
       "titleJa": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
       "popularity": 99
@@ -2174,11 +2179,6 @@ const data: Data = {
       "titleEn": "Tonikawa: Over The Moon For You",
       "titleJa": "トニカクカワイイ",
       "popularity": 265
-    },
-    {
-      "titleEn": "My Teen Romantic Comedy SNAFU Climax!",
-      "titleJa": "やはり俺の青春ラブコメはまちがっている。完",
-      "popularity": 270
     }
   ],
   "2021": [
@@ -2213,6 +2213,11 @@ const data: Data = {
       "popularity": 140
     },
     {
+      "titleEn": "Jujutsu Kaisen 0",
+      "titleJa": "劇場版 呪術廻戦 0",
+      "popularity": 143
+    },
+    {
       "titleEn": "That Time I Got Reincarnated as a Slime Season 2",
       "titleJa": "転生したらスライムだった件",
       "popularity": 161
@@ -2236,11 +2241,6 @@ const data: Data = {
       "titleEn": "Komi Can't Communicate",
       "titleJa": "古見さんは、コミュ症です。",
       "popularity": 191
-    },
-    {
-      "titleEn": "To Your Eternity",
-      "titleJa": "不滅のあなたへ",
-      "popularity": 198
     }
   ],
   "2022": [
@@ -2280,6 +2280,11 @@ const data: Data = {
       "popularity": 167
     },
     {
+      "titleEn": "Cyberpunk: Edgerunners",
+      "titleJa": "サイバーパンク エッジランナーズ",
+      "popularity": 207
+    },
+    {
       "titleEn": "The Rising of the Shield Hero Season 2",
       "titleJa": "盾の勇者の成り上がり Season2",
       "popularity": 253
@@ -2298,11 +2303,6 @@ const data: Data = {
       "titleEn": "The Eminence in Shadow",
       "titleJa": "陰の実力者になりたくて！",
       "popularity": 272
-    },
-    {
-      "titleEn": "My Hero Academia Season 6",
-      "titleJa": "僕のヒーローアカデミア",
-      "popularity": 294
     }
   ],
   "2023": [
@@ -2330,6 +2330,11 @@ const data: Data = {
       "titleEn": "Hell's Paradise",
       "titleJa": "地獄楽",
       "popularity": 250
+    },
+    {
+      "titleEn": "Attack on Titan: Final Season - The Final Chapters",
+      "titleJa": "進撃の巨人 The Final Season完結編",
+      "popularity": 277
     },
     {
       "titleEn": "Vinland Saga Season 2",
@@ -2360,11 +2365,6 @@ const data: Data = {
       "titleEn": "Spy x Family Season 2",
       "titleJa": "SPY×FAMILY Season 2",
       "popularity": 398
-    },
-    {
-      "titleEn": "Heavenly Delusion",
-      "titleJa": "天国大魔境",
-      "popularity": 423
     }
   ],
   "2024": [

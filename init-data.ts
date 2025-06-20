@@ -34,7 +34,7 @@ for (const year of years) {
       try {
         const seasonResult = await seasons.getSeason(year, season, {
           sfw: true,
-          filter: AnimeTypes.TV
+          // filter: AnimeTypes.TV
         })
         
         if (seasonResult.data) {

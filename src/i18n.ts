@@ -4,7 +4,7 @@ export const translations = {
   en: {
     title: "Anime Sedai",
     subtitle: "Click to select anime you have watched",
-    website: "anime-sedai.egoist.dev",
+    website: "anime-sedai-1986.pages.dev",
     watchedCount: "I have watched {{count}}/{{total}} anime",
     selectAll: "Select All",
     clear: "Clear",
@@ -38,7 +38,7 @@ export const translations = {
   ja: {
     title: "アニメ世代",
     subtitle: "見たアニメをタップして選択する",
-    website: "anime-sedai.egoist.dev",
+    website: "anime-sedai-1986.pages.dev",
     watchedCount: "{{count}}/{{total}} のアニメを見た",
     selectAll: "すべて選択",
     clear: "クリア",
